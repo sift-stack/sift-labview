@@ -104,6 +104,16 @@
 			<Item Name="FlatToRichsift_proxy_v1_Empty.vi" Type="VI" URL="../RPC Messages/FlatToRichsift_proxy_v1_Empty.vi"/>
 			<Item Name="RichToFlatsift_proxy_v1_Empty.vi" Type="VI" URL="../RPC Messages/RichToFlatsift_proxy_v1_Empty.vi"/>
 		</Item>
+		<Item Name="sift_proxy_v1_StopServerResponse" Type="Folder">
+			<Item Name="sift_proxy_v1_StopServerResponse.ctl" Type="VI" URL="../RPC Messages/sift_proxy_v1_StopServerResponse.ctl"/>
+			<Item Name="FlatToRichsift_proxy_v1_StopServerResponse.vi" Type="VI" URL="../RPC Messages/FlatToRichsift_proxy_v1_StopServerResponse.vi"/>
+			<Item Name="RichToFlatsift_proxy_v1_StopServerResponse.vi" Type="VI" URL="../RPC Messages/RichToFlatsift_proxy_v1_StopServerResponse.vi"/>
+		</Item>
+		<Item Name="sift_proxy_v1_PingResponse" Type="Folder">
+			<Item Name="sift_proxy_v1_PingResponse.ctl" Type="VI" URL="../RPC Messages/sift_proxy_v1_PingResponse.ctl"/>
+			<Item Name="FlatToRichsift_proxy_v1_PingResponse.vi" Type="VI" URL="../RPC Messages/FlatToRichsift_proxy_v1_PingResponse.vi"/>
+			<Item Name="RichToFlatsift_proxy_v1_PingResponse.vi" Type="VI" URL="../RPC Messages/RichToFlatsift_proxy_v1_PingResponse.vi"/>
+		</Item>
 		<Item Name="sift_proxy_v1_ChannelDataType" Type="Folder">
 			<Item Name="sift_proxy_v1_ChannelDataType.ctl" Type="VI" URL="../RPC Messages/sift_proxy_v1_ChannelDataType.ctl"/>
 			<Item Name="Get Value for sift_proxy_v1_ChannelDataType.vi" Type="VI" URL="../RPC Messages/Get Value for sift_proxy_v1_ChannelDataType.vi"/>
@@ -165,6 +175,12 @@
 		</Item>
 		<Item Name="sift_proxy_v1_Empty_Flat" Type="Folder">
 			<Item Name="sift_proxy_v1_Empty_Flat.ctl" Type="VI" URL="../RPC Messages/sift_proxy_v1_Empty_Flat.ctl"/>
+		</Item>
+		<Item Name="sift_proxy_v1_StopServerResponse_Flat" Type="Folder">
+			<Item Name="sift_proxy_v1_StopServerResponse_Flat.ctl" Type="VI" URL="../RPC Messages/sift_proxy_v1_StopServerResponse_Flat.ctl"/>
+		</Item>
+		<Item Name="sift_proxy_v1_PingResponse_Flat" Type="Folder">
+			<Item Name="sift_proxy_v1_PingResponse_Flat.ctl" Type="VI" URL="../RPC Messages/sift_proxy_v1_PingResponse_Flat.ctl"/>
 		</Item>
 		<Item Name="sift_proxy_v1_ChannelDataType_Flat" Type="Folder">
 			<Item Name="sift_proxy_v1_ChannelDataType_Flat.ctl" Type="VI" URL="../RPC Messages/sift_proxy_v1_ChannelDataType_Flat.ctl"/>

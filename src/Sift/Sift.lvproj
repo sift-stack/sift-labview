@@ -17,6 +17,7 @@
 			<Item Name="Ping Test.vi" Type="VI" URL="../Examples/Ping Test.vi"/>
 			<Item Name="Sift Proxy Smoketest.vi" Type="VI" URL="../Examples/Sift Proxy Smoketest.vi"/>
 			<Item Name="Streaming Example.vi" Type="VI" URL="../Examples/Streaming Example.vi"/>
+			<Item Name="Multiple Rates Streaming Example.vi" Type="VI" URL="../Examples/Multiple Rates Streaming Example.vi"/>
 		</Item>
 		<Item Name="Support" Type="Folder">
 			<Item Name="asynchronous-system-exec-v2.0.0" Type="Folder">
@@ -58,6 +59,7 @@
 				<Item Name="Asynchronous System Exec.lvproj" Type="Document" URL="../Support/asynchronous-system-exec-v2.0.0/Asynchronous System Exec.lvproj"/>
 			</Item>
 			<Item Name="sift_proxy.exe" Type="Document" URL="../Support/sift_proxy.exe"/>
+			<Item Name="sift_proxy" Type="Document" URL="../Support/sift_proxy"/>
 		</Item>
 		<Item Name="Sift Client.lvlib" Type="Library" URL="../Sift Client.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -247,6 +249,7 @@
 				<Item Name="ISO8601 DateString to Timestamp.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Open Source Project/Epoch Date &amp; Time/formatter.iso8601/ISO8601 DateString to Timestamp.vi"/>
 				<Item Name="Get Epoch Time.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Open Source Project/Epoch Date &amp; Time/Get Epoch Time.vi"/>
 				<Item Name="Timestamp to Unix Time.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Open Source Project/Epoch Date &amp; Time/epoch.UNIX/Timestamp to Unix Time.vi"/>
+				<Item Name="LVMapReplaceAction.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVMapReplaceAction.ctl"/>
 			</Item>
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="openg_variant.lvlib" Type="Library" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/openg_variant.lvlib"/>
