@@ -1,4 +1,4 @@
-# LabVIEW Sift Client Plugin
+# LabVIEW Sift Client Library
 ## Overview
 The LabVIEW Sift Client Plugin enables interaction with the Sift application. This plugin provides tools for streaming data to Sift to leveraging its powerful visualization and data analysis capabilities.
 
