@@ -1,0 +1,5 @@
+1556: Invalid Handle Supplied
+-4601: Poorly formatted/incorrect Regular Expression supplied.
+-5691000: Internal Library Error. <Check Error Message for more details>.
+-5691301: Unable to launch the executable. <Check Error Message for more details>.
+-5691305: Executable name/path parameter cannot be an empty value.

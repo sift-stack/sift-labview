@@ -1,0 +1,6 @@
+serenial
+RegExp
+stdin
+stdout
+stderr
+behaviours
