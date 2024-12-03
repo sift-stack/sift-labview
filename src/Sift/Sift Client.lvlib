@@ -11,6 +11,9 @@
 		<Item Name="Testing" Type="Folder">
 			<Item Name="Mock REST Client.lvclass" Type="LVClass" URL="../Private/Testing/Mock REST Client/Mock REST Client.lvclass"/>
 		</Item>
+		<Item Name="Util" Type="Folder">
+			<Item Name="Array Sizes Match or Empty.vi" Type="VI" URL="../Private/Util/Array Sizes Match or Empty.vi"/>
+		</Item>
 	</Item>
 	<Item Name="Sift API" Type="Folder">
 		<Item Name="Helpers" Type="Folder">
