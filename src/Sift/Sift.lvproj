@@ -17,7 +17,7 @@
 			<Item Name="Ping Test.vi" Type="VI" URL="../Examples/Ping Test.vi"/>
 			<Item Name="Sift Proxy Smoketest.vi" Type="VI" URL="../Examples/Sift Proxy Smoketest.vi"/>
 			<Item Name="Basic Streaming Example.vi" Type="VI" URL="../Examples/Basic Streaming Example.vi"/>
-			<Item Name="Streaming Example.vi" Type="VI" URL="../Examples/Streaming Example.vi"/>
+			<Item Name="Streaming to Run Example.vi" Type="VI" URL="../Examples/Streaming to Run Example.vi"/>
 			<Item Name="Multiple Rates Streaming Example.vi" Type="VI" URL="../Examples/Multiple Rates Streaming Example.vi"/>
 		</Item>
 		<Item Name="Support" Type="Folder">
@@ -65,6 +65,10 @@
 		<Item Name="Tests" Type="Folder">
 			<Item Name="Unit Tests" Type="Folder"/>
 			<Item Name="Integration Tests" Type="Folder">
+				<Item Name="Util" Type="Folder">
+					<Item Name="Assert No Error.vi" Type="VI" URL="../Tests/Util/Assert No Error.vi"/>
+					<Item Name="Assert Error.vi" Type="VI" URL="../Tests/Util/Assert Error.vi"/>
+				</Item>
 				<Item Name="Stress" Type="Folder">
 					<Item Name="Start and Stop Sift Proxy.vi" Type="VI" URL="../Tests/Integration Tests/Stress/Start and Stop Sift Proxy.vi"/>
 				</Item>
@@ -78,18 +82,14 @@
 					<Item Name="Test Valid Registration.vi" Type="VI" URL="../Tests/Integration Tests/Ingestion Config/Test Valid Registration.vi"/>
 					<Item Name="Test Invalid Registration - Bad Flow Name.vi" Type="VI" URL="../Tests/Integration Tests/Ingestion Config/Test Invalid Registration - Bad Flow Name.vi"/>
 				</Item>
-				<Item Name="Util" Type="Folder">
-					<Item Name="Assert No Error.vi" Type="VI" URL="../Tests/Util/Assert No Error.vi"/>
-					<Item Name="Assert Error.vi" Type="VI" URL="../Tests/Util/Assert Error.vi"/>
-				</Item>
 				<Item Name="Ingestion" Type="Folder">
 					<Item Name="Test Invalid Write - Flush Error.vi" Type="VI" URL="../Tests/Integration Tests/Ingestion/Test Invalid Write - Flush Error.vi"/>
+					<Item Name="Test Valid Write.vi" Type="VI" URL="../Tests/Integration Tests/Ingestion/Test Valid Write.vi"/>
 					<Item Name="Test Invalid Write - Bad Flow Name.vi" Type="VI" URL="../Tests/Integration Tests/Ingestion/Test Invalid Write - Bad Flow Name.vi"/>
 				</Item>
 			</Item>
 		</Item>
 		<Item Name="Sift Client.lvlib" Type="Library" URL="../Sift Client.lvlib"/>
-		<Item Name="Test Valid Write.vi" Type="VI" URL="../Tests/Integration Tests/Ingestion/Test Valid Write.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="1D String Array to Delimited String.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/1D String Array to Delimited String.vi"/>

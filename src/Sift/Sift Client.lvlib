@@ -11,15 +11,6 @@
 		<Item Name="Testing" Type="Folder">
 			<Item Name="Mock REST Client.lvclass" Type="LVClass" URL="../Private/Testing/Mock REST Client/Mock REST Client.lvclass"/>
 		</Item>
-		<Item Name="Util" Type="Folder">
-			<Item Name="Array Sizes Match or Empty.vi" Type="VI" URL="../Private/Util/Array Sizes Match or Empty.vi"/>
-		</Item>
-	</Item>
-	<Item Name="Sift API" Type="Folder">
-		<Item Name="Helpers" Type="Folder">
-			<Item Name="Create Channel Config.vi" Type="VI" URL="../Sift API/Helpers/Create Channel Config.vi"/>
-			<Item Name="Get Current Timestamp.vi" Type="VI" URL="../Sift API/Helpers/Get Current Timestamp.vi"/>
-		</Item>
 		<Item Name="Typedefs" Type="Folder">
 			<Item Name="Bitfield Sample.ctl" Type="VI" URL="../Sift API/Typedefs/Bitfield Sample.ctl"/>
 			<Item Name="Bool Sample.ctl" Type="VI" URL="../Sift API/Typedefs/Bool Sample.ctl"/>
@@ -32,6 +23,15 @@
 			<Item Name="String Sample.ctl" Type="VI" URL="../Sift API/Typedefs/String Sample.ctl"/>
 			<Item Name="Uint32 Sample.ctl" Type="VI" URL="../Sift API/Typedefs/Uint32 Sample.ctl"/>
 			<Item Name="Uint64 Sample.ctl" Type="VI" URL="../Sift API/Typedefs/Uint64 Sample.ctl"/>
+		</Item>
+		<Item Name="Util" Type="Folder">
+			<Item Name="Array Sizes Match or Empty.vi" Type="VI" URL="../Private/Util/Array Sizes Match or Empty.vi"/>
+		</Item>
+	</Item>
+	<Item Name="Sift API" Type="Folder">
+		<Item Name="Helpers" Type="Folder">
+			<Item Name="Create Channel Config.vi" Type="VI" URL="../Sift API/Helpers/Create Channel Config.vi"/>
+			<Item Name="Get Current Timestamp.vi" Type="VI" URL="../Sift API/Helpers/Get Current Timestamp.vi"/>
 		</Item>
 		<Item Name="Sift Client.lvclass" Type="LVClass" URL="../Sift API/Sift Client.lvclass"/>
 	</Item>
