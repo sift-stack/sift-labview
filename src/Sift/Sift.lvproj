@@ -62,6 +62,23 @@
 			<Item Name="sift_proxy.exe" Type="Document" URL="../Support/sift_proxy.exe"/>
 			<Item Name="sift_proxy" Type="Document" URL="../Support/sift_proxy"/>
 		</Item>
+		<Item Name="Tests" Type="Folder">
+			<Item Name="Unit Tests" Type="Folder"/>
+			<Item Name="Integration Tests" Type="Folder">
+				<Item Name="Stress" Type="Folder">
+					<Item Name="Start and Stop Sift Proxy.vi" Type="VI" URL="../Tests/Integration Tests/Stress/Start and Stop Sift Proxy.vi"/>
+				</Item>
+				<Item Name="Ingestion Config" Type="Folder">
+					<Item Name="Test Valid Multiple Channels Registration.vi" Type="VI" URL="../Tests/Integration Tests/Ingestion Config/Test Valid Multiple Channels Registration.vi"/>
+					<Item Name="Test Invalid Registration - Data Type.vi" Type="VI" URL="../Tests/Integration Tests/Ingestion Config/Test Invalid Registration - Data Type.vi"/>
+					<Item Name="Test Valid Registration.vi" Type="VI" URL="../Tests/Integration Tests/Ingestion Config/Test Valid Registration.vi"/>
+				</Item>
+				<Item Name="Util" Type="Folder">
+					<Item Name="Assert No Error.vi" Type="VI" URL="../Tests/Util/Assert No Error.vi"/>
+					<Item Name="Assert Error.vi" Type="VI" URL="../Tests/Util/Assert Error.vi"/>
+				</Item>
+			</Item>
+		</Item>
 		<Item Name="Sift Client.lvlib" Type="Library" URL="../Sift Client.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
