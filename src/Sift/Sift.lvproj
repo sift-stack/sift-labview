@@ -17,7 +17,7 @@
 			<Item Name="Ping Test.vi" Type="VI" URL="../Examples/Ping Test.vi"/>
 			<Item Name="Sift Proxy Smoketest.vi" Type="VI" URL="../Examples/Sift Proxy Smoketest.vi"/>
 			<Item Name="Basic Streaming Example.vi" Type="VI" URL="../Examples/Basic Streaming Example.vi"/>
-			<Item Name="Streaming to Run Example.vi" Type="VI" URL="../Examples/Streaming to Run Example.vi"/>
+			<Item Name="Streaming to Asset Example.vi" Type="VI" URL="../Examples/Streaming to Asset Example.vi"/>
 			<Item Name="Multiple Rates Streaming Example.vi" Type="VI" URL="../Examples/Multiple Rates Streaming Example.vi"/>
 		</Item>
 		<Item Name="Support" Type="Folder">
