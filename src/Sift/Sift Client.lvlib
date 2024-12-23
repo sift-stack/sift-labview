@@ -8,30 +8,36 @@
 
 </Property>
 	<Item Name="Private" Type="Folder">
+		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Item Name="Testing" Type="Folder">
 			<Item Name="Mock REST Client.lvclass" Type="LVClass" URL="../Private/Testing/Mock REST Client/Mock REST Client.lvclass"/>
 		</Item>
 		<Item Name="Typedefs" Type="Folder">
-			<Item Name="Bitfield Sample.ctl" Type="VI" URL="../Sift API/Typedefs/Bitfield Sample.ctl"/>
-			<Item Name="Bool Sample.ctl" Type="VI" URL="../Sift API/Typedefs/Bool Sample.ctl"/>
-			<Item Name="Data Queue.ctl" Type="VI" URL="../Sift API/Typedefs/Data Queue.ctl"/>
-			<Item Name="Double Sample.ctl" Type="VI" URL="../Sift API/Typedefs/Double Sample.ctl"/>
-			<Item Name="Enum Sample.ctl" Type="VI" URL="../Sift API/Typedefs/Enum Sample.ctl"/>
-			<Item Name="Float Sample.ctl" Type="VI" URL="../Sift API/Typedefs/Float Sample.ctl"/>
-			<Item Name="Int32 Sample.ctl" Type="VI" URL="../Sift API/Typedefs/Int32 Sample.ctl"/>
-			<Item Name="Int64 Sample.ctl" Type="VI" URL="../Sift API/Typedefs/Int64 Sample.ctl"/>
-			<Item Name="String Sample.ctl" Type="VI" URL="../Sift API/Typedefs/String Sample.ctl"/>
-			<Item Name="Uint32 Sample.ctl" Type="VI" URL="../Sift API/Typedefs/Uint32 Sample.ctl"/>
-			<Item Name="Uint64 Sample.ctl" Type="VI" URL="../Sift API/Typedefs/Uint64 Sample.ctl"/>
+			<Item Name="Bit Field.ctl" Type="VI" URL="../Private/Typedefs/Bit Field.ctl"/>
+			<Item Name="Channel Config.ctl" Type="VI" URL="../Private/Typedefs/Channel Config.ctl"/>
+			<Item Name="Enum.ctl" Type="VI" URL="../Private/Typedefs/Enum.ctl"/>
+			<Item Name="Flow Config.ctl" Type="VI" URL="../Private/Typedefs/Flow Config.ctl"/>
+			<Item Name="Ingestion Config.ctl" Type="VI" URL="../Private/Typedefs/Ingestion Config.ctl"/>
+			<Item Name="Sample.ctl" Type="VI" URL="../Private/Typedefs/Sample.ctl"/>
+			<Item Name="Timestamp.ctl" Type="VI" URL="../Private/Typedefs/Timestamp.ctl"/>
+		</Item>
+		<Item Name="Messages" Type="Folder">
+			<Item Name="Ingestion Config.vi" Type="VI" URL="../Private/Messages/Ingestion Config.vi"/>
+			<Item Name="Data.vi" Type="VI" URL="../Private/Messages/Data.vi"/>
+			<Item Name="Control.vi" Type="VI" URL="../Private/Messages/Control.vi"/>
 		</Item>
 		<Item Name="Util" Type="Folder">
 			<Item Name="Array Sizes Match or Empty.vi" Type="VI" URL="../Private/Util/Array Sizes Match or Empty.vi"/>
+			<Item Name="Stop Sift Proxy.vi" Type="VI" URL="../Private/Util/Stop Sift Proxy.vi"/>
 		</Item>
 	</Item>
 	<Item Name="Sift API" Type="Folder">
 		<Item Name="Helpers" Type="Folder">
 			<Item Name="Create Channel Config.vi" Type="VI" URL="../Sift API/Helpers/Create Channel Config.vi"/>
 			<Item Name="Get Current Timestamp.vi" Type="VI" URL="../Sift API/Helpers/Get Current Timestamp.vi"/>
+		</Item>
+		<Item Name="Types" Type="Folder">
+			<Item Name="Data Type.ctl" Type="VI" URL="../Sift API/Types/Data Type.ctl"/>
 		</Item>
 		<Item Name="Sift Client.lvclass" Type="LVClass" URL="../Sift API/Sift Client.lvclass"/>
 	</Item>

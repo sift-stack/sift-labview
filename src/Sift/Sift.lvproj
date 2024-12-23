@@ -49,9 +49,11 @@
 					<Item Name="Test Valid Write.vi" Type="VI" URL="../Tests/Integration Tests/Ingestion/Test Valid Write.vi"/>
 					<Item Name="Test Invalid Write - Bad Flow Name.vi" Type="VI" URL="../Tests/Integration Tests/Ingestion/Test Invalid Write - Bad Flow Name.vi"/>
 				</Item>
+				<Item Name="Start + Stop Sift Proxy.vi" Type="VI" URL="../Tests/Integration Tests/Start + Stop Sift Proxy.vi"/>
 			</Item>
 		</Item>
 		<Item Name="Sift Client.lvlib" Type="Library" URL="../Sift Client.lvlib"/>
+		<Item Name="Sample Write.vi" Type="VI" URL="../../../../../Desktop/Sample Write.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="1D String Array to Delimited String.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/1D String Array to Delimited String.vi"/>
@@ -98,7 +100,6 @@
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="VariantType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/VariantDataType/VariantType.lvlib"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
-				<Item Name="Stall Data Flow.vim" Type="VI" URL="/&lt;vilib&gt;/Utility/Stall Data Flow.vim"/>
 				<Item Name="Recursive File List.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Recursive File List.vi"/>
 				<Item Name="List Directory and LLBs.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/List Directory and LLBs.vi"/>
 				<Item Name="Get System Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/sysdir.llb/Get System Directory.vi"/>
@@ -154,6 +155,16 @@
 				<Item Name="openg_error.lvlib" Type="Library" URL="/&lt;userlib&gt;/_OpenG.lib/error/error.llb/openg_error.lvlib"/>
 			</Item>
 			<Item Name="SiftProxy_client.lvlib" Type="Library" URL="../../Generate Sift Protos/SiftProxy_client/SiftProxy_client.lvlib"/>
+			<Item Name="Bitfield Sample.ctl" Type="VI" URL="../Sift API/Typedefs/Bitfield Sample.ctl"/>
+			<Item Name="Bool Sample.ctl" Type="VI" URL="../Sift API/Typedefs/Bool Sample.ctl"/>
+			<Item Name="Double Sample.ctl" Type="VI" URL="../Sift API/Typedefs/Double Sample.ctl"/>
+			<Item Name="Enum Sample.ctl" Type="VI" URL="../Sift API/Typedefs/Enum Sample.ctl"/>
+			<Item Name="Float Sample.ctl" Type="VI" URL="../Sift API/Typedefs/Float Sample.ctl"/>
+			<Item Name="Int32 Sample.ctl" Type="VI" URL="../Sift API/Typedefs/Int32 Sample.ctl"/>
+			<Item Name="Int64 Sample.ctl" Type="VI" URL="../Sift API/Typedefs/Int64 Sample.ctl"/>
+			<Item Name="String Sample.ctl" Type="VI" URL="../Sift API/Typedefs/String Sample.ctl"/>
+			<Item Name="Uint32 Sample.ctl" Type="VI" URL="../Sift API/Typedefs/Uint32 Sample.ctl"/>
+			<Item Name="Uint64 Sample.ctl" Type="VI" URL="../Sift API/Typedefs/Uint64 Sample.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
