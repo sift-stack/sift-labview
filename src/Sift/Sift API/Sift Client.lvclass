@@ -140,16 +140,6 @@
 			<Property Name="NI.ClassItem.State" Type="Int">1342710288</Property>
 			<Property Name="NI.LibItem.Scope" Type="Int">3</Property>
 		</Item>
-		<Item Name="Verify String Input.vi" Type="VI" URL="../Private/Verify String Input.vi">
-			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">*!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$R!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!""!-0````]'4X6U=(6U!!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!":!-0````].28*S&lt;X)A476T=W&amp;H:1!/1$$`````"5FO=(6U!&amp;1!]!!-!!-!"!!%!!5!"!!%!!1!"!!'!!1!"Q!)!A!!?!!!$1A!!!!!!!!!!!!!#1!!!!!!!!!!!!!!!!!!!!!!!!!+!!!!!!!!!1I!!!))!!!!!!%!#1!!!!!</Property>
-			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
-			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
-			<Property Name="NI.ClassItem.MethodScope" Type="UInt">3</Property>
-			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">1107821056</Property>
-			<Property Name="NI.LibItem.Scope" Type="Int">3</Property>
-		</Item>
 		<Item Name="Split Host Port.vi" Type="VI" URL="../Private/Split Host Port.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">*!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#.!!!!"1!%!!!!#U!$!!21&lt;X*U!!!31$$`````#%BP=X2O97VF!!!11$$`````"U&amp;E:(*F=X-!6!$Q!!Q!!!!"!!)!!!!!!!!!!!!!!!!!!!!$!!!#!!"Y!!!!!!!!#1!!!!E!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!##!!!!!!!!!!!!1!%!!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
@@ -160,15 +150,6 @@
 			<Property Name="NI.ClassItem.State" Type="Int">1082130944</Property>
 			<Property Name="NI.LibItem.Scope" Type="Int">3</Property>
 		</Item>
-		<Item Name="Stop Proxy.vi" Type="VI" URL="../Proxy Service/Stop Proxy.vi">
-			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">*!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%^!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!%"!=!!?!!!H%6.J:H1A1WRJ:7ZU,GRW&lt;'FC%V.J:H1A1WRJ:7ZU,GRW9WRB=X-!$V.J:H1A1WRJ:7ZU)'^V&gt;!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!%"!=!!?!!!H%6.J:H1A1WRJ:7ZU,GRW&lt;'FC%V.J:H1A1WRJ:7ZU,GRW9WRB=X-!$F.J:H1A1WRJ:7ZU)'FO!!"5!0!!$!!$!!1!"!!&amp;!!1!"!!%!!1!"A!%!!1!"Q-!!(A!!!U)!!!!!!!!!!!!!)U,!!!!!!!!!!!!!!!!!!!!!!!!#A!!!!!!!!!!!!!!E!!!!!!"!!A!!!!!</Property>
-			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
-			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
-			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
-			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">1107821072</Property>
-		</Item>
 		<Item Name="Start Proxy.vi" Type="VI" URL="../Proxy Service/Start Proxy.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">*!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!')!!!!#Q"!1(!!(A!!*R&amp;4;7:U)%.M;76O&gt;#ZM&gt;GRJ9B.4;7:U)%.M;76O&gt;#ZM&gt;G.M98.T!!Z4;7:U)%.M;76O&gt;#"J&lt;A!!(5!&amp;!":/&gt;7UO)%FO:W6T&gt;'FP&lt;C"8&lt;X*L:8*T!!!%!!!!1%"Q!"Y!!#=25WFG&gt;#"$&lt;'FF&lt;H1O&lt;(:M;7)45WFG&gt;#"$&lt;'FF&lt;H1O&lt;(:D&lt;'&amp;T=Q!05WFG&gt;#"$&lt;'FF&lt;H1A&lt;X6U!":!-P````]-5X2P=G&amp;H:3"1982I!!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!A1&amp;!!!Q!&amp;!!9!"R.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!":!5!!$!!5!"A!(#76S=G^S)'^V&gt;!"M!0!!%!!!!!%!!A!#!!-!"!!#!!)!!A!#!!)!#!!#!!)!!A!*!Q!"#!!!EA!!!!!!!!!!!!!!!!!!!)U!!!!1!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!+!!!!!!!!!!!!!!!!!!!!$1M!!!!"!!I!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
@@ -177,6 +158,15 @@
 			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 			<Property Name="NI.ClassItem.State" Type="Int">1342710288</Property>
+		</Item>
+		<Item Name="Stop Proxy.vi" Type="VI" URL="../Proxy Service/Stop Proxy.vi">
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">*!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%^!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!%"!=!!?!!!H%6.J:H1A1WRJ:7ZU,GRW&lt;'FC%V.J:H1A1WRJ:7ZU,GRW9WRB=X-!$V.J:H1A1WRJ:7ZU)'^V&gt;!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!%"!=!!?!!!H%6.J:H1A1WRJ:7ZU,GRW&lt;'FC%V.J:H1A1WRJ:7ZU,GRW9WRB=X-!$F.J:H1A1WRJ:7ZU)'FO!!"5!0!!$!!$!!1!"!!&amp;!!1!"!!%!!1!"A!%!!1!"Q-!!(A!!!U)!!!!!!!!!!!!!)U,!!!!!!!!!!!!!!!!!!!!!!!!#A!!!!!!!!!!!!!!E!!!!!!"!!A!!!!!</Property>
+			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
+			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1107821072</Property>
 		</Item>
 	</Item>
 	<Item Name="Ping Service" Type="Folder">
@@ -229,7 +219,7 @@
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 			<Property Name="NI.ClassItem.State" Type="Int">1350574608</Property>
 		</Item>
-		<Item Name="Submit Channel Config.vi" Type="VI" URL="../Ingestion Config Service/Submit Channel Config.vi">
+		<Item Name="Submit Ingestion Config.vi" Type="VI" URL="../Ingestion Config Service/Submit Ingestion Config.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">*!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;2!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!%"!=!!?!!!H%6.J:H1A1WRJ:7ZU,GRW&lt;'FC%V.J:H1A1WRJ:7ZU,GRW9WRB=X-!$V.J:H1A1WRJ:7ZU)'^V&gt;!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!"2!-0````]+18.T:81A4G&amp;N:1!!1%"Q!"Y!!#=25WFG&gt;#"$&lt;'FF&lt;H1O&lt;(:M;7)45WFG&gt;#"$&lt;'FF&lt;H1O&lt;(:D&lt;'&amp;T=Q!/5WFG&gt;#"$&lt;'FF&lt;H1A;7Y!!&amp;1!]!!-!!-!"!!%!!5!"!!%!!1!"!!'!!1!"Q!)!Q!!?!!!$1A!!!!!!!!!!!!!D1M!!!!!!!!!!!!!!!!!!!!!!!!+!!!!!!!!!B!!!!#1!!!!!!%!#1!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>

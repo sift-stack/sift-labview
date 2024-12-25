@@ -3,14 +3,13 @@
 The LabVIEW Sift Client Plugin enables interaction with the Sift application. This plugin provides tools for streaming data to Sift to leveraging its powerful visualization and data analysis capabilities.
 
 ## Key Features
-* Stream real-time data from LabVIEW (via gRPC) to Sift for visualization and analysis.
-* Sift Run and ingestion config creation.
-* Compatible with Windows and Linux systems.
+* Stream real-time data from LabVIEW to Sift (via gRPC) for visualization and analysis.
+* Sift Run and Ingestion Config creation.
+* Compatible with all operating systems.
 * Designed to integrate into existing LabVIEW projects with minimal setup.
 
 ## Requirements
 * LabVIEW Version: 2024 or later (If an older version of LabVIEW is desired please reach out to engineering@siftstack.com)
-* Operating System: Windows and Linux
 
 ## Example
 ![{272E378E-70EE-4902-99A5-2923D2763256}](https://github.com/user-attachments/assets/f273ebeb-de6d-46f1-a0c2-a12644ce387b)

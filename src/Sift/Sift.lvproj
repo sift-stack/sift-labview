@@ -33,9 +33,6 @@
 					<Item Name="Create Reply Messages.vi" Type="VI" URL="../Tests/Util/Create Reply Messages.vi"/>
 					<Item Name="Mock Sift Proxy Server.lvclass" Type="LVClass" URL="../Mock Sift Proxy Server/Mock Sift Proxy Server.lvclass"/>
 				</Item>
-				<Item Name="Stress" Type="Folder">
-					<Item Name="Start and Stop Sift Proxy.vi" Type="VI" URL="../Tests/Integration Tests/Stress/Start and Stop Sift Proxy.vi"/>
-				</Item>
 				<Item Name="Ingestion Config" Type="Folder">
 					<Item Name="Test Valid Registration.vi" Type="VI" URL="../Tests/Integration Tests/Ingestion Config/Test Valid Registration.vi"/>
 					<Item Name="Test Valid Multiple Channels Registration.vi" Type="VI" URL="../Tests/Integration Tests/Ingestion Config/Test Valid Multiple Channels Registration.vi"/>
@@ -50,7 +47,9 @@
 					<Item Name="Test Invalid Write - Server Error.vi" Type="VI" URL="../Tests/Integration Tests/Ingestion/Test Invalid Write - Server Error.vi"/>
 					<Item Name="Test Invalid Write - Bad Flow Name.vi" Type="VI" URL="../Tests/Integration Tests/Ingestion/Test Invalid Write - Bad Flow Name.vi"/>
 				</Item>
-				<Item Name="Start + Stop Sift Proxy.vi" Type="VI" URL="../Tests/Integration Tests/Start + Stop Sift Proxy.vi"/>
+				<Item Name="Proxy" Type="Folder">
+					<Item Name="Start + Stop Sift Proxy.vi" Type="VI" URL="../Tests/Integration Tests/Proxy/Start + Stop Sift Proxy.vi"/>
+				</Item>
 			</Item>
 		</Item>
 		<Item Name="Sift Client.lvlib" Type="Library" URL="../Sift Client.lvlib"/>

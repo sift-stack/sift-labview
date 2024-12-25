@@ -28,6 +28,7 @@
 		</Item>
 		<Item Name="Util" Type="Folder">
 			<Item Name="Array Sizes Match or Empty.vi" Type="VI" URL="../Private/Util/Array Sizes Match or Empty.vi"/>
+			<Item Name="Verify String Input.vi" Type="VI" URL="../Private/Util/Verify String Input.vi"/>
 			<Item Name="Stop Sift Proxy.vi" Type="VI" URL="../Private/Util/Stop Sift Proxy.vi"/>
 		</Item>
 	</Item>
