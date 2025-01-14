@@ -31,6 +31,8 @@
 					<Item Name="Assert No Error.vi" Type="VI" URL="../Tests/Util/Assert No Error.vi"/>
 					<Item Name="Assert Error.vi" Type="VI" URL="../Tests/Util/Assert Error.vi"/>
 					<Item Name="Create Reply Messages.vi" Type="VI" URL="../Tests/Util/Create Reply Messages.vi"/>
+					<Item Name="Create Nominal Ingestion Config Response.vi" Type="VI" URL="../Tests/Util/Create Nominal Ingestion Config Response.vi"/>
+					<Item Name="Create Failure Response.vi" Type="VI" URL="../Tests/Util/Create Failure Response.vi"/>
 					<Item Name="Mock Sift Proxy Server.lvclass" Type="LVClass" URL="../Mock Sift Proxy Server/Mock Sift Proxy Server.lvclass"/>
 				</Item>
 				<Item Name="Ingestion Config" Type="Folder">
@@ -119,7 +121,7 @@
 				<Item Name="TCP Listen Internal List.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tcp.llb/TCP Listen Internal List.vi"/>
 				<Item Name="Internecine Avoider.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tcp.llb/Internecine Avoider.vi"/>
 				<Item Name="TCP Listen.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tcp.llb/TCP Listen.vi"/>
-				<Item Name="lvwebclient_64.dll" Type="Document" URL="/&lt;vilib&gt;/NI/Advanced HTTP Client/lvwebclient_64.dll"/>
+				<Item Name="lvwebclient_32.dll" Type="Document" URL="/&lt;vilib&gt;/NI/Advanced HTTP Client/lvwebclient_32.dll"/>
 			</Item>
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="openg_variant.lvlib" Type="Library" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/openg_variant.lvlib"/>
