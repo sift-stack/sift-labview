@@ -50,8 +50,8 @@
 		<Item Name="Types" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
 			<Item Name="Data Type.ctl" Type="VI" URL="../Sift API/Types/Data Type.ctl"/>
-			<Item Name="Bit Field.ctl" Type="VI" URL="../Private/Typedefs/Ingestion Config/Bit Field.ctl"/>
-			<Item Name="Enum.ctl" Type="VI" URL="../Private/Typedefs/Ingestion Config/Enum.ctl"/>
+			<Item Name="Bit Field.ctl" Type="VI" URL="../Sift API/Types/Bit Field.ctl"/>
+			<Item Name="Enum.ctl" Type="VI" URL="../Sift API/Types/Enum.ctl"/>
 		</Item>
 		<Item Name="Sift Client.lvclass" Type="LVClass" URL="../Sift API/Sift Client.lvclass"/>
 	</Item>
