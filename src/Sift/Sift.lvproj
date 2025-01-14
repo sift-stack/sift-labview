@@ -19,7 +19,6 @@
 			<Item Name="Basic Streaming Example.vi" Type="VI" URL="../Examples/Basic Streaming Example.vi"/>
 			<Item Name="Streaming to Run Example.vi" Type="VI" URL="../Examples/Streaming to Run Example.vi"/>
 			<Item Name="Multiple Rates Streaming Example.vi" Type="VI" URL="../Examples/Multiple Rates Streaming Example.vi"/>
-			<Item Name="TDMS Upload Example.vi" Type="VI" URL="../Examples/TDMS Upload Example.vi"/>
 		</Item>
 		<Item Name="Support" Type="Folder">
 			<Item Name="sift_proxy.exe" Type="Document" URL="../Support/sift_proxy.exe"/>
