@@ -12,8 +12,8 @@ The LabVIEW Sift Client Plugin enables interaction with the Sift application. Th
 * LabVIEW Version: 2024 or later (If an older version of LabVIEW is desired please reach out to engineering@siftstack.com)
 
 ## Example
-![{272E378E-70EE-4902-99A5-2923D2763256}](https://github.com/user-attachments/assets/f273ebeb-de6d-46f1-a0c2-a12644ce387b)
-The example initializes the client, starts the local proxy which enables high throughpout streaming over gRPC, then streams data before finally stopping the local proxy.
+![image](https://github.com/user-attachments/assets/07720331-e416-4c1d-8ff2-35d5290c8bb6)
+The example initializes the client, connects to the local proxy which enables high throughpout streaming over gRPC, then streams data before disconnecting from the local proxy.
 
 See the other [Examples](/src/Sift/Examples) included in the plugin for more details.
 
