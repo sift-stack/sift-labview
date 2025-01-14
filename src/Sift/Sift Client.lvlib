@@ -9,14 +9,9 @@
 </Property>
 	<Item Name="Private" Type="Folder">
 		<Property Name="NI.SortType" Type="Int">3</Property>
-		<Item Name="Testing" Type="Folder">
-			<Item Name="Mock REST Client.lvclass" Type="LVClass" URL="../Private/Testing/Mock REST Client/Mock REST Client.lvclass"/>
-		</Item>
 		<Item Name="Typedefs" Type="Folder">
 			<Item Name="Ingestion Config" Type="Folder">
-				<Item Name="Bit Field.ctl" Type="VI" URL="../Private/Typedefs/Ingestion Config/Bit Field.ctl"/>
 				<Item Name="Channel Config.ctl" Type="VI" URL="../Private/Typedefs/Ingestion Config/Channel Config.ctl"/>
-				<Item Name="Enum.ctl" Type="VI" URL="../Private/Typedefs/Ingestion Config/Enum.ctl"/>
 				<Item Name="Flow Config.ctl" Type="VI" URL="../Private/Typedefs/Ingestion Config/Flow Config.ctl"/>
 				<Item Name="Ingestion Config.ctl" Type="VI" URL="../Private/Typedefs/Ingestion Config/Ingestion Config.ctl"/>
 			</Item>
@@ -25,12 +20,15 @@
 				<Item Name="Timestamp.ctl" Type="VI" URL="../Private/Typedefs/Ingestion/Timestamp.ctl"/>
 			</Item>
 			<Item Name="Messages" Type="Folder">
+				<Item Name="Create Run Request.ctl" Type="VI" URL="../Private/Typedefs/Messages/Create Run Request.ctl"/>
+				<Item Name="Create Run Response.ctl" Type="VI" URL="../Private/Typedefs/Messages/Create Run Response.ctl"/>
+				<Item Name="Create Ingestion Config Response.ctl" Type="VI" URL="../Private/Typedefs/Messages/Create Ingestion Config Response.ctl"/>
+				<Item Name="TDMS Upload Request.ctl" Type="VI" URL="../Private/Typedefs/Messages/TDMS Upload Request.ctl"/>
+				<Item Name="Ping Response.ctl" Type="VI" URL="../Private/Typedefs/Messages/Ping Response.ctl"/>
 				<Item Name="JSON Request.ctl" Type="VI" URL="../Private/Typedefs/Messages/JSON Request.ctl"/>
 				<Item Name="JSON Response.ctl" Type="VI" URL="../Private/Typedefs/Messages/JSON Response.ctl"/>
+				<Item Name="Control Request.ctl" Type="VI" URL="../Private/Typedefs/Messages/Control Request.ctl"/>
 				<Item Name="Reason.ctl" Type="VI" URL="../Private/Typedefs/Messages/Reason.ctl"/>
-				<Item Name="Control.ctl" Type="VI" URL="../Private/Typedefs/Messages/Control.ctl"/>
-				<Item Name="Create Ingestion Config Response.ctl" Type="VI" URL="../Private/Typedefs/Messages/Create Ingestion Config Response.ctl"/>
-				<Item Name="Ping Response.ctl" Type="VI" URL="../Private/Typedefs/Messages/Ping Response.ctl"/>
 			</Item>
 		</Item>
 		<Item Name="Util" Type="Folder">
@@ -50,7 +48,10 @@
 			<Item Name="Get Current Timestamp.vi" Type="VI" URL="../Sift API/Helpers/Get Current Timestamp.vi"/>
 		</Item>
 		<Item Name="Types" Type="Folder">
+			<Property Name="NI.SortType" Type="Int">3</Property>
 			<Item Name="Data Type.ctl" Type="VI" URL="../Sift API/Types/Data Type.ctl"/>
+			<Item Name="Bit Field.ctl" Type="VI" URL="../Private/Typedefs/Ingestion Config/Bit Field.ctl"/>
+			<Item Name="Enum.ctl" Type="VI" URL="../Private/Typedefs/Ingestion Config/Enum.ctl"/>
 		</Item>
 		<Item Name="Sift Client.lvclass" Type="LVClass" URL="../Sift API/Sift Client.lvclass"/>
 	</Item>
