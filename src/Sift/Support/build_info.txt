@@ -1,2 +1,2 @@
-https://github.com/sift-stack/sift-proxy/actions/runs/12762295335
-https://github.com/sift-stack/sift-proxy/commit/b275519520ecdc13e435fe3934b473729f27aa72
+https://github.com/sift-stack/sift-proxy/actions/runs/12763522375
+https://github.com/sift-stack/sift-proxy/commit/508776f145f3d9c9efce1cd516096f561536829f
