@@ -8,30 +8,50 @@
 
 </Property>
 	<Item Name="Private" Type="Folder">
-		<Item Name="Testing" Type="Folder">
-			<Item Name="Mock REST Client.lvclass" Type="LVClass" URL="../Private/Testing/Mock REST Client/Mock REST Client.lvclass"/>
-		</Item>
+		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Item Name="Typedefs" Type="Folder">
-			<Item Name="Bitfield Sample.ctl" Type="VI" URL="../Sift API/Typedefs/Bitfield Sample.ctl"/>
-			<Item Name="Bool Sample.ctl" Type="VI" URL="../Sift API/Typedefs/Bool Sample.ctl"/>
-			<Item Name="Data Queue.ctl" Type="VI" URL="../Sift API/Typedefs/Data Queue.ctl"/>
-			<Item Name="Double Sample.ctl" Type="VI" URL="../Sift API/Typedefs/Double Sample.ctl"/>
-			<Item Name="Enum Sample.ctl" Type="VI" URL="../Sift API/Typedefs/Enum Sample.ctl"/>
-			<Item Name="Float Sample.ctl" Type="VI" URL="../Sift API/Typedefs/Float Sample.ctl"/>
-			<Item Name="Int32 Sample.ctl" Type="VI" URL="../Sift API/Typedefs/Int32 Sample.ctl"/>
-			<Item Name="Int64 Sample.ctl" Type="VI" URL="../Sift API/Typedefs/Int64 Sample.ctl"/>
-			<Item Name="String Sample.ctl" Type="VI" URL="../Sift API/Typedefs/String Sample.ctl"/>
-			<Item Name="Uint32 Sample.ctl" Type="VI" URL="../Sift API/Typedefs/Uint32 Sample.ctl"/>
-			<Item Name="Uint64 Sample.ctl" Type="VI" URL="../Sift API/Typedefs/Uint64 Sample.ctl"/>
+			<Item Name="Ingestion Config" Type="Folder">
+				<Item Name="Channel Config.ctl" Type="VI" URL="../Private/Typedefs/Ingestion Config/Channel Config.ctl"/>
+				<Item Name="Flow Config.ctl" Type="VI" URL="../Private/Typedefs/Ingestion Config/Flow Config.ctl"/>
+				<Item Name="Ingestion Config.ctl" Type="VI" URL="../Private/Typedefs/Ingestion Config/Ingestion Config.ctl"/>
+			</Item>
+			<Item Name="Ingestion" Type="Folder">
+				<Item Name="Sample.ctl" Type="VI" URL="../Private/Typedefs/Ingestion/Sample.ctl"/>
+				<Item Name="Timestamp.ctl" Type="VI" URL="../Private/Typedefs/Ingestion/Timestamp.ctl"/>
+			</Item>
+			<Item Name="Messages" Type="Folder">
+				<Item Name="Create Run Request.ctl" Type="VI" URL="../Private/Typedefs/Messages/Create Run Request.ctl"/>
+				<Item Name="Create Run Response.ctl" Type="VI" URL="../Private/Typedefs/Messages/Create Run Response.ctl"/>
+				<Item Name="Create Ingestion Config Response.ctl" Type="VI" URL="../Private/Typedefs/Messages/Create Ingestion Config Response.ctl"/>
+				<Item Name="TDMS Upload Request.ctl" Type="VI" URL="../Private/Typedefs/Messages/TDMS Upload Request.ctl"/>
+				<Item Name="Ping Response.ctl" Type="VI" URL="../Private/Typedefs/Messages/Ping Response.ctl"/>
+				<Item Name="JSON Request.ctl" Type="VI" URL="../Private/Typedefs/Messages/JSON Request.ctl"/>
+				<Item Name="JSON Response.ctl" Type="VI" URL="../Private/Typedefs/Messages/JSON Response.ctl"/>
+				<Item Name="Control Request.ctl" Type="VI" URL="../Private/Typedefs/Messages/Control Request.ctl"/>
+				<Item Name="Reason.ctl" Type="VI" URL="../Private/Typedefs/Messages/Reason.ctl"/>
+			</Item>
 		</Item>
 		<Item Name="Util" Type="Folder">
+			<Item Name="Messages" Type="Folder">
+				<Item Name="Create JSON Request Message.vi" Type="VI" URL="../Private/Util/Messages/Create JSON Request Message.vi"/>
+				<Item Name="Create JSON Response Message.vi" Type="VI" URL="../Private/Util/Messages/Create JSON Response Message.vi"/>
+				<Item Name="Create Data Message.vi" Type="VI" URL="../Private/Util/Messages/Create Data Message.vi"/>
+			</Item>
 			<Item Name="Array Sizes Match or Empty.vi" Type="VI" URL="../Private/Util/Array Sizes Match or Empty.vi"/>
+			<Item Name="Verify String Input.vi" Type="VI" URL="../Private/Util/Verify String Input.vi"/>
+			<Item Name="Stop Sift Proxy.vi" Type="VI" URL="../Private/Util/Stop Sift Proxy.vi"/>
 		</Item>
 	</Item>
 	<Item Name="Sift API" Type="Folder">
 		<Item Name="Helpers" Type="Folder">
 			<Item Name="Create Channel Config.vi" Type="VI" URL="../Sift API/Helpers/Create Channel Config.vi"/>
 			<Item Name="Get Current Timestamp.vi" Type="VI" URL="../Sift API/Helpers/Get Current Timestamp.vi"/>
+		</Item>
+		<Item Name="Types" Type="Folder">
+			<Property Name="NI.SortType" Type="Int">3</Property>
+			<Item Name="Data Type.ctl" Type="VI" URL="../Sift API/Types/Data Type.ctl"/>
+			<Item Name="Bit Field.ctl" Type="VI" URL="../Sift API/Types/Bit Field.ctl"/>
+			<Item Name="Enum.ctl" Type="VI" URL="../Sift API/Types/Enum.ctl"/>
 		</Item>
 		<Item Name="Sift Client.lvclass" Type="LVClass" URL="../Sift API/Sift Client.lvclass"/>
 	</Item>
