@@ -37,6 +37,12 @@
 				<Item Name="Create JSON Response Message.vi" Type="VI" URL="../Private/Util/Messages/Create JSON Response Message.vi"/>
 				<Item Name="Create Data Message.vi" Type="VI" URL="../Private/Util/Messages/Create Data Message.vi"/>
 			</Item>
+			<Item Name="Install" Type="Folder">
+				<Item Name="Pre Build.vi" Type="VI" URL="../Private/Util/Install/Pre Build.vi"/>
+				<Item Name="Check If Running.vi" Type="VI" URL="../Private/Util/Install/Check If Running.vi"/>
+				<Item Name="Installation Complete.vi" Type="VI" URL="../Private/Util/Install/Installation Complete.vi"/>
+				<Item Name="curl_install_cmd.txt" Type="Document" URL="../Private/Util/Install/curl_install_cmd.txt"/>
+			</Item>
 			<Item Name="Array Sizes Match or Empty.vi" Type="VI" URL="../Private/Util/Array Sizes Match or Empty.vi"/>
 			<Item Name="Verify String Input.vi" Type="VI" URL="../Private/Util/Verify String Input.vi"/>
 			<Item Name="Stop Sift Proxy.vi" Type="VI" URL="../Private/Util/Stop Sift Proxy.vi"/>
@@ -50,7 +56,6 @@
 		<Item Name="Types" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
 			<Item Name="Data Type.ctl" Type="VI" URL="../Sift API/Types/Data Type.ctl"/>
-			<Item Name="Bit Field.ctl" Type="VI" URL="../Sift API/Types/Bit Field.ctl"/>
 			<Item Name="Enum.ctl" Type="VI" URL="../Sift API/Types/Enum.ctl"/>
 		</Item>
 		<Item Name="Sift Client.lvclass" Type="LVClass" URL="../Sift API/Sift Client.lvclass"/>

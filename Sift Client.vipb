@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2024-12-03 13:19:10" Modified_Date="2025-01-14 10:46:16" Creator="marc" Comments="" ID="71ff375dfbf1594498afe9ac1aac8c8f">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2024-12-03 13:19:10" Modified_Date="2025-01-18 18:21:45" Creator="marc" Comments="" ID="cbff049bcdcfe069f0519d026e039398">
   <Library_General_Settings>
     <Package_File_Name>Sift_Stack_Inc_lib_Sift</Package_File_Name>
-    <Library_Version>0.4.0.2</Library_Version>
+    <Library_Version>0.5.0.1</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>src</Library_Source_Folder>
     <Library_Output_Folder>.</Library_Output_Folder>
@@ -23,10 +23,10 @@
       <Additional_External_Dependencies>labview_open_source_lib_epoch_datetime &gt;=1.2.0.6</Additional_External_Dependencies>
     </Package_Dependencies>
     <Custom_Action_VIs>
-      <Pre-Build_VI/>
+      <Pre-Build_VI>src\Sift\Private\Util\Install\Pre Build.vi</Pre-Build_VI>
       <Post-Build_VI/>
       <Pre-Install_VI/>
-      <Post-Install_VI/>
+      <Post-Install_VI>src\Sift\Private\Util\Install\Installation Complete.vi</Post-Install_VI>
       <Pre-Uninstall_VI/>
       <Post-Uninstall_VI/>
     </Custom_Action_VIs>
@@ -37,7 +37,8 @@
       <Copyright/>
       <Packager>Sift</Packager>
       <URL>https://www.siftstack.com/</URL>
-      <Release_Notes>Remove REST dependency.</Release_Notes>
+      <Release_Notes>Add TDMS upload support.
+Add string support.</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -439,7 +440,7 @@
         <Path>src\Sift\Sift API\Types</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>22ADC55590DBE2D47160EE0BD15A5CE4</GUID>
+      <GUID>4EBC06279FA4A8A216DD3E06C4947262</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -544,7 +545,7 @@
         <Path>src\Sift\Sift API\Ping Service</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>E3F3F5B3910411DA62C52C7D510EA3E7</GUID>
+      <GUID>6B48BB823292DAA9DF743D5F58EF5C0C</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -607,7 +608,7 @@
         <Path>src\Sift\Sift API\Types\Data Type.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>D1D296204216B997446A3190FE0A2E7F</GUID>
+      <GUID>A54A854C3DE7D4A15CCBAB67A147D675</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -670,7 +671,7 @@
         <Path>src\Sift\Sift API\Ingestion Config Service\Submit Ingestion Config.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>1CCCE37F3654DD98ED9B7637D460EB04</GUID>
+      <GUID>89A45C6C81CC6F83C259638BF3FB528C</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -719,7 +720,7 @@
         <Path>src\Sift\Sift API\Ingestion Service\Write.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>19EE0AB6E40F6837EC91817F14E88C37</GUID>
+      <GUID>3EB9FBCFB61629543FF3BC3159E0D148</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -796,7 +797,7 @@
         <Path>src\Sift\Sift API\Proxy Service\Disconnect.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F043670F50B770619926B5272F60915C</GUID>
+      <GUID>D11E2D85C53FDF90782F250009379C5D</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -831,7 +832,7 @@
         <Path>src\Sift\Sift API\Run Service\Create Run.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>B1013A0A13D6129F997CC80830BA2BA8</GUID>
+      <GUID>D86CCA3564A0FDEAE6F8E7D94C785D95</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -866,7 +867,7 @@
         <Path>src\Sift\Sift API\Ping Service\Ping.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F7A49859CA8B3CE5BABC71A65578C59F</GUID>
+      <GUID>18EDDD97AF7B244F7F39FB106F5AB53A</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -929,7 +930,7 @@
         <Path>src\Sift\Sift API\Types\Enum.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>53E205C0DF6D570A997D831CE03BC519</GUID>
+      <GUID>94118A4BB63F50635BDAF3D4E280B44F</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
   <Library_Palette_Definition>
@@ -980,7 +981,7 @@
         <Path>..\sift-streaming\labview\Sift</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>8F82D14CB877FBBA6FDBB57D9DC04615</GUID>
+      <GUID>69680DE32B260EB925545041C057D392</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1015,7 +1016,7 @@
         <Path>..\sift-streaming\labview\Generate Sift Protos\SiftProxy_client</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>4CD875525152DA0F1709AA2C66793F52</GUID>
+      <GUID>3B7578C7CE7F313571B7824661A7DC25</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1064,7 +1065,7 @@
         <Path>..\sift-streaming\labview\Sift\SiftService</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>061E5AE3FFF17CD69D5AAEA5FA2A760D</GUID>
+      <GUID>4F296341865C8F3AA8D77D294D450E7D</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -1141,7 +1142,7 @@
         <Path>..\sift-streaming\labview\Generate Sift Protos\SiftProxy_client\gRPC Client Test.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>9EF0C5729D04DE4DDF271B6096A8BBE3</GUID>
+      <GUID>B1A0926110D7A38F8E2DC9EDBD5A67C6</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>3</Parent_Palette_Index>
@@ -1190,7 +1191,7 @@
         <Path>..\sift-streaming\labview\Generate Sift Protos\SiftProxy_client\Client API\Destroy Client.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>B610A6D99A1D0FB11A63AD023EB6432D</GUID>
+      <GUID>0C497F3128EF02E0107E9B9C77643FF0</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>3</Parent_Palette_Index>
@@ -1813,7 +1814,7 @@
         <Path>..\sift-streaming\labview\Generate Sift Protos\SiftProxy_client\RPC Messages\RichToFlatsift_proxy_v1_IngestDataStreamUInt64Request.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>4F9C53165B2B31C17B177D1816A352EC</GUID>
+      <GUID>23EAB656125FE7E3B1D0F81600F5C643</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>3</Parent_Palette_Index>
@@ -1862,7 +1863,7 @@
         <Path>..\sift-streaming\labview\Generate Sift Protos\SiftProxy_client\RPC Service\LabviewIngestService</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>1F29B881CE80BA2CEE4ED0CFAAA18552</GUID>
+      <GUID>BF42A2F16DF46DBAAA4E9232BA872449</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>6</Parent_Palette_Index>
@@ -1911,7 +1912,7 @@
         <Path>..\sift-streaming\labview\Generate Sift Protos\SiftProxy_client\RPC Service\ControlService\ControlService StopServer.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>E8978AA99CD8D24C281D9501F4135B3C</GUID>
+      <GUID>F3F6D39BBE7E11BF635C7996256E2B52</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>6</Parent_Palette_Index>
@@ -2366,7 +2367,7 @@
         <Path>..\sift-streaming\labview\Generate Sift Protos\SiftProxy_client\RPC Service\LabviewIngestService\LabviewIngestService IngestDataStreamUInt64 Write.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>5C97C989392553D541E9C6469E9982DC</GUID>
+      <GUID>A0E725036483AA3C2A2B83AE054EC36F</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -2401,7 +2402,7 @@
         <Path>..\sift-streaming\labview\Sift\Dependencies\asynchronous-system-exec-v2.0.0</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>991CA0655B427292DF1D5FB4F93FEE20</GUID>
+      <GUID>7772C5FF7941D6CA3461AE4720986401</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -2450,7 +2451,7 @@
         <Path>src\Sift\Sift API\Helpers\Get Current Timestamp.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>1D14D6B9E4288F7A0112BAB2338C3189</GUID>
+      <GUID>FDFB6CBE57A7FE3E9833B6E11F713367</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>9</Parent_Palette_Index>
@@ -2541,7 +2542,7 @@
         <Path>..\sift-streaming\labview\Sift\Dependencies\asynchronous-system-exec-v2.0.0\utilities</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A309F196DAF5A9E9B0EB9120711D7A5D</GUID>
+      <GUID>0CBDC1FADA17C176CF0B21751BA2FF08</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>11</Parent_Palette_Index>
@@ -2576,7 +2577,7 @@
         <Path>..\sift-streaming\labview\Sift\Dependencies\asynchronous-system-exec-v2.0.0\serenial.io-ase\ase</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>B3163E5E9EA1DE9372A6984CB4713F58</GUID>
+      <GUID>D25708FA266265C853840B256C6C66FB</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>11</Parent_Palette_Index>
@@ -2611,7 +2612,7 @@
         <Path>..\sift-streaming\labview\Sift\Support\asynchronous-system-exec-v2.0.0\serenial.io-ase.console\Console Example.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>DA12EDC9A93FC1A3D244C4F3A048C60D</GUID>
+      <GUID>5B10D6F7EB83B0EA10DB9D0C39DF2C73</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>11</Parent_Palette_Index>
@@ -2674,7 +2675,7 @@
         <Path>..\sift-streaming\labview\Sift\Support\asynchronous-system-exec-v2.0.0\serenial.io-ase.example\API Usage Examples.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>6801B863A5D0C4507C61ACA2BF1ACA8C</GUID>
+      <GUID>835AE7354F41561B84D6CBE823783B17</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>11</Parent_Palette_Index>
@@ -2975,7 +2976,7 @@
         <Path>..\sift-streaming\labview\Sift\Support\asynchronous-system-exec-v2.0.0\serenial.io-ase.test\test Work Directory.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>63602F699EADD292FB6DF27F9B0F1AAC</GUID>
+      <GUID>4962B46E69C10B17766D3E1D9D33D3F1</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>11</Parent_Palette_Index>
@@ -3052,7 +3053,7 @@
         <Path>..\sift-streaming\labview\Sift\Support\asynchronous-system-exec-v2.0.0\utilities\serenial.io-ase tidy unused files.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>3037C1BCFFD79E41F4C56BEDFFFEAD47</GUID>
+      <GUID>1CFFFDE335C777A8FBCC2318AC2F303F</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>12</Parent_Palette_Index>
@@ -3409,7 +3410,7 @@
         <Path>..\sift-streaming\labview\Sift\Support\asynchronous-system-exec-v2.0.0\serenial.io-ase\ase\Write to Std In.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>4F8F14810F2663935963FD03F7EE019B</GUID>
+      <GUID>033C458802AE8E5FD6CD44BC0E6784E2</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>14</Parent_Palette_Index>
@@ -3458,7 +3459,7 @@
         <Path>..\sift-streaming\labview\Sift\Support\asynchronous-system-exec-v2.0.0\serenial.io-ase.example\Example Custom ID\Set Identifier.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>8BCEE2C9B04270609E740843FAEEB041</GUID>
+      <GUID>0C78F2F5D18188789B376CA5EDF0C197</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>14</Parent_Palette_Index>
@@ -3493,7 +3494,7 @@
         <Path>..\sift-streaming\labview\Sift\Support\asynchronous-system-exec-v2.0.0\serenial.io-ase\ase\Stream Split Character Match RegExp Std Out.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>8F5A956B5EFDF90C841ED35163F3D5A5</GUID>
+      <GUID>E828481B26B2D4E5F7F9C12363566CF2</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>15</Parent_Palette_Index>
@@ -3556,7 +3557,7 @@
         <Path>..\sift-streaming\labview\Sift\Support\asynchronous-system-exec-v2.0.0\serenial.io-ase\ase\Stream Split Character Match RegExp Std Out.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>B1F099BA0A4018BB0091E7136A23A174</GUID>
+      <GUID>2158ACF47177C88D97B1F0C99F8BEA1F</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>15</Parent_Palette_Index>
@@ -3591,7 +3592,7 @@
         <Path>..\sift-streaming\labview\Sift\Support\asynchronous-system-exec-v2.0.0\serenial.io-ase\ase\Event Identifier.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>9E92F7AC9A3C681B77FFD6C6B6F43850</GUID>
+      <GUID>320EF97BB598A85B421625957501AE26</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>15</Parent_Palette_Index>
@@ -3640,7 +3641,7 @@
         <Path>..\sift-streaming\labview\Sift\Support\asynchronous-system-exec-v2.0.0\serenial.io-ase\ase\Stream Split Character Match RegExp Std Out.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>B3A7D50B201799905CB5556519617CD0</GUID>
+      <GUID>1AAAEDB987456DDB081AD4DF71DDF4C7</GUID>
     </Functions_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>-1</Parent_Palette_Index>
@@ -3689,7 +3690,7 @@
         <Path>..\sift-streaming\labview\Sift</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>32F9CD2B9D4FAB2D00E66276A1C199F0</GUID>
+      <GUID>C179D1E4CC3B4D2652CC252AD307964D</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -3724,7 +3725,7 @@
         <Path>..\sift-streaming\labview\Generate Sift Protos\SiftProxy_client</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>1FA62F0054C8D2FC873CA5E6B95D310D</GUID>
+      <GUID>0E8294D41285807EDEFBF1703B0C617B</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -3773,7 +3774,7 @@
         <Path>..\sift-streaming\labview\Sift\SiftService</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>26E1828CE9A0E99B53BC4C4D5C0E54CA</GUID>
+      <GUID>15E548CFDD2D91A747801DAA6AE53392</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -3808,7 +3809,7 @@
         <Path>..\sift-streaming\labview\Generate Sift Protos\SiftProxy_client\RPC Messages</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>1FF71CEC01A94B2763CF9C239F00F747</GUID>
+      <GUID>42E24BA2C8AA79955A78613C2CE382FA</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>3</Parent_Palette_Index>
@@ -4389,7 +4390,7 @@
         <Path>..\sift-streaming\labview\Generate Sift Protos\SiftProxy_client\RPC Messages\sift_proxy_v1_IngestDataStreamUInt64Request_Flat.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>78C562300EC32A1BED8FB9DF6A501B29</GUID>
+      <GUID>AD62D4B0F04689B33BCC1D9AB1E51592</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -4424,7 +4425,7 @@
         <Path>..\sift-streaming\labview\Sift\Dependencies\asynchronous-system-exec-v2.0.0</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>D51E0B417916CBF35CEDE60F0F63195D</GUID>
+      <GUID>1E4580A2878D12FEB2C4D8C5A4356D1A</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -4445,7 +4446,7 @@
         <Synchronyze_with_Directory>false</Synchronyze_with_Directory>
         <Synchronize_Directory_Path>..\sift-streaming\labview\Sift\SiftService</Synchronize_Directory_Path>
       </Synchronization_Info>
-      <GUID>7A1296FF707BAD8D98196AEC4917353F</GUID>
+      <GUID>8F87EC997BFC55E24BA56ED603D5C216</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>5</Parent_Palette_Index>
@@ -4494,7 +4495,7 @@
         <Path>..\sift-streaming\labview\Sift\Dependencies\asynchronous-system-exec-v2.0.0\serenial.io-ase.test</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>E62B38ED557EC727CC68FDEE7CC25620</GUID>
+      <GUID>60B79909A1788385B5D99B4616490703</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>7</Parent_Palette_Index>
@@ -4529,7 +4530,7 @@
         <Path>..\sift-streaming\labview\Sift\Dependencies\asynchronous-system-exec-v2.0.0\serenial.io-ase\ase</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>616F1CE65CB9D253C93AB978787952F4</GUID>
+      <GUID>3411DABD4DFBE00262DC9F5CE49FAE48</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>7</Parent_Palette_Index>
@@ -4564,7 +4565,7 @@
         <Path>..\sift-streaming\labview\Sift\Dependencies\asynchronous-system-exec-v2.0.0\serenial.io-ase.test\Bad Regex</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>886CDA7DFBDB0798F08AF79832D8716D</GUID>
+      <GUID>A610C004AA5EB5E6718DF61235E119C6</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>8</Parent_Palette_Index>
@@ -4669,7 +4670,7 @@
         <Path>..\sift-streaming\labview\Sift\Support\asynchronous-system-exec-v2.0.0\serenial.io-ase\ase\Standard Output.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>24898AACA1E691568AB407A980EE51C2</GUID>
+      <GUID>DA001CADD3280F5888824C3AABAFC8CA</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>9</Parent_Palette_Index>
@@ -4704,7 +4705,7 @@
         <Path>..\sift-streaming\labview\Sift\Support\asynchronous-system-exec-v2.0.0\serenial.io-ase.test\Bad Regex\Bad Value.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>6F446E78A40CEFE624B0D2C7B94E972B</GUID>
+      <GUID>1FA597C2D76865ED33EC091E07D35F32</GUID>
     </Controls_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>

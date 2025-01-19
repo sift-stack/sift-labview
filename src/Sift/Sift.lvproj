@@ -14,11 +14,16 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Examples" Type="Folder">
+			<Item Name="TDMS" Type="Folder">
+				<Item Name="TDMS Upload Example.vi" Type="VI" URL="../Examples/TDMS/TDMS Upload Example.vi"/>
+				<Item Name="sample_data.tdms" Type="Document" URL="../Examples/TDMS/sample_data.tdms"/>
+			</Item>
 			<Item Name="Ping Test.vi" Type="VI" URL="../Examples/Ping Test.vi"/>
 			<Item Name="Sift Proxy Smoketest.vi" Type="VI" URL="../Examples/Sift Proxy Smoketest.vi"/>
 			<Item Name="Basic Streaming Example.vi" Type="VI" URL="../Examples/Basic Streaming Example.vi"/>
 			<Item Name="Streaming to Run Example.vi" Type="VI" URL="../Examples/Streaming to Run Example.vi"/>
 			<Item Name="Multiple Rates Streaming Example.vi" Type="VI" URL="../Examples/Multiple Rates Streaming Example.vi"/>
+			<Item Name="Special Data Types Example.vi" Type="VI" URL="../Examples/Special Data Types Example.vi"/>
 		</Item>
 		<Item Name="Support" Type="Folder">
 			<Item Name="sift_proxy.exe" Type="Document" URL="../Support/sift_proxy.exe"/>
@@ -120,6 +125,7 @@
 				<Item Name="openg_variant.lvlib" Type="Library" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/openg_variant.lvlib"/>
 				<Item Name="openg_error.lvlib" Type="Library" URL="/&lt;userlib&gt;/_OpenG.lib/error/error.llb/openg_error.lvlib"/>
 			</Item>
+			<Item Name="Bit Field.ctl" Type="VI" URL="../Sift API/Types/Bit Field.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
