@@ -1,7 +1,9 @@
 #!/bin/bash
 
 # Update to the latest release.
-TAG=v0.4.0-dev.1
+TAG=v0.5.0-dev.1
+
+#!/bin/bash
 
 # Exit immediately if a command exits with a non-zero status.
 set -e
@@ -10,34 +12,38 @@ set -e
 REPO_OWNER="sift-stack"
 REPO_NAME="sift-labview"
 BINARY_NAME="sift_proxy"
-INSTALL_DIR="/home/lvuser/Sift"
+INSTALL_DIR="$HOME/Sift"
+DOWNLOAD_BINARY_NAME="sift_proxy-linux"
 
-# Extract the URL of the binary for Linux (adjust asset name pattern as needed)
-DOWNLOAD_URL="https://raw.githubusercontent.com/$REPO_OWNER/$REPO_NAME/refs/tags/$TAG/src/Sift/Support/sift_proxy"
+# All releases URL
+LATEST_RELEASE_API="https://api.github.com/repos/$REPO_OWNER/$REPO_NAME/releases"
 
-# Check if the download URL exists (try curl or wget)
+# Fetch the latest release data (using curl or wget)
 if command -v curl >/dev/null 2>&1; then
-  if ! curl -s --head "$DOWNLOAD_URL" | grep "200 OK" >/dev/null; then
-    echo "Error: The download URL does not exist or is not reachable." >&2
-    exit 1
-  fi
+  RELEASE_DATA=$(curl -sL $LATEST_RELEASE_API)
 elif command -v wget >/dev/null 2>&1; then
-  if ! wget --spider -q "$DOWNLOAD_URL"; then
-    echo "Error: The download URL does not exist or is not reachable." >&2
-    exit 1
-  fi
+  RELEASE_DATA=$(wget -qO- $LATEST_RELEASE_API)
 else
   echo "Error: Neither curl nor wget is available on this system." >&2
   exit 1
 fi
 
+# Extract the URL of the binary for Linux (adjust asset name pattern as needed)
+DOWNLOAD_URL=$(echo "$RELEASE_DATA" | grep "browser_download_url" | grep "$TAG" | grep "$DOWNLOAD_BINARY_NAME" | cut -d '"' -f 4)
+
+# Check if the download URL was found
+if [[ -z "$DOWNLOAD_URL" ]]; then
+  echo "Error: Unable to find a suitable binary for Linux." >&2
+  exit 1
+fi
+
 # Download the binary
-TEMP_FILE="/tmp/$BINARY_NAME"
+TEMP_FILE="$BINARY_NAME"
 echo "Downloading $BINARY_NAME from $DOWNLOAD_URL..."
 if command -v curl >/dev/null 2>&1; then
   curl -sL "$DOWNLOAD_URL" -o "$TEMP_FILE"
 elif command -v wget >/dev/null 2>&1; then
-  wget -q "$DOWNLOAD_URL" -O "$TEMP_FILE"\else
+  wget -q "$DOWNLOAD_URL" -O "$TEMP_FILE"
   echo "Error: Neither curl nor wget is available to download the binary." >&2
   exit 1
 fi
@@ -46,8 +52,8 @@ fi
 chmod +x "$TEMP_FILE"
 
 # Move the binary to the install directory
+mkdir -p "$INSTALL_DIR"
 echo "Installing $BINARY_NAME to $INSTALL_DIR..."
-mkdir -p $INSTALL_DIR
 sudo mv "$TEMP_FILE" "$INSTALL_DIR/$BINARY_NAME"
 
 # Confirm installation
