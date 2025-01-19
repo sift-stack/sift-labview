@@ -44,6 +44,7 @@ if command -v curl >/dev/null 2>&1; then
   curl -sL "$DOWNLOAD_URL" -o "$TEMP_FILE"
 elif command -v wget >/dev/null 2>&1; then
   wget -q "$DOWNLOAD_URL" -O "$TEMP_FILE"
+else
   echo "Error: Neither curl nor wget is available to download the binary." >&2
   exit 1
 fi
