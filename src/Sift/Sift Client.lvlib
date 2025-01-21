@@ -42,6 +42,9 @@
 				<Item Name="Check If Running.vi" Type="VI" URL="../Private/Util/Install/Check If Running.vi"/>
 				<Item Name="Installation Complete.vi" Type="VI" URL="../Private/Util/Install/Installation Complete.vi"/>
 				<Item Name="install_cmd.txt" Type="Document" URL="../Private/Util/Install/install_cmd.txt"/>
+				<Item Name="Pre-Install Custom Action.vi" Type="VI" URL="../Private/Util/Install/Pre-Install Custom Action.vi"/>
+				<Item Name="Pre-Uninstall Custom Action.vi" Type="VI" URL="../Private/Util/Install/Pre-Uninstall Custom Action.vi"/>
+				<Item Name="Post-Install.vi" Type="VI" URL="../Private/Util/Install/Post-Install.vi"/>
 			</Item>
 			<Item Name="Array Sizes Match or Empty.vi" Type="VI" URL="../Private/Util/Array Sizes Match or Empty.vi"/>
 			<Item Name="Verify String Input.vi" Type="VI" URL="../Private/Util/Verify String Input.vi"/>
