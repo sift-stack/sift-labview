@@ -46,7 +46,7 @@ fi
 
 # Download the binary
 TEMP_FILE="$BINARY_NAME"
-echo "Downloading $BINARY_NAME from $DOWNLOAD_URL..."
+echo "Downloading $BINARY_NAME from $DOWNLOAD_URL ..."
 if command -v curl >/dev/null 2>&1; then
   curl -sL "$DOWNLOAD_URL" -o "$TEMP_FILE"
 elif command -v wget >/dev/null 2>&1; then
@@ -61,11 +61,11 @@ chmod +x "$TEMP_FILE"
 
 # Move the binary to the install directory
 mkdir -p "$INSTALL_DIR"
-echo "Installing $BINARY_NAME to $INSTALL_DIR..."
+echo "Installing $BINARY_NAME to $INSTALL_DIR ..."
 sudo mv "$TEMP_FILE" "$INSTALL_DIR/$BINARY_NAME"
 
 # Confirm installation
-if command -v $BINARY_NAME >/dev/null 2>&1; then
+if command -v $INSTALL_DIR/$BINARY_NAME >/dev/null 2>&1; then
   echo "$BINARY_NAME installed successfully!"
 else
   echo "Error: $BINARY_NAME could not be installed." >&2
