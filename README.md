@@ -20,7 +20,5 @@ See the other [Examples](/src/Sift/Examples) included in the plugin for more det
 ## Installation
 Grab the .vip from the [Releases](https://github.com/sift-stack/sift-labview/releases) page and install with the VI Package Manager.
 
-For RT Linux: Copy over the sift_proxy binary that comes with the package to `/home/lvuser/Sift` and run `sudo chmod +x /home/lvuser/Sift/sift_proxy`
-
 ## Contact
 For questions, issues, or feature requests, please contact engineering@siftstack.com or open a GitHub Issue ticket.
