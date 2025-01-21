@@ -15,6 +15,13 @@ BINARY_NAME="sift_proxy"
 INSTALL_DIR="$HOME/Sift"
 DOWNLOAD_BINARY_NAME="sift_proxy-linux"
 
+# Check if sift_proxy is running
+if pgrep -x "sift_proxy" >/dev/null; then
+  echo "Error: sift_proxy is currently running. Please stop it before proceeding."
+  echo "You can stop it by running: pkill -x sift_proxy"
+  exit 1
+fi
+
 # All releases URL
 LATEST_RELEASE_API="https://api.github.com/repos/$REPO_OWNER/$REPO_NAME/releases"
 
