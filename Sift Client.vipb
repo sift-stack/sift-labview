@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2024-12-03 13:19:10" Modified_Date="2025-01-21 15:26:35" Creator="marc" Comments="" ID="4685263c94cbcbf19a96b42edcc8fc8d">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2024-12-03 13:19:10" Modified_Date="2025-01-24 14:41:34" Creator="marc" Comments="" ID="3bfc89ff3581923427c6dc874370bd04">
   <Library_General_Settings>
     <Package_File_Name>Sift_Stack_Inc_lib_Sift</Package_File_Name>
-    <Library_Version>1.0.0.2</Library_Version>
+    <Library_Version>1.1.0.1</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>src</Library_Source_Folder>
     <Library_Output_Folder>.</Library_Output_Folder>
@@ -37,9 +37,8 @@
       <Copyright/>
       <Packager>Sift</Packager>
       <URL>https://www.siftstack.com/</URL>
-      <Release_Notes>Add TDMS upload support.
-Add string support.
-Improve installation process.</Release_Notes>
+      <Release_Notes>Expose Ignore Errors in TDMS Upload VI.
+Increase sift_proxy start up timeout time.</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -435,7 +434,7 @@ Improve installation process.</Release_Notes>
         <Path>src\Sift</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>6A333789317E63EFD98B593358C8C637</GUID>
+      <GUID>670FEA1BAD90EFABEF0790D0938B6680</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -540,7 +539,7 @@ Improve installation process.</Release_Notes>
         <Path>src\Sift\Sift API\Ping Service</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A0A22CEDA707DCE25D715D14BBC17E72</GUID>
+      <GUID>8543943F3F3B158A4B2B6F78E2013BB3</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -603,7 +602,7 @@ Improve installation process.</Release_Notes>
         <Path>src\Sift\Sift API\Types\Data Type.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>D71E0E4265549760FD279707DB8F2205</GUID>
+      <GUID>185BDB34E525371B1CB9CEC835A94FD9</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -694,7 +693,7 @@ Improve installation process.</Release_Notes>
         <Path>src\Sift\Sift API\Helpers\Create Channel Config.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>3764CB47A6F62BA0B3653F240CAA33DA</GUID>
+      <GUID>E862B482EA603A41BFA13BF3AEE50DC1</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -757,7 +756,7 @@ Improve installation process.</Release_Notes>
         <Path>src\Sift\Sift API\Helpers\Get Current Timestamp.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>3B8F97F71F8AC4CAE315BC038BCCE417</GUID>
+      <GUID>5801BE62DE40E783C2666DD285D5CB12</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -834,7 +833,7 @@ Improve installation process.</Release_Notes>
         <Path>src\Sift\Sift API\Proxy Service\Disconnect.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>AE8752C87CF8A6A7197075B404C60A4A</GUID>
+      <GUID>34DC99F05DDD0C37C9F1CC2016CB79A6</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -869,7 +868,7 @@ Improve installation process.</Release_Notes>
         <Path>src\Sift\Sift API\Run Service\Create Run.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A02432E78A2BFDBD29B17E2F1238F986</GUID>
+      <GUID>21281848BA4BFB93E157885DF0D75CE2</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -904,7 +903,7 @@ Improve installation process.</Release_Notes>
         <Path>src\Sift\Sift API\Ping Service\Ping.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>2E440BA4A4FEC53AD717F7F5CB1637E9</GUID>
+      <GUID>E4052000A6F076D87970A3A9A1B0BCD8</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -953,7 +952,7 @@ Improve installation process.</Release_Notes>
         <Path>src\Sift\Sift API\Types\Enum.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>5DBCD5597E8375254B172E5AB684B0C4</GUID>
+      <GUID>52697F5E8C0B0CD8868EFE17D8AD4187</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
   <Library_Palette_Definition>
@@ -1004,7 +1003,7 @@ Improve installation process.</Release_Notes>
         <Path>..\sift-streaming\labview\Sift</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>D067E176C7F8A21CDA65795BC252E2FD</GUID>
+      <GUID>8038DCFACBA62BA46671673598122BAA</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1039,7 +1038,7 @@ Improve installation process.</Release_Notes>
         <Path>..\sift-streaming\labview\Generate Sift Protos\SiftProxy_client</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>07E132FCE5CE9E3366EAB84DFE6D319F</GUID>
+      <GUID>26D2A4CCC718FB120A022F00E8771140</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1088,7 +1087,7 @@ Improve installation process.</Release_Notes>
         <Path>..\sift-streaming\labview\Sift\SiftService</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>2CE46F3AC2E86A6AA9750B773BBE39DB</GUID>
+      <GUID>DD4948169383041C9E9EF81A86C358F4</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -1165,7 +1164,7 @@ Improve installation process.</Release_Notes>
         <Path>..\sift-streaming\labview\Generate Sift Protos\SiftProxy_client\gRPC Client Test.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>7FEFDE57111BB8648E1BAED919549103</GUID>
+      <GUID>4AC9A3AAB7290649B227B951856A50F8</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>3</Parent_Palette_Index>
@@ -1214,7 +1213,7 @@ Improve installation process.</Release_Notes>
         <Path>..\sift-streaming\labview\Generate Sift Protos\SiftProxy_client\Client API\Destroy Client.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>DF7A5FBD583FC867850511FB7C630658</GUID>
+      <GUID>A67FEA0D254F5E2F4D21226BAEA0F5D8</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>3</Parent_Palette_Index>
@@ -1837,7 +1836,7 @@ Improve installation process.</Release_Notes>
         <Path>..\sift-streaming\labview\Generate Sift Protos\SiftProxy_client\RPC Messages\RichToFlatsift_proxy_v1_IngestDataStreamUInt64Request.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>FDD3932DB8EECDE10930FF8F7C869C64</GUID>
+      <GUID>90931788CD6938E05410AFC7C7497811</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>3</Parent_Palette_Index>
@@ -1886,7 +1885,7 @@ Improve installation process.</Release_Notes>
         <Path>..\sift-streaming\labview\Generate Sift Protos\SiftProxy_client\RPC Service\LabviewIngestService</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>37B2626EF70E779F6D878CC68E66AD6A</GUID>
+      <GUID>DBC49A9ADA87957E54C0EDEC6B9D496A</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>6</Parent_Palette_Index>
@@ -1935,7 +1934,7 @@ Improve installation process.</Release_Notes>
         <Path>..\sift-streaming\labview\Generate Sift Protos\SiftProxy_client\RPC Service\ControlService\ControlService StopServer.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>26D75A4EBAA24A8C47F032ACADEE60E6</GUID>
+      <GUID>F518EC8386CFABD60E72E19561578188</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>6</Parent_Palette_Index>
@@ -2390,7 +2389,7 @@ Improve installation process.</Release_Notes>
         <Path>..\sift-streaming\labview\Generate Sift Protos\SiftProxy_client\RPC Service\LabviewIngestService\LabviewIngestService IngestDataStreamUInt64 Write.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>786E0F4D00CB54D458055AA1F4B570DF</GUID>
+      <GUID>A9867F794630624DE19C3D50AFC06F22</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -2425,7 +2424,7 @@ Improve installation process.</Release_Notes>
         <Path>..\sift-streaming\labview\Sift\Dependencies\asynchronous-system-exec-v2.0.0</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>78156BF8884E33E2937930F82D6F29A3</GUID>
+      <GUID>BB77221C18DE5650E85B9395E49F646D</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -2474,7 +2473,7 @@ Improve installation process.</Release_Notes>
         <Path>src\Sift\Sift API\Helpers\Get Current Timestamp.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>AF2D15506115E62550400BF943033F1D</GUID>
+      <GUID>17A8D6AEFED762186D717C9C15848C29</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>9</Parent_Palette_Index>
@@ -2565,7 +2564,7 @@ Improve installation process.</Release_Notes>
         <Path>..\sift-streaming\labview\Sift\Dependencies\asynchronous-system-exec-v2.0.0\utilities</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>182A449ED546AD8F9DB677150B9F2942</GUID>
+      <GUID>49D9934040C1ABB03F758054928B6BAA</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>11</Parent_Palette_Index>
@@ -2600,7 +2599,7 @@ Improve installation process.</Release_Notes>
         <Path>..\sift-streaming\labview\Sift\Dependencies\asynchronous-system-exec-v2.0.0\serenial.io-ase\ase</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>BD39B1CB867C6C223D0378F579C1BAEA</GUID>
+      <GUID>23A9DC8F5A6968B5FB4FD45E9BE6BF9C</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>11</Parent_Palette_Index>
@@ -2635,7 +2634,7 @@ Improve installation process.</Release_Notes>
         <Path>..\sift-streaming\labview\Sift\Support\asynchronous-system-exec-v2.0.0\serenial.io-ase.console\Console Example.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>50CC7D5FA70903F4A6877467F2586C5A</GUID>
+      <GUID>39C289B486E5686C6DBAF1D84FE896EE</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>11</Parent_Palette_Index>
@@ -2698,7 +2697,7 @@ Improve installation process.</Release_Notes>
         <Path>..\sift-streaming\labview\Sift\Support\asynchronous-system-exec-v2.0.0\serenial.io-ase.example\API Usage Examples.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C2C62EC64715DF4F7EFC42F6A0617B44</GUID>
+      <GUID>ABD4F985358BEB116F2FC9481B718F8F</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>11</Parent_Palette_Index>
@@ -2999,7 +2998,7 @@ Improve installation process.</Release_Notes>
         <Path>..\sift-streaming\labview\Sift\Support\asynchronous-system-exec-v2.0.0\serenial.io-ase.test\test Work Directory.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>B7919529B52102A62E2EC25FBC0F25C9</GUID>
+      <GUID>AB7DC959AC25FE47CC03D7EAC4EE5860</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>11</Parent_Palette_Index>
@@ -3076,7 +3075,7 @@ Improve installation process.</Release_Notes>
         <Path>..\sift-streaming\labview\Sift\Support\asynchronous-system-exec-v2.0.0\utilities\serenial.io-ase tidy unused files.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A0909DEE21D8F5D3B75E6CBB172F82AC</GUID>
+      <GUID>9755FC93C9715B1426C1F98AE47ACA1C</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>12</Parent_Palette_Index>
@@ -3433,7 +3432,7 @@ Improve installation process.</Release_Notes>
         <Path>..\sift-streaming\labview\Sift\Support\asynchronous-system-exec-v2.0.0\serenial.io-ase\ase\Write to Std In.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>BE520443D84073B787E1241D9E64B00C</GUID>
+      <GUID>BAD09FD78AC6F23DB94C231ADB56C03E</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>14</Parent_Palette_Index>
@@ -3482,7 +3481,7 @@ Improve installation process.</Release_Notes>
         <Path>..\sift-streaming\labview\Sift\Support\asynchronous-system-exec-v2.0.0\serenial.io-ase.example\Example Custom ID\Set Identifier.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>4A75B37523CD8E742AC59E0FF4AF25D1</GUID>
+      <GUID>C76FB067B7043574869C1AD8BEEC67E0</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>14</Parent_Palette_Index>
@@ -3517,7 +3516,7 @@ Improve installation process.</Release_Notes>
         <Path>..\sift-streaming\labview\Sift\Support\asynchronous-system-exec-v2.0.0\serenial.io-ase\ase\Stream Split Character Match RegExp Std Out.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>B21C36FCA87E530E5F7D0CD277A38A8A</GUID>
+      <GUID>BEC476467A0B9F7ED69AB9E8D7BE909B</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>15</Parent_Palette_Index>
@@ -3580,7 +3579,7 @@ Improve installation process.</Release_Notes>
         <Path>..\sift-streaming\labview\Sift\Support\asynchronous-system-exec-v2.0.0\serenial.io-ase\ase\Stream Split Character Match RegExp Std Out.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>B1815BA8D9E9337A2314049899B3137E</GUID>
+      <GUID>0BA2778477FE01B90690FCA0E6AA5E41</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>15</Parent_Palette_Index>
@@ -3615,7 +3614,7 @@ Improve installation process.</Release_Notes>
         <Path>..\sift-streaming\labview\Sift\Support\asynchronous-system-exec-v2.0.0\serenial.io-ase\ase\Event Identifier.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>B0F92FCFD4121F87A314260C64F185F1</GUID>
+      <GUID>BABA48B90954DF6443B176FECED9C35D</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>15</Parent_Palette_Index>
@@ -3664,7 +3663,7 @@ Improve installation process.</Release_Notes>
         <Path>..\sift-streaming\labview\Sift\Support\asynchronous-system-exec-v2.0.0\serenial.io-ase\ase\Stream Split Character Match RegExp Std Out.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>5859696618383DED8AF5D766A3B6CDD0</GUID>
+      <GUID>00F2A44B17D8D22E693C47D3F495E6AE</GUID>
     </Functions_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>-1</Parent_Palette_Index>
@@ -3713,7 +3712,7 @@ Improve installation process.</Release_Notes>
         <Path>..\sift-streaming\labview\Sift</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>EC63DD749B1990418BA825A35A319256</GUID>
+      <GUID>CC3E445B72BAA882BCC3D856D04D6C98</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -3748,7 +3747,7 @@ Improve installation process.</Release_Notes>
         <Path>..\sift-streaming\labview\Generate Sift Protos\SiftProxy_client</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>4ED2BCEE76DFEDFC2F2E1A32B5F69D8D</GUID>
+      <GUID>E65214484AF8435C1096451E152B624D</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -3797,7 +3796,7 @@ Improve installation process.</Release_Notes>
         <Path>..\sift-streaming\labview\Sift\SiftService</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>73E59A2598F6F917E2BF69A83169DD3F</GUID>
+      <GUID>84E2F66780501F9A6582BFB708AF4AD6</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -3832,7 +3831,7 @@ Improve installation process.</Release_Notes>
         <Path>..\sift-streaming\labview\Generate Sift Protos\SiftProxy_client\RPC Messages</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>746EB8EC020739832D65644D75D3552F</GUID>
+      <GUID>C9B721BF53A4FF7D23F52CB82CB05FE8</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>3</Parent_Palette_Index>
@@ -4413,7 +4412,7 @@ Improve installation process.</Release_Notes>
         <Path>..\sift-streaming\labview\Generate Sift Protos\SiftProxy_client\RPC Messages\sift_proxy_v1_IngestDataStreamUInt64Request_Flat.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>74183C2A7A60184FEAE4570BE9CB915C</GUID>
+      <GUID>C95CCEAB78F99C16F608E99B396296C9</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -4448,7 +4447,7 @@ Improve installation process.</Release_Notes>
         <Path>..\sift-streaming\labview\Sift\Dependencies\asynchronous-system-exec-v2.0.0</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>EDE265022CAD0C66AD599C6D1EA501B6</GUID>
+      <GUID>A16A07327C606FE7F90C5587AD50F0CA</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -4469,7 +4468,7 @@ Improve installation process.</Release_Notes>
         <Synchronyze_with_Directory>false</Synchronyze_with_Directory>
         <Synchronize_Directory_Path>..\sift-streaming\labview\Sift\SiftService</Synchronize_Directory_Path>
       </Synchronization_Info>
-      <GUID>D68E65DA8C61B3BAAE4B1F39C1D93D47</GUID>
+      <GUID>11E00A723B86DB13C92AA03384977E89</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>5</Parent_Palette_Index>
@@ -4518,7 +4517,7 @@ Improve installation process.</Release_Notes>
         <Path>..\sift-streaming\labview\Sift\Dependencies\asynchronous-system-exec-v2.0.0\serenial.io-ase.test</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>E2C56759EB17554B2B75F630FFF08D79</GUID>
+      <GUID>A889A72C03B8FEC1ED6342FF0D1DE299</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>7</Parent_Palette_Index>
@@ -4553,7 +4552,7 @@ Improve installation process.</Release_Notes>
         <Path>..\sift-streaming\labview\Sift\Dependencies\asynchronous-system-exec-v2.0.0\serenial.io-ase\ase</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>4385E6DEED4980DF24BB6DBFC39D7556</GUID>
+      <GUID>B7D2A7FACF44D8725F6A58F5318296AD</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>7</Parent_Palette_Index>
@@ -4588,7 +4587,7 @@ Improve installation process.</Release_Notes>
         <Path>..\sift-streaming\labview\Sift\Dependencies\asynchronous-system-exec-v2.0.0\serenial.io-ase.test\Bad Regex</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>2B5355787F38308B687502C2A32A8F4A</GUID>
+      <GUID>E704D4ACE94E40FC80EF2C57428C6E14</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>8</Parent_Palette_Index>
@@ -4693,7 +4692,7 @@ Improve installation process.</Release_Notes>
         <Path>..\sift-streaming\labview\Sift\Support\asynchronous-system-exec-v2.0.0\serenial.io-ase\ase\Standard Output.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>2C22B5FAC0D569AD94036997CA7E3FED</GUID>
+      <GUID>B9F0752110601E12E43F86A811D93915</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>9</Parent_Palette_Index>
@@ -4728,7 +4727,7 @@ Improve installation process.</Release_Notes>
         <Path>..\sift-streaming\labview\Sift\Support\asynchronous-system-exec-v2.0.0\serenial.io-ase.test\Bad Regex\Bad Value.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>DC6E6172186BD4BB0361A1DACC72CD00</GUID>
+      <GUID>4684D82A27AF9770C9DEADEECDF8B5FE</GUID>
     </Controls_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
