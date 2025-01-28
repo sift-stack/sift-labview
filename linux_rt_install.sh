@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Update to the latest release.
-TAG=v1.0.0-dev.1
+TAG=v1.1.0-dev.1
 
 #!/bin/bash
 
@@ -12,7 +12,7 @@ set -e
 REPO_OWNER="sift-stack"
 REPO_NAME="sift-labview"
 BINARY_NAME="sift_proxy"
-INSTALL_DIR="$HOME/Sift"
+INSTALL_DIR="/home/lvuser/Sift"
 DOWNLOAD_BINARY_NAME="sift_proxy-linux"
 
 # Check if sift_proxy is running
@@ -60,7 +60,7 @@ fi
 chmod +x "$TEMP_FILE"
 
 # Move the binary to the install directory
-mkdir -p "$INSTALL_DIR"
+sudo mkdir -p "$INSTALL_DIR"
 echo "Installing $BINARY_NAME to $INSTALL_DIR ..."
 sudo mv "$TEMP_FILE" "$INSTALL_DIR/$BINARY_NAME"
 
