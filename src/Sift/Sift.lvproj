@@ -24,6 +24,7 @@
 			<Item Name="Streaming to Run Example.vi" Type="VI" URL="../Examples/Streaming to Run Example.vi"/>
 			<Item Name="Multiple Rates Streaming Example.vi" Type="VI" URL="../Examples/Multiple Rates Streaming Example.vi"/>
 			<Item Name="Special Data Types Example.vi" Type="VI" URL="../Examples/Special Data Types Example.vi"/>
+			<Item Name="File Attachment Example.vi" Type="VI" URL="../Examples/File Attachment Example.vi"/>
 		</Item>
 		<Item Name="Support" Type="Folder">
 			<Item Name="sift_proxy.exe" Type="Document" URL="../Support/sift_proxy.exe"/>
@@ -59,7 +60,6 @@
 			</Item>
 		</Item>
 		<Item Name="Sift Client.lvlib" Type="Library" URL="../Sift Client.lvlib"/>
-		<Item Name="Start Sift Proxy Test.vi" Type="VI" URL="../../../../../Desktop/Start Sift Proxy Test.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="1D String Array to Delimited String.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/1D String Array to Delimited String.vi"/>
@@ -121,7 +121,6 @@
 				<Item Name="TCP Listen Internal List.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tcp.llb/TCP Listen Internal List.vi"/>
 				<Item Name="Internecine Avoider.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tcp.llb/Internecine Avoider.vi"/>
 				<Item Name="TCP Listen.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tcp.llb/TCP Listen.vi"/>
-				<Item Name="Stall Data Flow.vim" Type="VI" URL="/&lt;vilib&gt;/Utility/Stall Data Flow.vim"/>
 			</Item>
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="openg_variant.lvlib" Type="Library" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/openg_variant.lvlib"/>

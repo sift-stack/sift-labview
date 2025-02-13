@@ -309,6 +309,35 @@
 			<Property Name="NI.ClassItem.State" Type="Int">1082130960</Property>
 		</Item>
 	</Item>
+	<Item Name="Remote File Service" Type="Folder">
+		<Item Name="File Upload.vi" Type="VI" URL="../Remote File Service/File Upload.vi">
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">*!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!))!!!!$1"!1(!!(A!!*R&amp;4;7:U)%.M;76O&gt;#ZM&gt;GRJ9B.4;7:U)%.M;76O&gt;#ZM&gt;G.M98.T!!Z4;7:U)%.M;76O&gt;#"J&lt;A!!%E!Q`````QB';7RF='&amp;U;!!!%E!Q`````QF&amp;&lt;H2J&gt;(EA351!9Q$R!!!!!!!!!!)25WFG&gt;#"$&lt;'FF&lt;H1O&lt;(:M;7)027ZU;82Z)&amp;2Z='5O9X2M!$F!&amp;A!$"(*V&lt;H-,97ZO&lt;X2B&gt;'FP&lt;H-097ZO&lt;X2B&gt;'FP&lt;F^M&lt;W&gt;T!!!,27ZU;82Z)&amp;2Z='5!&amp;%!Q`````QN%:8.D=GFQ&gt;'FP&lt;A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!A1&amp;!!!Q!&amp;!!9!"R.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!!1!!!"!1(!!(A!!*R&amp;4;7:U)%.M;76O&gt;#ZM&gt;GRJ9B.4;7:U)%.M;76O&gt;#ZM&gt;G.M98.T!!^4;7:U)%.M;76O&gt;#"P&gt;81!&amp;E"1!!-!"1!'!!=*:8*S&lt;X)A&lt;X6U!)1!]!!5!!!!!1!#!!-!"!!)!!E!#1!*!!E!#1!*!!E!#1!+!!E!#1!*!!E!#Q-!!2!!!*)!!!)1!!!#%!!!!"!!!!))!!!!#A!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!D1!!!!!!!!!!!!!!!!!!!!!!!!!."1!!!!%!$!!!!!!</Property>
+			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
+			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1342972432</Property>
+		</Item>
+		<Item Name="Image Upload.vi" Type="VI" URL="../Remote File Service/Image Upload.vi">
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">*!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!)A!!!!$Q"!1(!!(A!!*R&amp;4;7:U)%.M;76O&gt;#ZM&gt;GRJ9B.4;7:U)%.M;76O&gt;#ZM&gt;G.M98.T!!Z4;7:U)%.M;76O&gt;#"J&lt;A!!%E!Q`````QB';7RF='&amp;U;!!!%E!Q`````QF&amp;&lt;H2J&gt;(EA351!9Q$R!!!!!!!!!!)25WFG&gt;#"$&lt;'FF&lt;H1O&lt;(:M;7)027ZU;82Z)&amp;2Z='5O9X2M!$F!&amp;A!$"(*V&lt;H-,97ZO&lt;X2B&gt;'FP&lt;H-097ZO&lt;X2B&gt;'FP&lt;F^M&lt;W&gt;T!!!,27ZU;82Z)&amp;2Z='5!&amp;%!Q`````QN%:8.D=GFQ&gt;'FP&lt;A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!A1&amp;!!!Q!&amp;!!9!"R.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!!1!!!!,1!-!"6&gt;J:(2I!!V!!Q!'3'6J:WBU!!"!1(!!(A!!*R&amp;4;7:U)%.M;76O&gt;#ZM&gt;GRJ9B.4;7:U)%.M;76O&gt;#ZM&gt;G.M98.T!!^4;7:U)%.M;76O&gt;#"P&gt;81!&amp;E"1!!-!"1!'!!=*:8*S&lt;X)A&lt;X6U!)1!]!!5!!!!!1!#!!-!"!!)!!E!#A!*!!M!#1!*!!E!#1!-!!E!#1!*!!E!$1-!!2!!!*)!!!)1!!!#%!!!!"!!!!))!!!!#A!!!!!!!!!)!!!!!!!!!!A!!!!!!!!!!!!!!!!!!!!!!!!!D1!!!!!!!!!!!!!!!!!!!!!!!!!."1!!!!%!$A!!!!!</Property>
+			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
+			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1342710288</Property>
+		</Item>
+		<Item Name="Video Upload.vi" Type="VI" URL="../Remote File Service/Video Upload.vi">
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">*!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!*?!!!!%A"!1(!!(A!!*R&amp;4;7:U)%.M;76O&gt;#ZM&gt;GRJ9B.4;7:U)%.M;76O&gt;#ZM&gt;G.M98.T!!Z4;7:U)%.M;76O&gt;#"J&lt;A!!%E!Q`````QB';7RF='&amp;U;!!!%E!Q`````QF&amp;&lt;H2J&gt;(EA351!9Q$R!!!!!!!!!!)25WFG&gt;#"$&lt;'FF&lt;H1O&lt;(:M;7)027ZU;82Z)&amp;2Z='5O9X2M!$F!&amp;A!$"(*V&lt;H-,97ZO&lt;X2B&gt;'FP&lt;H-097ZO&lt;X2B&gt;'FP&lt;F^M&lt;W&gt;T!!!,27ZU;82Z)&amp;2Z='5!&amp;%!Q`````QN%:8.D=GFQ&gt;'FP&lt;A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!A1&amp;!!!Q!&amp;!!9!"R.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!""!6!!'#62J&lt;76T&gt;'&amp;N=!!,1!-!"6&gt;J:(2I!".!#A!-2(6S982J&lt;WYA+(-J!!!.1!-!"EBF;7&gt;I&gt;!!!"!!!!"N!!Q!56'FN:7^V&gt;#!I&lt;8-J)#AW-$!Q-#E!!%"!=!!?!!!H%6.J:H1A1WRJ:7ZU,GRW&lt;'FC%V.J:H1A1WRJ:7ZU,GRW9WRB=X-!$V.J:H1A1WRJ:7ZU)'^V&gt;!!71&amp;!!!Q!&amp;!!9!"QFF=H*P=C"P&gt;81!B!$Q!"1!!!!"!!)!!Q!%!!A!#1!+!!M!$!!.!!Y!$1!.!!]!$1!.!!U!$1!1!Q!"%!!!EA!!!B!!!!)1!!!!%!!!!AA!!!!+!!!!#!!!!!A!!!!)!!!!#!!!!!!!!!!)!!!!!!!!!!!!!!#.!!!!!!!!!!!!!!!!!!!!!!!!!!U&amp;!!!!!1!2!!!!!!</Property>
+			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
+			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1342710288</Property>
+		</Item>
+	</Item>
 	<Item Name="Inititalize.vi" Type="VI" URL="../Inititalize.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">*!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'X!!!!$A"!1(!!(A!!*R&amp;4;7:U)%.M;76O&gt;#ZM&gt;GRJ9B.4;7:U)%.M;76O&gt;#ZM&gt;G.M98.T!!Z4;7:U)%.M;76O&gt;#"J&lt;A!!"!!!!%"!=!!?!!!H%6.J:H1A1WRJ:7ZU,GRW&lt;'FC%V.J:H1A1WRJ:7ZU,GRW9WRB=X-!$V.J:H1A1WRJ:7ZU)'^V&gt;!!11$$`````"U&amp;133"65EQ!%%!Q`````Q&gt;"5%EA3W6Z!"B!-0````]04X*H97ZJ?G&amp;U;7^O)%F%!!R!)1:T&gt;'&amp;U&gt;8-!!!N!!Q!%9W^E:1!!%%!Q`````Q:T&lt;X6S9W5!!#"!5!!$!!9!"Q!)%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!(%!Q`````R*4;7:U)&amp;"S&lt;XBZ)%&amp;E:(*F=X-!!!Z!)1F5:8.U)%VP:'5!&amp;E"1!!-!"A!(!!A*:8*S&lt;X)A&lt;X6U!'Q!]!!1!!!!!1!"!!%!!A!$!!%!"!!"!!5!!1!*!!I!#Q!"!!Q#!!%)!!#3!!!!!!!!!!!!!!!!!!!!D1!!!AA!!!!!!!!##!!!!!!!!!)!!!!!!!!!!!I!!!%#!!!!!!!!!!!!!!!.#Q!!!!%!$1!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
