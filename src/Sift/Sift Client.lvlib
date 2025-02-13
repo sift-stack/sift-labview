@@ -29,6 +29,10 @@
 				<Item Name="JSON Response.ctl" Type="VI" URL="../Private/Typedefs/Messages/JSON Response.ctl"/>
 				<Item Name="Control Request.ctl" Type="VI" URL="../Private/Typedefs/Messages/Control Request.ctl"/>
 				<Item Name="Reason.ctl" Type="VI" URL="../Private/Typedefs/Messages/Reason.ctl"/>
+				<Item Name="File Attachment Upload Request.ctl" Type="VI" URL="../Private/Typedefs/Messages/File Attachment Upload Request.ctl"/>
+				<Item Name="Video Metadata.ctl" Type="VI" URL="../Private/Typedefs/Messages/Video Metadata.ctl"/>
+				<Item Name="Image Metadata.ctl" Type="VI" URL="../Private/Typedefs/Messages/Image Metadata.ctl"/>
+				<Item Name="Metadata Type.ctl" Type="VI" URL="../Private/Typedefs/Messages/Metadata Type.ctl"/>
 			</Item>
 		</Item>
 		<Item Name="Util" Type="Folder">
@@ -60,6 +64,7 @@
 			<Property Name="NI.SortType" Type="Int">3</Property>
 			<Item Name="Data Type.ctl" Type="VI" URL="../Sift API/Types/Data Type.ctl"/>
 			<Item Name="Enum.ctl" Type="VI" URL="../Sift API/Types/Enum.ctl"/>
+			<Item Name="Entity Type.ctl" Type="VI" URL="../Sift API/Types/Entity Type.ctl"/>
 		</Item>
 		<Item Name="Sift Client.lvclass" Type="LVClass" URL="../Sift API/Sift Client.lvclass"/>
 	</Item>
