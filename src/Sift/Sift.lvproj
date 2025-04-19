@@ -15,8 +15,14 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Examples" Type="Folder">
 			<Item Name="TDMS" Type="Folder">
-				<Item Name="TDMS Upload Example.vi" Type="VI" URL="../Examples/TDMS/TDMS Upload Example.vi"/>
-				<Item Name="sample_data.tdms" Type="Document" URL="../Examples/TDMS/sample_data.tdms"/>
+				<Item Name="Waveform" Type="Folder">
+					<Item Name="TDMS Upload Example.vi" Type="VI" URL="../Examples/TDMS/Waveform/TDMS Upload Example.vi"/>
+					<Item Name="sample_data.tdms" Type="Document" URL="../Examples/TDMS/Waveform/sample_data.tdms"/>
+				</Item>
+				<Item Name="Time Channel" Type="Folder">
+					<Item Name="TDMS Upload Example (Time Channel).vi" Type="VI" URL="../Examples/TDMS/Time Channel/TDMS Upload Example (Time Channel).vi"/>
+					<Item Name="sample_data.tdms" Type="Document" URL="../Examples/TDMS/Time Channel/sample_data.tdms"/>
+				</Item>
 			</Item>
 			<Item Name="Ping Test.vi" Type="VI" URL="../Examples/Ping Test.vi"/>
 			<Item Name="Sift Proxy Smoketest.vi" Type="VI" URL="../Examples/Sift Proxy Smoketest.vi"/>
