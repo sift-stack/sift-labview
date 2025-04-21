@@ -3,8 +3,6 @@
 # Update to the latest release.
 TAG=v1.3.1-dev.0
 
-#!/bin/bash
-
 # Exit immediately if a command exits with a non-zero status.
 set -e
 
@@ -16,31 +14,31 @@ INSTALL_DIR="/home/lvuser/Sift"
 DOWNLOAD_BINARY_NAME="sift_proxy-linux"
 
 # Check if sift_proxy is running
-if pgrep -x "sift_proxy" >/dev/null; then
-  echo "Error: sift_proxy is currently running. Please stop it before proceeding."
-  echo "You can stop it by running: pkill -x sift_proxy"
+if pgrep -x "$BINARY_NAME" >/dev/null; then
+  echo "Error: $BINARY_NAME is currently running. Please stop it before proceeding."
+  echo "You can stop it by running: pkill -x $BINARY_NAME"
   exit 1
 fi
 
-# All releases URL
-LATEST_RELEASE_API="https://api.github.com/repos/$REPO_OWNER/$REPO_NAME/releases"
+# GitHub API URL for the specified tag
+TAGGED_RELEASE_API="https://api.github.com/repos/$REPO_OWNER/$REPO_NAME/releases/tags/$TAG"
 
-# Fetch the latest release data (using curl or wget)
+# Fetch the release data
 if command -v curl >/dev/null 2>&1; then
-  RELEASE_DATA=$(curl -sL $LATEST_RELEASE_API)
+  RELEASE_DATA=$(curl -sL "$TAGGED_RELEASE_API")
 elif command -v wget >/dev/null 2>&1; then
-  RELEASE_DATA=$(wget -qO- $LATEST_RELEASE_API)
+  RELEASE_DATA=$(wget -qO- "$TAGGED_RELEASE_API")
 else
   echo "Error: Neither curl nor wget is available on this system." >&2
   exit 1
 fi
 
-# Extract the URL of the binary for Linux (adjust asset name pattern as needed)
-DOWNLOAD_URL=$(echo "$RELEASE_DATA" | grep "browser_download_url" | grep "$TAG" | grep "$DOWNLOAD_BINARY_NAME" | cut -d '"' -f 4)
+# Extract the download URL for the correct binary
+DOWNLOAD_URL=$(echo "$RELEASE_DATA" | grep "browser_download_url" | grep "$DOWNLOAD_BINARY_NAME" | cut -d '"' -f 4)
 
 # Check if the download URL was found
 if [[ -z "$DOWNLOAD_URL" ]]; then
-  echo "Error: Unable to find a suitable binary for Linux." >&2
+  echo "Error: Unable to find a suitable binary for Linux in tag $TAG." >&2
   exit 1
 fi
 
@@ -65,7 +63,7 @@ echo "Installing $BINARY_NAME to $INSTALL_DIR ..."
 sudo mv "$TEMP_FILE" "$INSTALL_DIR/$BINARY_NAME"
 
 # Confirm installation
-if command -v $INSTALL_DIR/$BINARY_NAME >/dev/null 2>&1; then
+if [[ -x "$INSTALL_DIR/$BINARY_NAME" ]]; then
   echo "$BINARY_NAME installed successfully!"
 else
   echo "Error: $BINARY_NAME could not be installed." >&2
