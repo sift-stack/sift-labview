@@ -65,6 +65,7 @@
 			<Item Name="Data Type.ctl" Type="VI" URL="../Sift API/Types/Data Type.ctl"/>
 			<Item Name="Enum.ctl" Type="VI" URL="../Sift API/Types/Enum.ctl"/>
 			<Item Name="Entity Type.ctl" Type="VI" URL="../Sift API/Types/Entity Type.ctl"/>
+			<Item Name="TDMS Time Format.ctl" Type="VI" URL="../Sift API/Types/TDMS Time Format.ctl"/>
 		</Item>
 		<Item Name="Sift Client.lvclass" Type="LVClass" URL="../Sift API/Sift Client.lvclass"/>
 	</Item>
