@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Update to the latest release.
-TAG=v1.3.2-dev.1
+TAG=v1.3.3-dev.1
 
 #!/bin/bash
 
