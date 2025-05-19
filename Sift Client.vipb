@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2024-12-03 13:19:10" Modified_Date="2025-04-24 11:39:20" Creator="marc" Comments="" ID="95925902a657aba41b9f7f6676f0a9d3">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2024-12-03 13:19:10" Modified_Date="2025-05-19 13:58:00" Creator="marc" Comments="" ID="bdfd02011cf6ac02ecdc32b9d7970f2f">
   <Library_General_Settings>
     <Package_File_Name>Sift_Stack_Inc_lib_Sift</Package_File_Name>
-    <Library_Version>1.3.2.1</Library_Version>
+    <Library_Version>1.3.3.2</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>src</Library_Source_Folder>
     <Library_Output_Folder>.</Library_Output_Folder>
@@ -23,7 +23,7 @@
       <Additional_External_Dependencies>labview_open_source_lib_epoch_datetime &gt;=1.2.0.6</Additional_External_Dependencies>
     </Package_Dependencies>
     <Custom_Action_VIs>
-      <Pre-Build_VI>src\Sift\Private\Util\Install\Pre Build.vi</Pre-Build_VI>
+      <Pre-Build_VI/>
       <Post-Build_VI/>
       <Pre-Install_VI/>
       <Post-Install_VI/>
@@ -37,7 +37,7 @@
       <Copyright/>
       <Packager>Sift</Packager>
       <URL>https://www.siftstack.com/</URL>
-      <Release_Notes>Include support for strings in TDMS upload.</Release_Notes>
+      <Release_Notes>Fix bug with resolving sift-proxy paths with spaces.</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -447,7 +447,7 @@
         <Path>src\Sift\Sift API\Remote File Service</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>E22FB51164DF5576F65B6C535C6030C7</GUID>
+      <GUID>09E2FF9B45D614985CB601DDCB797E70</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -566,7 +566,7 @@
         <Path>src\Sift\Sift API</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>E88E351977F1C9E1B03F99FAFE31C80F</GUID>
+      <GUID>7457E63F434506A84BEE3C5E8D4B3A5D</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -629,7 +629,7 @@
         <Path>src\Sift\Sift API\Types\Data Type.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>CCB000AD62A0B068C7478D9E144C9932</GUID>
+      <GUID>B6440AE72D4DC50572781B03A592BB61</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -720,7 +720,7 @@
         <Path>src\Sift\Sift API\Helpers\Create Channel Config.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>4FE9ED195EE3D99895738AF5C255FADE</GUID>
+      <GUID>84E1EEE7B454BC11C27EF13BA918A5C0</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -783,7 +783,7 @@
         <Path>src\Sift\Sift API\Helpers\Get Current Timestamp.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>30C57E8FE159CCBE6AC2A0745C7D4B60</GUID>
+      <GUID>DE5DC6AB56EE93F9141B29CCCFCCC221</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -860,7 +860,7 @@
         <Path>src\Sift\Sift API\Proxy Service\Disconnect.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>AFF6582CC97E761C6A8618E98DE53648</GUID>
+      <GUID>950ECFEBD70D00C1B37E980183C468A2</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -895,7 +895,7 @@
         <Path>src\Sift\Sift API\Run Service\Create Run.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>BF99E3E299BBC0640145CAF4A97E51C2</GUID>
+      <GUID>5F6D85A4D1936659239D46BA40A58C23</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -930,7 +930,7 @@
         <Path>src\Sift\Sift API\Ping Service\Ping.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A62700EDCE28997B33544E4C7EA8EEE1</GUID>
+      <GUID>AA2B7ED86D02143C4D111CACBE700797</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -993,7 +993,7 @@
         <Path>src\Sift\Sift API\Types\TDMS Time Format.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>BC214B7A74276786772F6554173989F7</GUID>
+      <GUID>DB837F446012FAC6950F48FEC967FA6B</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1070,7 +1070,7 @@
         <Path>src\Sift\Sift API\Data Import Service\TDMS Upload.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>251B4B8ED71C2C855A372711EE7A86A4</GUID>
+      <GUID>6F21E82388A882C4B6702C62D1F46067</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -1119,7 +1119,7 @@
         <Path>src\Sift\Sift API\Inititalize.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>9E89656D2CDFE5BD754CA8657994C8CB</GUID>
+      <GUID>842AD101F5FE90EE2D8A798AFEC0CC6F</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
   <Library_Palette_Definition>
@@ -1170,7 +1170,7 @@
         <Path>..\sift-streaming\labview\Sift</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>E740C3B63E6E9B8607F9BD9EE0ADF9E6</GUID>
+      <GUID>FB0D4BE42D593A46A52EB4D3D269EDCA</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1205,7 +1205,7 @@
         <Path>..\sift-streaming\labview\Generate Sift Protos\SiftProxy_client</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>080A24531114497FC2B737BE4CC5EB9C</GUID>
+      <GUID>216241B74AD28D39AF8E0F3C4C2FD22C</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1254,7 +1254,7 @@
         <Path>..\sift-streaming\labview\Sift\SiftService</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>2D677694771E35F9EDFDB122E7525D9B</GUID>
+      <GUID>DFB719918477F95889F2C1B4DF1250F4</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -1317,21 +1317,7 @@
         <Path>..\sift-streaming\labview\Generate Sift Protos\SiftProxy_client\RPC Service</Path>
         <VI_Title/>
       </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>gRPC Client Test.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>1</Row>
-          <Column>4</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\sift-streaming\labview\Generate Sift Protos\SiftProxy_client\gRPC Client Test.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <GUID>CF38B2C43DA99B66E5EC27C582543559</GUID>
+      <GUID>CBF3CD64417B4AE508C1C7E0ECA57413</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>3</Parent_Palette_Index>
@@ -1352,35 +1338,7 @@
         <Synchronyze_with_Directory>false</Synchronyze_with_Directory>
         <Synchronize_Directory_Path>..\sift-streaming\labview\Generate Sift Protos\SiftProxy_client\Client API</Synchronize_Directory_Path>
       </Synchronization_Info>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Create Client.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>1</Row>
-          <Column>1</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\sift-streaming\labview\Generate Sift Protos\SiftProxy_client\Client API\Create Client.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Destroy Client.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>1</Row>
-          <Column>2</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\sift-streaming\labview\Generate Sift Protos\SiftProxy_client\Client API\Destroy Client.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <GUID>DFA9E7FB1164B9D44B087C60F44B9BDB</GUID>
+      <GUID>F81F5206C770F04BF21B735EA767F993</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>3</Parent_Palette_Index>
@@ -1404,216 +1362,6 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>FlatToRichgoogle_protobuf_Empty.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>1</Row>
-          <Column>1</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\sift-streaming\labview\Generate Sift Protos\SiftProxy_client\RPC Messages\FlatToRichgoogle_protobuf_Empty.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>FlatToRichgoogle_protobuf_Timestamp.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>1</Row>
-          <Column>2</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\sift-streaming\labview\Generate Sift Protos\SiftProxy_client\RPC Messages\FlatToRichgoogle_protobuf_Timestamp.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>FlatToRichsift_proxy_v1_ChannelBitFieldElement.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>1</Row>
-          <Column>3</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\sift-streaming\labview\Generate Sift Protos\SiftProxy_client\RPC Messages\FlatToRichsift_proxy_v1_ChannelBitFieldElement.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>FlatToRichsift_proxy_v1_ChannelConfig.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>1</Row>
-          <Column>4</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\sift-streaming\labview\Generate Sift Protos\SiftProxy_client\RPC Messages\FlatToRichsift_proxy_v1_ChannelConfig.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>FlatToRichsift_proxy_v1_ChannelEnumType.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>1</Row>
-          <Column>5</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\sift-streaming\labview\Generate Sift Protos\SiftProxy_client\RPC Messages\FlatToRichsift_proxy_v1_ChannelEnumType.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>FlatToRichsift_proxy_v1_CreateLabviewIngestionConfigRequest.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>1</Row>
-          <Column>6</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\sift-streaming\labview\Generate Sift Protos\SiftProxy_client\RPC Messages\FlatToRichsift_proxy_v1_CreateLabviewIngestionConfigRequest.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>FlatToRichsift_proxy_v1_CreateLabviewIngestionConfigResponse.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>2</Row>
-          <Column>1</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\sift-streaming\labview\Generate Sift Protos\SiftProxy_client\RPC Messages\FlatToRichsift_proxy_v1_CreateLabviewIngestionConfigResponse.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>FlatToRichsift_proxy_v1_Empty.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>2</Row>
-          <Column>2</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\sift-streaming\labview\Generate Sift Protos\SiftProxy_client\RPC Messages\FlatToRichsift_proxy_v1_Empty.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>FlatToRichsift_proxy_v1_IngestDataStreamBoolRequest.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>2</Row>
-          <Column>3</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\sift-streaming\labview\Generate Sift Protos\SiftProxy_client\RPC Messages\FlatToRichsift_proxy_v1_IngestDataStreamBoolRequest.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>FlatToRichsift_proxy_v1_IngestDataStreamBytesRequest.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>2</Row>
-          <Column>4</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\sift-streaming\labview\Generate Sift Protos\SiftProxy_client\RPC Messages\FlatToRichsift_proxy_v1_IngestDataStreamBytesRequest.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>FlatToRichsift_proxy_v1_IngestDataStreamDoubleRequest.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>2</Row>
-          <Column>5</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\sift-streaming\labview\Generate Sift Protos\SiftProxy_client\RPC Messages\FlatToRichsift_proxy_v1_IngestDataStreamDoubleRequest.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>FlatToRichsift_proxy_v1_IngestDataStreamEnumRequest.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>2</Row>
-          <Column>6</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\sift-streaming\labview\Generate Sift Protos\SiftProxy_client\RPC Messages\FlatToRichsift_proxy_v1_IngestDataStreamEnumRequest.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>FlatToRichsift_proxy_v1_IngestDataStreamFloatRequest.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>3</Row>
-          <Column>1</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\sift-streaming\labview\Generate Sift Protos\SiftProxy_client\RPC Messages\FlatToRichsift_proxy_v1_IngestDataStreamFloatRequest.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>FlatToRichsift_proxy_v1_IngestDataStreamInt32Request.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>3</Row>
-          <Column>2</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\sift-streaming\labview\Generate Sift Protos\SiftProxy_client\RPC Messages\FlatToRichsift_proxy_v1_IngestDataStreamInt32Request.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>FlatToRichsift_proxy_v1_IngestDataStreamInt64Request.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>3</Row>
-          <Column>3</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\sift-streaming\labview\Generate Sift Protos\SiftProxy_client\RPC Messages\FlatToRichsift_proxy_v1_IngestDataStreamInt64Request.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
         <NameSub_Menu_Name>FlatToRichsift_proxy_v1_IngestDataStreamResponse.vi</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
@@ -1623,216 +1371,6 @@
         </Position>
         <Icon>00000000</Icon>
         <Path>..\sift-streaming\labview\Generate Sift Protos\SiftProxy_client\RPC Messages\FlatToRichsift_proxy_v1_IngestDataStreamResponse.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>FlatToRichsift_proxy_v1_IngestDataStreamStringRequest.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>3</Row>
-          <Column>5</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\sift-streaming\labview\Generate Sift Protos\SiftProxy_client\RPC Messages\FlatToRichsift_proxy_v1_IngestDataStreamStringRequest.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>FlatToRichsift_proxy_v1_IngestDataStreamUInt32Request.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>3</Row>
-          <Column>6</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\sift-streaming\labview\Generate Sift Protos\SiftProxy_client\RPC Messages\FlatToRichsift_proxy_v1_IngestDataStreamUInt32Request.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>FlatToRichsift_proxy_v1_IngestDataStreamUInt64Request.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>4</Row>
-          <Column>1</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\sift-streaming\labview\Generate Sift Protos\SiftProxy_client\RPC Messages\FlatToRichsift_proxy_v1_IngestDataStreamUInt64Request.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Get sift_proxy_v1_ChannelDataType for Value.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>4</Row>
-          <Column>2</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\sift-streaming\labview\Generate Sift Protos\SiftProxy_client\RPC Messages\Get sift_proxy_v1_ChannelDataType for Value.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Get sift_proxy_v1_ChannelDataType_Flat for Value.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>4</Row>
-          <Column>3</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\sift-streaming\labview\Generate Sift Protos\SiftProxy_client\RPC Messages\Get sift_proxy_v1_ChannelDataType_Flat for Value.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Get Value for sift_proxy_v1_ChannelDataType.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>4</Row>
-          <Column>4</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\sift-streaming\labview\Generate Sift Protos\SiftProxy_client\RPC Messages\Get Value for sift_proxy_v1_ChannelDataType.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Get Value for sift_proxy_v1_ChannelDataType_Flat.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>4</Row>
-          <Column>5</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\sift-streaming\labview\Generate Sift Protos\SiftProxy_client\RPC Messages\Get Value for sift_proxy_v1_ChannelDataType_Flat.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Register gRPC Messages.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>4</Row>
-          <Column>6</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\sift-streaming\labview\Generate Sift Protos\SiftProxy_client\RPC Messages\Register gRPC Messages.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>RichToFlatgoogle_protobuf_Empty.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>5</Row>
-          <Column>1</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\sift-streaming\labview\Generate Sift Protos\SiftProxy_client\RPC Messages\RichToFlatgoogle_protobuf_Empty.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>RichToFlatgoogle_protobuf_Timestamp.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>5</Row>
-          <Column>2</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\sift-streaming\labview\Generate Sift Protos\SiftProxy_client\RPC Messages\RichToFlatgoogle_protobuf_Timestamp.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>RichToFlatsift_proxy_v1_ChannelBitFieldElement.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>5</Row>
-          <Column>3</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\sift-streaming\labview\Generate Sift Protos\SiftProxy_client\RPC Messages\RichToFlatsift_proxy_v1_ChannelBitFieldElement.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>RichToFlatsift_proxy_v1_ChannelConfig.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>5</Row>
-          <Column>4</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\sift-streaming\labview\Generate Sift Protos\SiftProxy_client\RPC Messages\RichToFlatsift_proxy_v1_ChannelConfig.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>RichToFlatsift_proxy_v1_ChannelEnumType.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>5</Row>
-          <Column>5</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\sift-streaming\labview\Generate Sift Protos\SiftProxy_client\RPC Messages\RichToFlatsift_proxy_v1_ChannelEnumType.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>RichToFlatsift_proxy_v1_CreateLabviewIngestionConfigRequest.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>5</Row>
-          <Column>6</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\sift-streaming\labview\Generate Sift Protos\SiftProxy_client\RPC Messages\RichToFlatsift_proxy_v1_CreateLabviewIngestionConfigRequest.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>RichToFlatsift_proxy_v1_CreateLabviewIngestionConfigResponse.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>6</Row>
-          <Column>1</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\sift-streaming\labview\Generate Sift Protos\SiftProxy_client\RPC Messages\RichToFlatsift_proxy_v1_CreateLabviewIngestionConfigResponse.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -1849,161 +1387,7 @@
         <Path>..\sift-streaming\labview\Generate Sift Protos\SiftProxy_client\RPC Messages\RichToFlatsift_proxy_v1_Empty.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>RichToFlatsift_proxy_v1_IngestDataStreamBoolRequest.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>6</Row>
-          <Column>3</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\sift-streaming\labview\Generate Sift Protos\SiftProxy_client\RPC Messages\RichToFlatsift_proxy_v1_IngestDataStreamBoolRequest.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>RichToFlatsift_proxy_v1_IngestDataStreamBytesRequest.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>6</Row>
-          <Column>4</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\sift-streaming\labview\Generate Sift Protos\SiftProxy_client\RPC Messages\RichToFlatsift_proxy_v1_IngestDataStreamBytesRequest.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>RichToFlatsift_proxy_v1_IngestDataStreamDoubleRequest.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>6</Row>
-          <Column>5</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\sift-streaming\labview\Generate Sift Protos\SiftProxy_client\RPC Messages\RichToFlatsift_proxy_v1_IngestDataStreamDoubleRequest.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>RichToFlatsift_proxy_v1_IngestDataStreamEnumRequest.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>6</Row>
-          <Column>6</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\sift-streaming\labview\Generate Sift Protos\SiftProxy_client\RPC Messages\RichToFlatsift_proxy_v1_IngestDataStreamEnumRequest.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>RichToFlatsift_proxy_v1_IngestDataStreamFloatRequest.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>7</Row>
-          <Column>1</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\sift-streaming\labview\Generate Sift Protos\SiftProxy_client\RPC Messages\RichToFlatsift_proxy_v1_IngestDataStreamFloatRequest.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>RichToFlatsift_proxy_v1_IngestDataStreamInt32Request.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>7</Row>
-          <Column>2</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\sift-streaming\labview\Generate Sift Protos\SiftProxy_client\RPC Messages\RichToFlatsift_proxy_v1_IngestDataStreamInt32Request.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>RichToFlatsift_proxy_v1_IngestDataStreamInt64Request.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>7</Row>
-          <Column>3</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\sift-streaming\labview\Generate Sift Protos\SiftProxy_client\RPC Messages\RichToFlatsift_proxy_v1_IngestDataStreamInt64Request.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>RichToFlatsift_proxy_v1_IngestDataStreamResponse.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>7</Row>
-          <Column>4</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\sift-streaming\labview\Generate Sift Protos\SiftProxy_client\RPC Messages\RichToFlatsift_proxy_v1_IngestDataStreamResponse.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>RichToFlatsift_proxy_v1_IngestDataStreamStringRequest.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>7</Row>
-          <Column>5</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\sift-streaming\labview\Generate Sift Protos\SiftProxy_client\RPC Messages\RichToFlatsift_proxy_v1_IngestDataStreamStringRequest.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>RichToFlatsift_proxy_v1_IngestDataStreamUInt32Request.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>7</Row>
-          <Column>6</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\sift-streaming\labview\Generate Sift Protos\SiftProxy_client\RPC Messages\RichToFlatsift_proxy_v1_IngestDataStreamUInt32Request.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>RichToFlatsift_proxy_v1_IngestDataStreamUInt64Request.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>8</Row>
-          <Column>1</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\sift-streaming\labview\Generate Sift Protos\SiftProxy_client\RPC Messages\RichToFlatsift_proxy_v1_IngestDataStreamUInt64Request.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <GUID>730E9F67178363EEE77D106BBE6053D6</GUID>
+      <GUID>2D23F833078708D0553B4B1D8A917F28</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>3</Parent_Palette_Index>
@@ -2052,7 +1436,7 @@
         <Path>..\sift-streaming\labview\Generate Sift Protos\SiftProxy_client\RPC Service\LabviewIngestService</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A6F8CE97F251D536F893FD313974A84B</GUID>
+      <GUID>B1BAAE0378062EB492DEC3221A64E5B7</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>6</Parent_Palette_Index>
@@ -2073,35 +1457,7 @@
         <Synchronyze_with_Directory>false</Synchronyze_with_Directory>
         <Synchronize_Directory_Path>..\sift-streaming\labview\Generate Sift Protos\SiftProxy_client\RPC Service\ControlService</Synchronize_Directory_Path>
       </Synchronization_Info>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>ControlService Ping.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>1</Row>
-          <Column>1</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\sift-streaming\labview\Generate Sift Protos\SiftProxy_client\RPC Service\ControlService\ControlService Ping.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>ControlService StopServer.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>1</Row>
-          <Column>2</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\sift-streaming\labview\Generate Sift Protos\SiftProxy_client\RPC Service\ControlService\ControlService StopServer.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <GUID>1CB60534CBFD0B24DB365E48F5BD2A78</GUID>
+      <GUID>00B313BB192CA99C276553F69EA6B31E</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>6</Parent_Palette_Index>
@@ -2125,216 +1481,6 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Begin LabviewIngestService IngestDataStreamBool.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>1</Row>
-          <Column>1</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\sift-streaming\labview\Generate Sift Protos\SiftProxy_client\RPC Service\LabviewIngestService\Begin LabviewIngestService IngestDataStreamBool.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Begin LabviewIngestService IngestDataStreamBytes.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>1</Row>
-          <Column>2</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\sift-streaming\labview\Generate Sift Protos\SiftProxy_client\RPC Service\LabviewIngestService\Begin LabviewIngestService IngestDataStreamBytes.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Begin LabviewIngestService IngestDataStreamDouble.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>1</Row>
-          <Column>3</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\sift-streaming\labview\Generate Sift Protos\SiftProxy_client\RPC Service\LabviewIngestService\Begin LabviewIngestService IngestDataStreamDouble.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Begin LabviewIngestService IngestDataStreamEnum.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>1</Row>
-          <Column>4</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\sift-streaming\labview\Generate Sift Protos\SiftProxy_client\RPC Service\LabviewIngestService\Begin LabviewIngestService IngestDataStreamEnum.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Begin LabviewIngestService IngestDataStreamFloat.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>1</Row>
-          <Column>5</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\sift-streaming\labview\Generate Sift Protos\SiftProxy_client\RPC Service\LabviewIngestService\Begin LabviewIngestService IngestDataStreamFloat.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Begin LabviewIngestService IngestDataStreamInt32.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>1</Row>
-          <Column>6</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\sift-streaming\labview\Generate Sift Protos\SiftProxy_client\RPC Service\LabviewIngestService\Begin LabviewIngestService IngestDataStreamInt32.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Begin LabviewIngestService IngestDataStreamInt64.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>2</Row>
-          <Column>1</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\sift-streaming\labview\Generate Sift Protos\SiftProxy_client\RPC Service\LabviewIngestService\Begin LabviewIngestService IngestDataStreamInt64.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Begin LabviewIngestService IngestDataStreamString.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>2</Row>
-          <Column>2</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\sift-streaming\labview\Generate Sift Protos\SiftProxy_client\RPC Service\LabviewIngestService\Begin LabviewIngestService IngestDataStreamString.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Begin LabviewIngestService IngestDataStreamUInt32.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>2</Row>
-          <Column>3</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\sift-streaming\labview\Generate Sift Protos\SiftProxy_client\RPC Service\LabviewIngestService\Begin LabviewIngestService IngestDataStreamUInt32.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Begin LabviewIngestService IngestDataStreamUInt64.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>2</Row>
-          <Column>4</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\sift-streaming\labview\Generate Sift Protos\SiftProxy_client\RPC Service\LabviewIngestService\Begin LabviewIngestService IngestDataStreamUInt64.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>End LabviewIngestService IngestDataStreamBool.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>2</Row>
-          <Column>5</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\sift-streaming\labview\Generate Sift Protos\SiftProxy_client\RPC Service\LabviewIngestService\End LabviewIngestService IngestDataStreamBool.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>End LabviewIngestService IngestDataStreamBytes.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>2</Row>
-          <Column>6</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\sift-streaming\labview\Generate Sift Protos\SiftProxy_client\RPC Service\LabviewIngestService\End LabviewIngestService IngestDataStreamBytes.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>End LabviewIngestService IngestDataStreamDouble.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>3</Row>
-          <Column>1</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\sift-streaming\labview\Generate Sift Protos\SiftProxy_client\RPC Service\LabviewIngestService\End LabviewIngestService IngestDataStreamDouble.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>End LabviewIngestService IngestDataStreamEnum.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>3</Row>
-          <Column>2</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\sift-streaming\labview\Generate Sift Protos\SiftProxy_client\RPC Service\LabviewIngestService\End LabviewIngestService IngestDataStreamEnum.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>End LabviewIngestService IngestDataStreamFloat.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>3</Row>
-          <Column>3</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\sift-streaming\labview\Generate Sift Protos\SiftProxy_client\RPC Service\LabviewIngestService\End LabviewIngestService IngestDataStreamFloat.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
         <NameSub_Menu_Name>End LabviewIngestService IngestDataStreamInt32.vi</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
@@ -2346,217 +1492,7 @@
         <Path>..\sift-streaming\labview\Generate Sift Protos\SiftProxy_client\RPC Service\LabviewIngestService\End LabviewIngestService IngestDataStreamInt32.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>End LabviewIngestService IngestDataStreamInt64.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>3</Row>
-          <Column>5</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\sift-streaming\labview\Generate Sift Protos\SiftProxy_client\RPC Service\LabviewIngestService\End LabviewIngestService IngestDataStreamInt64.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>End LabviewIngestService IngestDataStreamString.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>3</Row>
-          <Column>6</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\sift-streaming\labview\Generate Sift Protos\SiftProxy_client\RPC Service\LabviewIngestService\End LabviewIngestService IngestDataStreamString.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>End LabviewIngestService IngestDataStreamUInt32.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>4</Row>
-          <Column>1</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\sift-streaming\labview\Generate Sift Protos\SiftProxy_client\RPC Service\LabviewIngestService\End LabviewIngestService IngestDataStreamUInt32.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>End LabviewIngestService IngestDataStreamUInt64.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>4</Row>
-          <Column>2</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\sift-streaming\labview\Generate Sift Protos\SiftProxy_client\RPC Service\LabviewIngestService\End LabviewIngestService IngestDataStreamUInt64.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>LabviewIngestService CreateIngestionConfig.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>4</Row>
-          <Column>3</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\sift-streaming\labview\Generate Sift Protos\SiftProxy_client\RPC Service\LabviewIngestService\LabviewIngestService CreateIngestionConfig.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>LabviewIngestService IngestDataStreamBool Write.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>4</Row>
-          <Column>4</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\sift-streaming\labview\Generate Sift Protos\SiftProxy_client\RPC Service\LabviewIngestService\LabviewIngestService IngestDataStreamBool Write.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>LabviewIngestService IngestDataStreamBytes Write.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>4</Row>
-          <Column>5</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\sift-streaming\labview\Generate Sift Protos\SiftProxy_client\RPC Service\LabviewIngestService\LabviewIngestService IngestDataStreamBytes Write.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>LabviewIngestService IngestDataStreamDouble Write.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>4</Row>
-          <Column>6</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\sift-streaming\labview\Generate Sift Protos\SiftProxy_client\RPC Service\LabviewIngestService\LabviewIngestService IngestDataStreamDouble Write.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>LabviewIngestService IngestDataStreamEnum Write.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>5</Row>
-          <Column>1</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\sift-streaming\labview\Generate Sift Protos\SiftProxy_client\RPC Service\LabviewIngestService\LabviewIngestService IngestDataStreamEnum Write.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>LabviewIngestService IngestDataStreamFloat Write.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>5</Row>
-          <Column>2</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\sift-streaming\labview\Generate Sift Protos\SiftProxy_client\RPC Service\LabviewIngestService\LabviewIngestService IngestDataStreamFloat Write.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>LabviewIngestService IngestDataStreamInt32 Write.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>5</Row>
-          <Column>3</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\sift-streaming\labview\Generate Sift Protos\SiftProxy_client\RPC Service\LabviewIngestService\LabviewIngestService IngestDataStreamInt32 Write.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>LabviewIngestService IngestDataStreamInt64 Write.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>5</Row>
-          <Column>4</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\sift-streaming\labview\Generate Sift Protos\SiftProxy_client\RPC Service\LabviewIngestService\LabviewIngestService IngestDataStreamInt64 Write.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>LabviewIngestService IngestDataStreamString Write.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>5</Row>
-          <Column>5</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\sift-streaming\labview\Generate Sift Protos\SiftProxy_client\RPC Service\LabviewIngestService\LabviewIngestService IngestDataStreamString Write.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>LabviewIngestService IngestDataStreamUInt32 Write.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>5</Row>
-          <Column>6</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\sift-streaming\labview\Generate Sift Protos\SiftProxy_client\RPC Service\LabviewIngestService\LabviewIngestService IngestDataStreamUInt32 Write.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>LabviewIngestService IngestDataStreamUInt64 Write.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>6</Row>
-          <Column>1</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\sift-streaming\labview\Generate Sift Protos\SiftProxy_client\RPC Service\LabviewIngestService\LabviewIngestService IngestDataStreamUInt64 Write.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <GUID>94A4105343CFA027B16FDF95D9094D67</GUID>
+      <GUID>6FEA54763459055955CAA3E0D4373B17</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -2591,7 +1527,7 @@
         <Path>..\sift-streaming\labview\Sift\Dependencies\asynchronous-system-exec-v2.0.0</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C846CBD9C68D03AE1537B9465FFA10BD</GUID>
+      <GUID>4D9B1D29FBCF7323C6F2106B677CA8FA</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -2623,7 +1559,7 @@
           <Column>1</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\sift-streaming\labview\Sift\Sift API\Helpers\Create Channel Config.vi</Path>
+        <Path>src\Sift\Sift API\Helpers\Create Channel Config.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -2640,7 +1576,7 @@
         <Path>src\Sift\Sift API\Helpers\Get Current Timestamp.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>3D81AA1A3122D7659452D21228A9FA60</GUID>
+      <GUID>F278AA43BE1E445A376159912AC1CCD0</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>9</Parent_Palette_Index>
@@ -2731,7 +1667,7 @@
         <Path>..\sift-streaming\labview\Sift\Dependencies\asynchronous-system-exec-v2.0.0\utilities</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A02076969A099BEF6B0085FF5091BD01</GUID>
+      <GUID>528A054B5FA992504FC28424234570C5</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>11</Parent_Palette_Index>
@@ -2766,7 +1702,7 @@
         <Path>..\sift-streaming\labview\Sift\Dependencies\asynchronous-system-exec-v2.0.0\serenial.io-ase\ase</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>CC1B692BBF2BE34172E50441757DBBF4</GUID>
+      <GUID>412C6C7B0F8B9BDD1DA48184E7999E4A</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>11</Parent_Palette_Index>
@@ -2787,21 +1723,7 @@
         <Synchronyze_with_Directory>false</Synchronyze_with_Directory>
         <Synchronize_Directory_Path>..\sift-streaming\labview\Sift\Dependencies\asynchronous-system-exec-v2.0.0\serenial.io-ase.console</Synchronize_Directory_Path>
       </Synchronization_Info>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Example Console</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>1</Row>
-          <Column>1</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\sift-streaming\labview\Sift\Support\asynchronous-system-exec-v2.0.0\serenial.io-ase.console\Console Example.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <GUID>20BB839E11E79A4461A89C32793C9FBF</GUID>
+      <GUID>7888B7C79F40FF89CAE2EE63FEB717AB</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>11</Parent_Palette_Index>
@@ -2850,21 +1772,7 @@
         <Path>..\sift-streaming\labview\Sift\Dependencies\asynchronous-system-exec-v2.0.0\serenial.io-ase.example\Example Custom Regex</Path>
         <VI_Title/>
       </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>API Usage Examples.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>1</Row>
-          <Column>3</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\sift-streaming\labview\Sift\Support\asynchronous-system-exec-v2.0.0\serenial.io-ase.example\API Usage Examples.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <GUID>059FEA38D98C78E758EC9EB29073685F</GUID>
+      <GUID>229D066B2D97B41F8F4CEBEC214A5C21</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>11</Parent_Palette_Index>
@@ -2930,216 +1838,6 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Default Test App Path.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>1</Row>
-          <Column>4</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\sift-streaming\labview\Sift\Support\asynchronous-system-exec-v2.0.0\serenial.io-ase.test\Default Test App Path.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Default Timeout.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>1</Row>
-          <Column>5</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\sift-streaming\labview\Sift\Support\asynchronous-system-exec-v2.0.0\serenial.io-ase.test\Default Timeout.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Invalid Handle Error Code.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>1</Row>
-          <Column>6</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\sift-streaming\labview\Sift\Support\asynchronous-system-exec-v2.0.0\serenial.io-ase.test\Invalid Handle Error Code.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Run Tests.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>2</Row>
-          <Column>1</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\sift-streaming\labview\Sift\Support\asynchronous-system-exec-v2.0.0\serenial.io-ase.test\Run Tests.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>test Bad Regex.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>2</Row>
-          <Column>2</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\sift-streaming\labview\Sift\Support\asynchronous-system-exec-v2.0.0\serenial.io-ase.test\test Bad Regex.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>test Close References.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>2</Row>
-          <Column>3</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\sift-streaming\labview\Sift\Support\asynchronous-system-exec-v2.0.0\serenial.io-ase.test\test Close References.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>test Close Standard Input.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>2</Row>
-          <Column>4</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\sift-streaming\labview\Sift\Support\asynchronous-system-exec-v2.0.0\serenial.io-ase.test\test Close Standard Input.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>test Custom Regex.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>2</Row>
-          <Column>5</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\sift-streaming\labview\Sift\Support\asynchronous-system-exec-v2.0.0\serenial.io-ase.test\test Custom Regex.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>test Deadlock Wait and Conclude.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>2</Row>
-          <Column>6</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\sift-streaming\labview\Sift\Support\asynchronous-system-exec-v2.0.0\serenial.io-ase.test\test Deadlock Wait and Conclude.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>test Empty Executable Name.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>3</Row>
-          <Column>1</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\sift-streaming\labview\Sift\Support\asynchronous-system-exec-v2.0.0\serenial.io-ase.test\test Empty Executable Name.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>test Executable Not Found.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>3</Row>
-          <Column>2</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\sift-streaming\labview\Sift\Support\asynchronous-system-exec-v2.0.0\serenial.io-ase.test\test Executable Not Found.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>test Executable Path with Spaces.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>3</Row>
-          <Column>3</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\sift-streaming\labview\Sift\Support\asynchronous-system-exec-v2.0.0\serenial.io-ase.test\test Executable Path with Spaces.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>test Invalid Event References Leaking.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>3</Row>
-          <Column>4</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\sift-streaming\labview\Sift\Support\asynchronous-system-exec-v2.0.0\serenial.io-ase.test\test Invalid Event References Leaking.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>test Send Terminate.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>3</Row>
-          <Column>5</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\sift-streaming\labview\Sift\Support\asynchronous-system-exec-v2.0.0\serenial.io-ase.test\test Send Terminate.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>test Standard Application Flow.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>3</Row>
-          <Column>6</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\sift-streaming\labview\Sift\Support\asynchronous-system-exec-v2.0.0\serenial.io-ase.test\test Standard Application Flow.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
         <NameSub_Menu_Name>test Uninitialized Instance.vi</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
@@ -3151,21 +1849,7 @@
         <Path>..\sift-streaming\labview\Sift\Support\asynchronous-system-exec-v2.0.0\serenial.io-ase.test\test Uninitialized Instance.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>test Work Directory.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>4</Row>
-          <Column>2</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\sift-streaming\labview\Sift\Support\asynchronous-system-exec-v2.0.0\serenial.io-ase.test\test Work Directory.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <GUID>2E77C7708B69C78642EF56E03C80D62D</GUID>
+      <GUID>377428FC2FB63D503BA4784102A24316</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>11</Parent_Palette_Index>
@@ -3186,63 +1870,7 @@
         <Synchronyze_with_Directory>false</Synchronyze_with_Directory>
         <Synchronize_Directory_Path>..\sift-streaming\labview\Sift\Dependencies\asynchronous-system-exec-v2.0.0\utilities</Synchronize_Directory_Path>
       </Synchronization_Info>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Post-Build Action.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>1</Row>
-          <Column>1</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\sift-streaming\labview\Sift\Support\asynchronous-system-exec-v2.0.0\utilities\Post-Build Action.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Pre-Build Action.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>1</Row>
-          <Column>2</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\sift-streaming\labview\Sift\Support\asynchronous-system-exec-v2.0.0\utilities\Pre-Build Action.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>serenial.io-ase fix shared library paths.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>1</Row>
-          <Column>3</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\sift-streaming\labview\Sift\Support\asynchronous-system-exec-v2.0.0\utilities\serenial.io-ase fix shared library paths.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>serenial.io-ase tidy unused files.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>1</Row>
-          <Column>4</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\sift-streaming\labview\Sift\Support\asynchronous-system-exec-v2.0.0\utilities\serenial.io-ase tidy unused files.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <GUID>87E8CBC6C5D15D4EF28D76B24DDF5FFF</GUID>
+      <GUID>1B07BC190656ED1E3702F491124B365B</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>12</Parent_Palette_Index>
@@ -3266,216 +1894,6 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Check Shared Library Version.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>1</Row>
-          <Column>1</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\sift-streaming\labview\Sift\Support\asynchronous-system-exec-v2.0.0\serenial.io-ase\ase\Check Shared Library Version.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Close Std In.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>1</Row>
-          <Column>2</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\sift-streaming\labview\Sift\Support\asynchronous-system-exec-v2.0.0\serenial.io-ase\ase\Close Std In.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Conclude Call.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>1</Row>
-          <Column>3</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\sift-streaming\labview\Sift\Support\asynchronous-system-exec-v2.0.0\serenial.io-ase\ase\Conclude Call.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Create Event References.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>1</Row>
-          <Column>4</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\sift-streaming\labview\Sift\Support\asynchronous-system-exec-v2.0.0\serenial.io-ase\ase\Create Event References.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Destroy Event References.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>1</Row>
-          <Column>5</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\sift-streaming\labview\Sift\Support\asynchronous-system-exec-v2.0.0\serenial.io-ase\ase\Destroy Event References.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Error Empty Executable Name.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>1</Row>
-          <Column>6</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\sift-streaming\labview\Sift\Support\asynchronous-system-exec-v2.0.0\serenial.io-ase\ase\Error Empty Executable Name.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Error Internal Library Implementation Error.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>2</Row>
-          <Column>1</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\sift-streaming\labview\Sift\Support\asynchronous-system-exec-v2.0.0\serenial.io-ase\ase\Error Internal Library Implementation Error.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Error Invalid ASE Handle.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>2</Row>
-          <Column>2</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\sift-streaming\labview\Sift\Support\asynchronous-system-exec-v2.0.0\serenial.io-ase\ase\Error Invalid ASE Handle.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Event Identifier.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>2</Row>
-          <Column>3</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\sift-streaming\labview\Sift\Support\asynchronous-system-exec-v2.0.0\serenial.io-ase\ase\Event Identifier.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Merge Call Library Errors.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>2</Row>
-          <Column>4</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\sift-streaming\labview\Sift\Support\asynchronous-system-exec-v2.0.0\serenial.io-ase\ase\Merge Call Library Errors.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>NI-Linux-RT-64 Library Path.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>2</Row>
-          <Column>5</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\sift-streaming\labview\Sift\Support\asynchronous-system-exec-v2.0.0\serenial.io-ase\ase\NI-Linux-RT-64 Library Path.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Read Event References.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>2</Row>
-          <Column>6</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\sift-streaming\labview\Sift\Support\asynchronous-system-exec-v2.0.0\serenial.io-ase\ase\Read Event References.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Send Terminate.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>3</Row>
-          <Column>1</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\sift-streaming\labview\Sift\Support\asynchronous-system-exec-v2.0.0\serenial.io-ase\ase\Send Terminate.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Start Call (Command).vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>3</Row>
-          <Column>2</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\sift-streaming\labview\Sift\Support\asynchronous-system-exec-v2.0.0\serenial.io-ase\ase\Start Call (Command).vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Start Call (Exe-Args).vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>3</Row>
-          <Column>3</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\sift-streaming\labview\Sift\Support\asynchronous-system-exec-v2.0.0\serenial.io-ase\ase\Start Call (Exe-Args).vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
         <NameSub_Menu_Name>Start Call (Internal).vi</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
@@ -3487,119 +1905,7 @@
         <Path>..\sift-streaming\labview\Sift\Support\asynchronous-system-exec-v2.0.0\serenial.io-ase\ase\Start Call (Internal).vi</Path>
         <VI_Title/>
       </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Start Call.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>3</Row>
-          <Column>5</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\sift-streaming\labview\Sift\Support\asynchronous-system-exec-v2.0.0\serenial.io-ase\ase\Start Call.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Stream Split Character Match RegExp Std Error.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>3</Row>
-          <Column>6</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\sift-streaming\labview\Sift\Support\asynchronous-system-exec-v2.0.0\serenial.io-ase\ase\Stream Split Character Match RegExp Std Error.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Stream Split Character Match RegExp Std Out.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>4</Row>
-          <Column>1</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\sift-streaming\labview\Sift\Support\asynchronous-system-exec-v2.0.0\serenial.io-ase\ase\Stream Split Character Match RegExp Std Out.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Trim Whitespace.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>4</Row>
-          <Column>2</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\sift-streaming\labview\Sift\Support\asynchronous-system-exec-v2.0.0\serenial.io-ase\ase\Trim Whitespace.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Wait on Call.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>4</Row>
-          <Column>3</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\sift-streaming\labview\Sift\Support\asynchronous-system-exec-v2.0.0\serenial.io-ase\ase\Wait on Call.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Write Data to Std In.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>4</Row>
-          <Column>4</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\sift-streaming\labview\Sift\Support\asynchronous-system-exec-v2.0.0\serenial.io-ase\ase\Write Data to Std In.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Write Line to Std In .vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>4</Row>
-          <Column>5</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\sift-streaming\labview\Sift\Support\asynchronous-system-exec-v2.0.0\serenial.io-ase\ase\Write Line to Std In .vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Write to Std In.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>4</Row>
-          <Column>6</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\sift-streaming\labview\Sift\Support\asynchronous-system-exec-v2.0.0\serenial.io-ase\ase\Write to Std In.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <GUID>96FE758168B6BFA1BDD11FF34D0A3AF8</GUID>
+      <GUID>BF009F75254CCC7CAFD9D8E0B43F9434</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>14</Parent_Palette_Index>
@@ -3620,35 +1926,7 @@
         <Synchronyze_with_Directory>false</Synchronyze_with_Directory>
         <Synchronize_Directory_Path>..\sift-streaming\labview\Sift\Dependencies\asynchronous-system-exec-v2.0.0\serenial.io-ase.example\Example Custom ID</Synchronize_Directory_Path>
       </Synchronization_Info>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Event Identifier.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>1</Row>
-          <Column>1</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\sift-streaming\labview\Sift\Support\asynchronous-system-exec-v2.0.0\serenial.io-ase\ase\Event Identifier.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Set Identifier.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>1</Row>
-          <Column>2</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\sift-streaming\labview\Sift\Support\asynchronous-system-exec-v2.0.0\serenial.io-ase.example\Example Custom ID\Set Identifier.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <GUID>AD94BD3D1BD25B3FBF1DF13ADD9AEAB9</GUID>
+      <GUID>C3CAE639828C62CD32E76061BA8EB56E</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>14</Parent_Palette_Index>
@@ -3669,21 +1947,7 @@
         <Synchronyze_with_Directory>false</Synchronyze_with_Directory>
         <Synchronize_Directory_Path>..\sift-streaming\labview\Sift\Dependencies\asynchronous-system-exec-v2.0.0\serenial.io-ase.example\Example Custom Regex</Synchronize_Directory_Path>
       </Synchronization_Info>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Stream Split Character Match RegExp Std Out.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>1</Row>
-          <Column>1</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\sift-streaming\labview\Sift\Support\asynchronous-system-exec-v2.0.0\serenial.io-ase\ase\Stream Split Character Match RegExp Std Out.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <GUID>04C80512327C2CDDB4B553D89A4BF617</GUID>
+      <GUID>CBCC69FB5BC2DFAB37307C9610B7F972</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>15</Parent_Palette_Index>
@@ -3704,49 +1968,7 @@
         <Synchronyze_with_Directory>false</Synchronyze_with_Directory>
         <Synchronize_Directory_Path>..\sift-streaming\labview\Sift\Dependencies\asynchronous-system-exec-v2.0.0\serenial.io-ase.test\Bad Regex</Synchronize_Directory_Path>
       </Synchronization_Info>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Create Bad Regex.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>1</Row>
-          <Column>1</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\sift-streaming\labview\Sift\Support\asynchronous-system-exec-v2.0.0\serenial.io-ase.test\Bad Regex\Create Bad Regex.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Stream Split Character Match RegExp Std Error.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>1</Row>
-          <Column>2</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\sift-streaming\labview\Sift\Support\asynchronous-system-exec-v2.0.0\serenial.io-ase\ase\Stream Split Character Match RegExp Std Error.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Stream Split Character Match RegExp Std Out.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>1</Row>
-          <Column>3</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\sift-streaming\labview\Sift\Support\asynchronous-system-exec-v2.0.0\serenial.io-ase\ase\Stream Split Character Match RegExp Std Out.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <GUID>977B69635594EF22FA7466031F24325E</GUID>
+      <GUID>A1F86EDA080DCE705020CA7A9B6EA922</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>15</Parent_Palette_Index>
@@ -3767,21 +1989,7 @@
         <Synchronyze_with_Directory>false</Synchronyze_with_Directory>
         <Synchronize_Directory_Path>..\sift-streaming\labview\Sift\Dependencies\asynchronous-system-exec-v2.0.0\serenial.io-ase.test\Custom ID</Synchronize_Directory_Path>
       </Synchronization_Info>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Event Identifier.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>1</Row>
-          <Column>1</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\sift-streaming\labview\Sift\Support\asynchronous-system-exec-v2.0.0\serenial.io-ase\ase\Event Identifier.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <GUID>6138D4A11D7EA4B704855051F46C96E4</GUID>
+      <GUID>374A1467A6684B89A7AB5F9EE637813E</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>15</Parent_Palette_Index>
@@ -3802,35 +2010,7 @@
         <Synchronyze_with_Directory>false</Synchronyze_with_Directory>
         <Synchronize_Directory_Path>..\sift-streaming\labview\Sift\Dependencies\asynchronous-system-exec-v2.0.0\serenial.io-ase.test\Custom Regex</Synchronize_Directory_Path>
       </Synchronization_Info>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Stream Split Character Match RegExp Std Error.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>1</Row>
-          <Column>1</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\sift-streaming\labview\Sift\Support\asynchronous-system-exec-v2.0.0\serenial.io-ase\ase\Stream Split Character Match RegExp Std Error.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Stream Split Character Match RegExp Std Out.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>1</Row>
-          <Column>2</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\sift-streaming\labview\Sift\Support\asynchronous-system-exec-v2.0.0\serenial.io-ase\ase\Stream Split Character Match RegExp Std Out.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <GUID>7EC33C9A5D22F927F853A8AC8A829D1C</GUID>
+      <GUID>49CC0038F330B6AC7B8A5EB9C42E5F0B</GUID>
     </Functions_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>-1</Parent_Palette_Index>
@@ -3879,7 +2059,7 @@
         <Path>..\sift-streaming\labview\Sift</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>5C4AEDB06E745EDCA622BD217412EA6D</GUID>
+      <GUID>9868C05C55C6A820DEC8F051FFB75A5D</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -3914,7 +2094,7 @@
         <Path>..\sift-streaming\labview\Generate Sift Protos\SiftProxy_client</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>D98A853BDB4EDD71FA47F410F8567751</GUID>
+      <GUID>044C9C3EF408B3AD6972203E3E3F1B99</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -3963,7 +2143,7 @@
         <Path>..\sift-streaming\labview\Sift\SiftService</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>3F8FC86CBE6B24748EE49327326B9D26</GUID>
+      <GUID>B76B17453986285A1DAD0869444E49E8</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -3998,7 +2178,7 @@
         <Path>..\sift-streaming\labview\Generate Sift Protos\SiftProxy_client\RPC Messages</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>2AD8D082D957E3639EFEB505E813964E</GUID>
+      <GUID>052D275536704EF964A2BA8982BA8BE2</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>3</Parent_Palette_Index>
@@ -4022,216 +2202,6 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>google_protobuf_Empty.ctl</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>1</Row>
-          <Column>1</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\sift-streaming\labview\Generate Sift Protos\SiftProxy_client\RPC Messages\google_protobuf_Empty.ctl</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>google_protobuf_Empty_Flat.ctl</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>1</Row>
-          <Column>2</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\sift-streaming\labview\Generate Sift Protos\SiftProxy_client\RPC Messages\google_protobuf_Empty_Flat.ctl</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>google_protobuf_Timestamp.ctl</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>1</Row>
-          <Column>3</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\sift-streaming\labview\Generate Sift Protos\SiftProxy_client\RPC Messages\google_protobuf_Timestamp.ctl</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>google_protobuf_Timestamp_Flat.ctl</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>1</Row>
-          <Column>4</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\sift-streaming\labview\Generate Sift Protos\SiftProxy_client\RPC Messages\google_protobuf_Timestamp_Flat.ctl</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>sift_proxy_v1_ChannelBitFieldElement.ctl</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>1</Row>
-          <Column>5</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\sift-streaming\labview\Generate Sift Protos\SiftProxy_client\RPC Messages\sift_proxy_v1_ChannelBitFieldElement.ctl</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>sift_proxy_v1_ChannelBitFieldElement_Flat.ctl</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>1</Row>
-          <Column>6</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\sift-streaming\labview\Generate Sift Protos\SiftProxy_client\RPC Messages\sift_proxy_v1_ChannelBitFieldElement_Flat.ctl</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>sift_proxy_v1_ChannelConfig.ctl</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>2</Row>
-          <Column>1</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\sift-streaming\labview\Generate Sift Protos\SiftProxy_client\RPC Messages\sift_proxy_v1_ChannelConfig.ctl</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>sift_proxy_v1_ChannelConfig_Flat.ctl</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>2</Row>
-          <Column>2</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\sift-streaming\labview\Generate Sift Protos\SiftProxy_client\RPC Messages\sift_proxy_v1_ChannelConfig_Flat.ctl</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>sift_proxy_v1_ChannelDataType.ctl</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>2</Row>
-          <Column>3</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\sift-streaming\labview\Generate Sift Protos\SiftProxy_client\RPC Messages\sift_proxy_v1_ChannelDataType.ctl</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>sift_proxy_v1_ChannelDataType_Flat.ctl</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>2</Row>
-          <Column>4</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\sift-streaming\labview\Generate Sift Protos\SiftProxy_client\RPC Messages\sift_proxy_v1_ChannelDataType_Flat.ctl</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>sift_proxy_v1_ChannelEnumType.ctl</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>2</Row>
-          <Column>5</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\sift-streaming\labview\Generate Sift Protos\SiftProxy_client\RPC Messages\sift_proxy_v1_ChannelEnumType.ctl</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>sift_proxy_v1_ChannelEnumType_Flat.ctl</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>2</Row>
-          <Column>6</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\sift-streaming\labview\Generate Sift Protos\SiftProxy_client\RPC Messages\sift_proxy_v1_ChannelEnumType_Flat.ctl</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>sift_proxy_v1_CreateLabviewIngestionConfigRequest.ctl</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>3</Row>
-          <Column>1</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\sift-streaming\labview\Generate Sift Protos\SiftProxy_client\RPC Messages\sift_proxy_v1_CreateLabviewIngestionConfigRequest.ctl</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>sift_proxy_v1_CreateLabviewIngestionConfigRequest_Flat.ctl</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>3</Row>
-          <Column>2</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\sift-streaming\labview\Generate Sift Protos\SiftProxy_client\RPC Messages\sift_proxy_v1_CreateLabviewIngestionConfigRequest_Flat.ctl</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>sift_proxy_v1_CreateLabviewIngestionConfigResponse.ctl</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>3</Row>
-          <Column>3</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\sift-streaming\labview\Generate Sift Protos\SiftProxy_client\RPC Messages\sift_proxy_v1_CreateLabviewIngestionConfigResponse.ctl</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
         <NameSub_Menu_Name>sift_proxy_v1_CreateLabviewIngestionConfigResponse_Flat.ctl</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
@@ -4241,216 +2211,6 @@
         </Position>
         <Icon>00000000</Icon>
         <Path>..\sift-streaming\labview\Generate Sift Protos\SiftProxy_client\RPC Messages\sift_proxy_v1_CreateLabviewIngestionConfigResponse_Flat.ctl</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>sift_proxy_v1_Empty.ctl</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>3</Row>
-          <Column>5</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\sift-streaming\labview\Generate Sift Protos\SiftProxy_client\RPC Messages\sift_proxy_v1_Empty.ctl</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>sift_proxy_v1_Empty_Flat.ctl</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>3</Row>
-          <Column>6</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\sift-streaming\labview\Generate Sift Protos\SiftProxy_client\RPC Messages\sift_proxy_v1_Empty_Flat.ctl</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>sift_proxy_v1_IngestDataStreamBoolRequest.ctl</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>4</Row>
-          <Column>1</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\sift-streaming\labview\Generate Sift Protos\SiftProxy_client\RPC Messages\sift_proxy_v1_IngestDataStreamBoolRequest.ctl</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>sift_proxy_v1_IngestDataStreamBoolRequest_Flat.ctl</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>4</Row>
-          <Column>2</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\sift-streaming\labview\Generate Sift Protos\SiftProxy_client\RPC Messages\sift_proxy_v1_IngestDataStreamBoolRequest_Flat.ctl</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>sift_proxy_v1_IngestDataStreamBytesRequest.ctl</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>4</Row>
-          <Column>3</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\sift-streaming\labview\Generate Sift Protos\SiftProxy_client\RPC Messages\sift_proxy_v1_IngestDataStreamBytesRequest.ctl</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>sift_proxy_v1_IngestDataStreamBytesRequest_Flat.ctl</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>4</Row>
-          <Column>4</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\sift-streaming\labview\Generate Sift Protos\SiftProxy_client\RPC Messages\sift_proxy_v1_IngestDataStreamBytesRequest_Flat.ctl</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>sift_proxy_v1_IngestDataStreamDoubleRequest.ctl</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>4</Row>
-          <Column>5</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\sift-streaming\labview\Generate Sift Protos\SiftProxy_client\RPC Messages\sift_proxy_v1_IngestDataStreamDoubleRequest.ctl</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>sift_proxy_v1_IngestDataStreamDoubleRequest_Flat.ctl</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>4</Row>
-          <Column>6</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\sift-streaming\labview\Generate Sift Protos\SiftProxy_client\RPC Messages\sift_proxy_v1_IngestDataStreamDoubleRequest_Flat.ctl</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>sift_proxy_v1_IngestDataStreamEnumRequest.ctl</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>5</Row>
-          <Column>1</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\sift-streaming\labview\Generate Sift Protos\SiftProxy_client\RPC Messages\sift_proxy_v1_IngestDataStreamEnumRequest.ctl</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>sift_proxy_v1_IngestDataStreamEnumRequest_Flat.ctl</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>5</Row>
-          <Column>2</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\sift-streaming\labview\Generate Sift Protos\SiftProxy_client\RPC Messages\sift_proxy_v1_IngestDataStreamEnumRequest_Flat.ctl</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>sift_proxy_v1_IngestDataStreamFloatRequest.ctl</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>5</Row>
-          <Column>3</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\sift-streaming\labview\Generate Sift Protos\SiftProxy_client\RPC Messages\sift_proxy_v1_IngestDataStreamFloatRequest.ctl</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>sift_proxy_v1_IngestDataStreamFloatRequest_Flat.ctl</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>5</Row>
-          <Column>4</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\sift-streaming\labview\Generate Sift Protos\SiftProxy_client\RPC Messages\sift_proxy_v1_IngestDataStreamFloatRequest_Flat.ctl</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>sift_proxy_v1_IngestDataStreamInt32Request.ctl</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>5</Row>
-          <Column>5</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\sift-streaming\labview\Generate Sift Protos\SiftProxy_client\RPC Messages\sift_proxy_v1_IngestDataStreamInt32Request.ctl</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>sift_proxy_v1_IngestDataStreamInt32Request_Flat.ctl</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>5</Row>
-          <Column>6</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\sift-streaming\labview\Generate Sift Protos\SiftProxy_client\RPC Messages\sift_proxy_v1_IngestDataStreamInt32Request_Flat.ctl</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>sift_proxy_v1_IngestDataStreamInt64Request.ctl</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>6</Row>
-          <Column>1</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\sift-streaming\labview\Generate Sift Protos\SiftProxy_client\RPC Messages\sift_proxy_v1_IngestDataStreamInt64Request.ctl</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -4467,119 +2227,7 @@
         <Path>..\sift-streaming\labview\Generate Sift Protos\SiftProxy_client\RPC Messages\sift_proxy_v1_IngestDataStreamInt64Request_Flat.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>sift_proxy_v1_IngestDataStreamResponse.ctl</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>6</Row>
-          <Column>3</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\sift-streaming\labview\Generate Sift Protos\SiftProxy_client\RPC Messages\sift_proxy_v1_IngestDataStreamResponse.ctl</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>sift_proxy_v1_IngestDataStreamResponse_Flat.ctl</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>6</Row>
-          <Column>4</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\sift-streaming\labview\Generate Sift Protos\SiftProxy_client\RPC Messages\sift_proxy_v1_IngestDataStreamResponse_Flat.ctl</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>sift_proxy_v1_IngestDataStreamStringRequest.ctl</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>6</Row>
-          <Column>5</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\sift-streaming\labview\Generate Sift Protos\SiftProxy_client\RPC Messages\sift_proxy_v1_IngestDataStreamStringRequest.ctl</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>sift_proxy_v1_IngestDataStreamStringRequest_Flat.ctl</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>6</Row>
-          <Column>6</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\sift-streaming\labview\Generate Sift Protos\SiftProxy_client\RPC Messages\sift_proxy_v1_IngestDataStreamStringRequest_Flat.ctl</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>sift_proxy_v1_IngestDataStreamUInt32Request.ctl</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>7</Row>
-          <Column>1</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\sift-streaming\labview\Generate Sift Protos\SiftProxy_client\RPC Messages\sift_proxy_v1_IngestDataStreamUInt32Request.ctl</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>sift_proxy_v1_IngestDataStreamUInt32Request_Flat.ctl</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>7</Row>
-          <Column>2</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\sift-streaming\labview\Generate Sift Protos\SiftProxy_client\RPC Messages\sift_proxy_v1_IngestDataStreamUInt32Request_Flat.ctl</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>sift_proxy_v1_IngestDataStreamUInt64Request.ctl</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>7</Row>
-          <Column>3</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\sift-streaming\labview\Generate Sift Protos\SiftProxy_client\RPC Messages\sift_proxy_v1_IngestDataStreamUInt64Request.ctl</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>sift_proxy_v1_IngestDataStreamUInt64Request_Flat.ctl</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>7</Row>
-          <Column>4</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\sift-streaming\labview\Generate Sift Protos\SiftProxy_client\RPC Messages\sift_proxy_v1_IngestDataStreamUInt64Request_Flat.ctl</Path>
-        <VI_Title/>
-      </Items_Data>
-      <GUID>1281AE80A6F857315822B01C0962BC37</GUID>
+      <GUID>E51B2C890B10E2AEF03CB77E7236E8A6</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -4614,7 +2262,7 @@
         <Path>..\sift-streaming\labview\Sift\Dependencies\asynchronous-system-exec-v2.0.0</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>74DB2E49654E48EBBB22A0E0EA6799FF</GUID>
+      <GUID>572E2EA10FC997C0A394239DEEB3C95C</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -4635,7 +2283,7 @@
         <Synchronyze_with_Directory>false</Synchronyze_with_Directory>
         <Synchronize_Directory_Path>..\sift-streaming\labview\Sift\SiftService</Synchronize_Directory_Path>
       </Synchronization_Info>
-      <GUID>FDE32972BC42D981DA93D21661B9FB34</GUID>
+      <GUID>C8114F92D49E9EEEEEAE945FDA5A640A</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>5</Parent_Palette_Index>
@@ -4684,7 +2332,7 @@
         <Path>..\sift-streaming\labview\Sift\Dependencies\asynchronous-system-exec-v2.0.0\serenial.io-ase.test</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>25021707B00BF2B9B1F29C18D934A0AB</GUID>
+      <GUID>1C24C52C782AAF35608A581063F28E7C</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>7</Parent_Palette_Index>
@@ -4719,7 +2367,7 @@
         <Path>..\sift-streaming\labview\Sift\Dependencies\asynchronous-system-exec-v2.0.0\serenial.io-ase\ase</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>B620C172C0FF744FDA4201267160F87B</GUID>
+      <GUID>F4DC78072E48DEBBDE8B960496C9623F</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>7</Parent_Palette_Index>
@@ -4754,7 +2402,7 @@
         <Path>..\sift-streaming\labview\Sift\Dependencies\asynchronous-system-exec-v2.0.0\serenial.io-ase.test\Bad Regex</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>BA38952024308FCC0B1BD1BFE82E6085</GUID>
+      <GUID>F2D8C50CD065BEE155CAE4FA19F55ECC</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>8</Parent_Palette_Index>
@@ -4775,91 +2423,7 @@
         <Synchronyze_with_Directory>false</Synchronyze_with_Directory>
         <Synchronize_Directory_Path>..\sift-streaming\labview\Sift\Dependencies\asynchronous-system-exec-v2.0.0\serenial.io-ase\ase</Synchronize_Directory_Path>
       </Synchronization_Info>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Call State.ctl</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>1</Row>
-          <Column>1</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\sift-streaming\labview\Sift\Support\asynchronous-system-exec-v2.0.0\serenial.io-ase\ase\Call State.ctl</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Did Exit.ctl</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>1</Row>
-          <Column>2</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\sift-streaming\labview\Sift\Support\asynchronous-system-exec-v2.0.0\serenial.io-ase\ase\Did Exit.ctl</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Event References.ctl</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>1</Row>
-          <Column>3</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\sift-streaming\labview\Sift\Support\asynchronous-system-exec-v2.0.0\serenial.io-ase\ase\Event References.ctl</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Standard Error.ctl</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>1</Row>
-          <Column>4</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\sift-streaming\labview\Sift\Support\asynchronous-system-exec-v2.0.0\serenial.io-ase\ase\Standard Error.ctl</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Standard Input State.ctl</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>1</Row>
-          <Column>5</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\sift-streaming\labview\Sift\Support\asynchronous-system-exec-v2.0.0\serenial.io-ase\ase\Standard Input State.ctl</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Standard Output.ctl</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>1</Row>
-          <Column>6</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\sift-streaming\labview\Sift\Support\asynchronous-system-exec-v2.0.0\serenial.io-ase\ase\Standard Output.ctl</Path>
-        <VI_Title/>
-      </Items_Data>
-      <GUID>30BFA96BEDBF642950F41FE36D8685B1</GUID>
+      <GUID>D441C64C2A80265FB019951E3D483D5A</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>9</Parent_Palette_Index>
@@ -4880,21 +2444,7 @@
         <Synchronyze_with_Directory>false</Synchronyze_with_Directory>
         <Synchronize_Directory_Path>..\sift-streaming\labview\Sift\Dependencies\asynchronous-system-exec-v2.0.0\serenial.io-ase.test\Bad Regex</Synchronize_Directory_Path>
       </Synchronization_Info>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Bad Value.ctl</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>1</Row>
-          <Column>1</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\sift-streaming\labview\Sift\Support\asynchronous-system-exec-v2.0.0\serenial.io-ase.test\Bad Regex\Bad Value.ctl</Path>
-        <VI_Title/>
-      </Items_Data>
-      <GUID>8367533EFD7B81834A772C5E4EB8F108</GUID>
+      <GUID>102758D4590D4926387FA3F419E8223E</GUID>
     </Controls_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
