@@ -59,6 +59,7 @@
 		<Item Name="Helpers" Type="Folder">
 			<Item Name="Create Channel Config.vi" Type="VI" URL="../Sift API/Helpers/Create Channel Config.vi"/>
 			<Item Name="Get Current Timestamp.vi" Type="VI" URL="../Sift API/Helpers/Get Current Timestamp.vi"/>
+			<Item Name="Resolve API URL.vi" Type="VI" URL="../Sift API/Private/Resolve API URL.vi"/>
 		</Item>
 		<Item Name="Types" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
