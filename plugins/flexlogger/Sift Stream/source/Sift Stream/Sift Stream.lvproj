@@ -137,13 +137,9 @@
 				<Item Name="openg_variant.lvlib" Type="Library" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/openg_variant.lvlib"/>
 				<Item Name="openg_error.lvlib" Type="Library" URL="/&lt;userlib&gt;/_OpenG.lib/error/error.llb/openg_error.lvlib"/>
 			</Item>
-			<Item Name="StreamWriter.lvclass" Type="LVClass" URL="../StreamWriter.lvclass"/>
 			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="StreamWriter Parameters.ctl" Type="VI" URL="../StreamWriter Parameters.ctl"/>
-			<Item Name="Cleanup Error String.vi" Type="VI" URL="../Cleanup Error String.vi"/>
-			<Item Name="Get Valid Channels to Write.vi" Type="VI" URL="../Get Valid Channels to Write.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Sift Stream " Type="Packed Library">
