@@ -5,4 +5,5 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="Sift Stream.lvclass" Type="LVClass" URL="../Sift Stream.lvclass"/>
+	<Item Name="Sift Stream.xml" Type="Document" URL="../Sift Stream.xml"/>
 </Library>
