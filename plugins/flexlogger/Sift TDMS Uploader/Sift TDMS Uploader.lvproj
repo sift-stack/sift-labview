@@ -101,6 +101,8 @@
 				<Item Name="DialogType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogType.ctl"/>
 				<Item Name="General Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler.vi"/>
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
+				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
+				<Item Name="NI_LVConfig.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/config.llb/NI_LVConfig.lvlib"/>
 			</Item>
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="openg_variant.lvlib" Type="Library" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/openg_variant.lvlib"/>
@@ -123,7 +125,7 @@
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
 				<Property Name="Bld_localDestDir" Type="Path">/C/Users/Public/Documents/National Instruments/FlexLogger/Plugins/IOPlugins/NI_AB_PROJECTNAME</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{FFAE0FC8-B157-46BF-B787-642F89F31CC3}</Property>
-				<Property Name="Bld_version.build" Type="Int">20</Property>
+				<Property Name="Bld_version.build" Type="Int">22</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Sift TDMS Uploader.lvlibp</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/Users/Public/Documents/National Instruments/FlexLogger/Plugins/IOPlugins/NI_AB_PROJECTNAME/Sift TDMS Uploader.lvlibp</Property>
@@ -137,7 +139,7 @@
 				<Property Name="Destination[2].path" Type="Path">../builds/NI_AB_PROJECTNAME/Sift TDMS Uploader Packed Library/User/Sift TDMS Uploader</Property>
 				<Property Name="DestinationCount" Type="Int">3</Property>
 				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{D3663A49-8C76-44E8-ABFF-6FC4F40BDE1E}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{610EEF57-7D62-42B9-93E2-6761EC489AEE}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Sift TDMS Uploader.lvlib</Property>
@@ -152,46 +154,18 @@
 				<Property Name="Source[1].propertiesCount" Type="Int">2</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">Library</Property>
-				<Property Name="Source[10].itemID" Type="Ref">/My Computer/Sift TDMS Uploader.lvlib/Sift TDMS Uploader.lvclass/Handle Message3.vi</Property>
-				<Property Name="Source[10].preventRename" Type="Bool">true</Property>
-				<Property Name="Source[10].properties[0].type" Type="Str">Remove front panel</Property>
-				<Property Name="Source[10].properties[0].value" Type="Bool">false</Property>
-				<Property Name="Source[10].properties[1].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[10].properties[1].value" Type="Bool">false</Property>
-				<Property Name="Source[10].propertiesCount" Type="Int">2</Property>
-				<Property Name="Source[10].type" Type="Str">VI</Property>
-				<Property Name="Source[11].itemID" Type="Ref">/My Computer/Sift TDMS Uploader.lvlib/Sift TDMS Uploader.lvclass/SubVIs/Get Env Var Value.vi</Property>
-				<Property Name="Source[11].properties[0].type" Type="Str">Remove front panel</Property>
-				<Property Name="Source[11].properties[0].value" Type="Bool">false</Property>
-				<Property Name="Source[11].properties[1].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[11].properties[1].value" Type="Bool">false</Property>
-				<Property Name="Source[11].propertiesCount" Type="Int">2</Property>
-				<Property Name="Source[11].type" Type="Str">VI</Property>
-				<Property Name="Source[12].itemID" Type="Ref">/My Computer/Sift TDMS Uploader.lvlib/Sift TDMS Uploader.lvclass/SubVIs/Check Multiple Instances.vi</Property>
-				<Property Name="Source[12].properties[0].type" Type="Str">Remove front panel</Property>
-				<Property Name="Source[12].properties[0].value" Type="Bool">false</Property>
-				<Property Name="Source[12].properties[1].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[12].properties[1].value" Type="Bool">false</Property>
-				<Property Name="Source[12].propertiesCount" Type="Int">2</Property>
-				<Property Name="Source[12].type" Type="Str">VI</Property>
-				<Property Name="Source[13].itemID" Type="Ref">/My Computer/Sift TDMS Uploader.lvlib/Sift TDMS Uploader.lvclass/SubVIs/Upload to Sift.vi</Property>
-				<Property Name="Source[13].properties[0].type" Type="Str">Remove front panel</Property>
-				<Property Name="Source[13].properties[0].value" Type="Bool">false</Property>
-				<Property Name="Source[13].properties[1].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[13].properties[1].value" Type="Bool">false</Property>
-				<Property Name="Source[13].propertiesCount" Type="Int">2</Property>
-				<Property Name="Source[13].type" Type="Str">VI</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Sift TDMS Uploader.xml</Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[3].itemID" Type="Ref">/My Computer/Sift TDMS Uploader.lvlib/Sift TDMS Uploader.lvclass/Sift Upload Settings.vi</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/Sift TDMS Uploader.lvlib/Sift TDMS Uploader.lvclass/Initialize.vi</Property>
+				<Property Name="Source[3].preventRename" Type="Bool">true</Property>
 				<Property Name="Source[3].properties[0].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[3].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[3].properties[1].type" Type="Str">Remove block diagram</Property>
 				<Property Name="Source[3].properties[1].value" Type="Bool">false</Property>
 				<Property Name="Source[3].propertiesCount" Type="Int">2</Property>
 				<Property Name="Source[3].type" Type="Str">VI</Property>
-				<Property Name="Source[4].itemID" Type="Ref">/My Computer/Sift TDMS Uploader.lvlib/Sift TDMS Uploader.lvclass/Initialize.vi</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/My Computer/Sift TDMS Uploader.lvlib/Sift TDMS Uploader.lvclass/Configure Session.vi</Property>
 				<Property Name="Source[4].preventRename" Type="Bool">true</Property>
 				<Property Name="Source[4].properties[0].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[4].properties[0].value" Type="Bool">false</Property>
@@ -199,7 +173,7 @@
 				<Property Name="Source[4].properties[1].value" Type="Bool">false</Property>
 				<Property Name="Source[4].propertiesCount" Type="Int">2</Property>
 				<Property Name="Source[4].type" Type="Str">VI</Property>
-				<Property Name="Source[5].itemID" Type="Ref">/My Computer/Sift TDMS Uploader.lvlib/Sift TDMS Uploader.lvclass/Configure Session.vi</Property>
+				<Property Name="Source[5].itemID" Type="Ref">/My Computer/Sift TDMS Uploader.lvlib/Sift TDMS Uploader.lvclass/Process.vi</Property>
 				<Property Name="Source[5].preventRename" Type="Bool">true</Property>
 				<Property Name="Source[5].properties[0].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[5].properties[0].value" Type="Bool">false</Property>
@@ -207,38 +181,35 @@
 				<Property Name="Source[5].properties[1].value" Type="Bool">false</Property>
 				<Property Name="Source[5].propertiesCount" Type="Int">2</Property>
 				<Property Name="Source[5].type" Type="Str">VI</Property>
-				<Property Name="Source[6].itemID" Type="Ref">/My Computer/Sift TDMS Uploader.lvlib/Sift TDMS Uploader.lvclass/Process.vi</Property>
-				<Property Name="Source[6].preventRename" Type="Bool">true</Property>
+				<Property Name="Source[6].itemID" Type="Ref">/My Computer/Sift TDMS Uploader.lvlib/Sift TDMS Uploader.lvclass/Sift Upload Parameters.ctl</Property>
 				<Property Name="Source[6].properties[0].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[6].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[6].properties[1].type" Type="Str">Remove block diagram</Property>
 				<Property Name="Source[6].properties[1].value" Type="Bool">false</Property>
 				<Property Name="Source[6].propertiesCount" Type="Int">2</Property>
 				<Property Name="Source[6].type" Type="Str">VI</Property>
-				<Property Name="Source[7].itemID" Type="Ref">/My Computer/Dependencies/Items in Memory/Cleanup Session.vi</Property>
-				<Property Name="Source[7].preventRename" Type="Bool">true</Property>
+				<Property Name="Source[7].itemID" Type="Ref">/My Computer/Sift TDMS Uploader.lvlib/Sift TDMS Uploader.lvclass/SubVIs/Get Env Var Value.vi</Property>
 				<Property Name="Source[7].properties[0].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[7].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[7].properties[1].type" Type="Str">Remove block diagram</Property>
 				<Property Name="Source[7].properties[1].value" Type="Bool">false</Property>
 				<Property Name="Source[7].propertiesCount" Type="Int">2</Property>
 				<Property Name="Source[7].type" Type="Str">VI</Property>
-				<Property Name="Source[8].itemID" Type="Ref"></Property>
-				<Property Name="Source[8].preventRename" Type="Bool">true</Property>
+				<Property Name="Source[8].itemID" Type="Ref">/My Computer/Sift TDMS Uploader.lvlib/Sift TDMS Uploader.lvclass/SubVIs/Check Multiple Instances.vi</Property>
 				<Property Name="Source[8].properties[0].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[8].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[8].properties[1].type" Type="Str">Remove block diagram</Property>
 				<Property Name="Source[8].properties[1].value" Type="Bool">false</Property>
 				<Property Name="Source[8].propertiesCount" Type="Int">2</Property>
 				<Property Name="Source[8].type" Type="Str">VI</Property>
-				<Property Name="Source[9].itemID" Type="Ref">/My Computer/Sift TDMS Uploader.lvlib/Sift TDMS Uploader.lvclass/Sift Upload Parameters.ctl</Property>
+				<Property Name="Source[9].itemID" Type="Ref">/My Computer/Sift TDMS Uploader.lvlib/Sift TDMS Uploader.lvclass/SubVIs/Upload to Sift.vi</Property>
 				<Property Name="Source[9].properties[0].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[9].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[9].properties[1].type" Type="Str">Remove block diagram</Property>
 				<Property Name="Source[9].properties[1].value" Type="Bool">false</Property>
 				<Property Name="Source[9].propertiesCount" Type="Int">2</Property>
 				<Property Name="Source[9].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">14</Property>
+				<Property Name="SourceCount" Type="Int">10</Property>
 				<Property Name="TgtF_companyName" Type="Str">Sift Stack</Property>
 				<Property Name="TgtF_enableDebugging" Type="Bool">true</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">Sift TDMS Uploader Packed Library</Property>

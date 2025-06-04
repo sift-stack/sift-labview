@@ -143,17 +143,19 @@
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
-			<Item Name="Sift Stream " Type="Packed Library">
-				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+			<Item Name="Sift Stream Build Specification" Type="Packed Library">
 				<Property Name="Bld_buildCacheID" Type="Str">{8A0C9D5E-6D45-4C64-BB06-F954C31793DE}</Property>
-				<Property Name="Bld_buildSpecDescription" Type="Str">Stream Data to Sift from Flexlogger</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">Sift Stream </Property>
+				<Property Name="Bld_buildSpecDescription" Type="Str">Sift Stream Flexlogger Plugin live streams data to Sift directly from Flexlogger. The data is streamed at a specified sample rate across all channels.</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">Sift Stream Build Specification</Property>
+				<Property Name="Bld_excludeDependentDLLs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeDependentPPLs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeTypedefs" Type="Bool">true</Property>
 				<Property Name="Bld_localDestDir" Type="Path">/C/Users/Public/Documents/National Instruments/FlexLogger/Plugins/IOPlugins/NI_AB_PROJECTNAME</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{58B4E2B7-0BA4-4313-9DFF-0EC7A74654C1}</Property>
-				<Property Name="Bld_version.build" Type="Int">75</Property>
+				<Property Name="Bld_userLogFile" Type="Path">/C/Users/Alex luCK/Documents/Projects/sift-labview/plugins/flexlogger/Sift Stream/build/build_log.txt</Property>
+				<Property Name="Bld_version.build" Type="Int">1</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Sift Stream.lvlibp</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/Users/Public/Documents/National Instruments/FlexLogger/Plugins/IOPlugins/NI_AB_PROJECTNAME/Sift Stream.lvlibp</Property>
@@ -163,11 +165,15 @@
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">/C/Users/Public/Documents/National Instruments/FlexLogger/Plugins/IOPlugins/NI_AB_PROJECTNAME</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
-				<Property Name="Destination[2].destName" Type="Str">User Folder</Property>
-				<Property Name="Destination[2].path" Type="Path">../builds/NI_AB_PROJECTNAME/Sift Stream /User/StreamWriter</Property>
+				<Property Name="Destination[2].destName" Type="Str">build</Property>
+				<Property Name="Destination[2].path" Type="Path">/C/Users/Alex luCK/Documents/Projects/sift-labview/plugins/flexlogger/NI_AB_PROJECTNAME/build</Property>
+				<Property Name="Destination[2].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">3</Property>
 				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{7F53FC79-8CBE-4C98-982E-971A7A4DF4E9}</Property>
+				<Property Name="Source[0].Container.applyDestination" Type="Bool">true</Property>
+				<Property Name="Source[0].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[0].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[0].itemID" Type="Str">{93EB79BF-9701-4516-BE44-DBF4DA7762B4}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Sift Stream.lvlib</Property>
@@ -183,11 +189,11 @@
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">Library</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>
-				<Property Name="TgtF_companyName" Type="Str">National Instruments</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">Sift Stream </Property>
-				<Property Name="TgtF_internalName" Type="Str">Sift Stream </Property>
-				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2024 National Instruments</Property>
-				<Property Name="TgtF_productName" Type="Str">Sift Stream </Property>
+				<Property Name="TgtF_companyName" Type="Str">Sift Stack, Inc.</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">Initial release</Property>
+				<Property Name="TgtF_internalName" Type="Str">Sift Stream</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2025 Sift Stack, Inc.</Property>
+				<Property Name="TgtF_productName" Type="Str">Sift Stream Flexlogger Plugin</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{3B987E42-C706-4567-98B2-94FB52FF9FF3}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">Sift Stream.lvlibp</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
