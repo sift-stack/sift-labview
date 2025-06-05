@@ -173,7 +173,7 @@
 				<Property Name="Source[0].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[0].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[0].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[0].itemID" Type="Str">{93EB79BF-9701-4516-BE44-DBF4DA7762B4}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{9E762F14-719C-43C2-B714-510148C37256}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Sift Stream.lvlib</Property>
