@@ -8,7 +8,6 @@ This plug-in streams live data from Flexlogger to Sift.
 
 ## Getting Started
 
-- Copy the content of the Sift Stream build folder in `C:\Users\Public\Documents\National Instruments\FlexLogger\Plugins\IOPlugins\Sift Stream`
 - Launch FlexLogger
 - Configure some channels
 - Add theSift Stream plug-in by selecting Add channels>>Plug-in>>Sift Stream

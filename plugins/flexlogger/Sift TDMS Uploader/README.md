@@ -8,7 +8,6 @@ This plug-in streams live data from Flexlogger to Sift.
 
 ## Getting Started
 
-- Copy the content of the Sift Stream build folder in `C:\Users\Public\Documents\National Instruments\FlexLogger\Plugins\IOPlugins\Sift TDMS Uploader`
 - Launch FlexLogger
 - Configure some channels
 - Add theSift Stream plug-in by selecting Add channels>>Plug-in>>Sift TDMS Uploader
@@ -38,6 +37,8 @@ To speed up configuration of both the Sift Stream and Sift TDMS Uploader plug-in
 
 
 ### Logging
+
+
 
 Errors and other informational messages are logged to files in the `C:\Users\Public\Documents\National Instruments\FlexLogger\Plugins\IOPlugins\Sift Stream` directory. 
 

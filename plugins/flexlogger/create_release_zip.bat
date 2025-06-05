@@ -5,9 +5,9 @@ REM -----------------------------------------------------
 REM Installer for sift_proxy
 REM -----------------------------------------------------
 
-set "TARGET_DIR=%LOCALAPPDATA%\Sift"
+set "TARGET_DIR=%~dp0\dist"
 set "SOURCE_FILE=%~dp0..\..\src\Sift\Support\sift_proxy.exe"
-echo Installing sift_proxy...
+echo Moving sift_proxy...
 
 for %%I in ("%SOURCE_FILE%") do set "FILENAME=%%~nxI"
 
@@ -27,15 +27,13 @@ echo:
 REM -----------------------------------------------------
 REM Installer for Flexlogger plugins
 REM -----------------------------------------------------
-set "DIR_LIST="Sift Stream\build\" "Sift TDMS Uploader\build\""
+set "DIR_LIST="C:\Users\Public\Documents\National Instruments\FlexLogger\Plugins\IOPlugins\Sift Stream" "C:\Users\Public\Documents\National Instruments\FlexLogger\Plugins\IOPlugins\Sift TDMS Uploader""
 REM This is the default Flexlogger plugin directory
-set "TARGET_DIR=C:\Users\Public\Documents\National Instruments\FlexLogger\Plugins\IOPlugins
-echo Installing Sift Flexlogger Plug-ins...
+echo Moving Sift Flexlogger Plug-ins...
 
 
 for %%D in (%DIR_LIST%) do (
-    set "SRC=%%~D"
-    set "FULLSRC=%~dp0!SRC!"
+    set "FULLSRC=%%~D"
 
     REM Verify that the folder actually exists
     if not exist "!FULLSRC!\" (
@@ -55,6 +53,18 @@ for %%D in (%DIR_LIST%) do (
         )
     )
 )
+
+set "ZIP_NAME=flexlogger_dist.zip"
+powershell -noprofile -command ^
+  "Compress-Archive -Path '%TARGET_DIR%\*' -DestinationPath '%ZIP_NAME%' -Force" >nul
+if errorlevel 1 (
+    echo [ERROR] Failed to create ZIP: "%ZIP_NAME%".
+    goto EndScript
+) else (
+    echo [OK] ZIP created successfully at "%ZIP_NAME%".
+)
+
+
 echo:
 echo Install complete. Press any key to continue...
 pause >nul
