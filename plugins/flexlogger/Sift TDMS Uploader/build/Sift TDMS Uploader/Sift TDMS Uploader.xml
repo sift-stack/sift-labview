@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProcessingElement>
+  <Type>42A312B4-4EB0-4C87-B7EA-0B8BC03816CD</Type>
+  <Name>Sift TDMS Uploader</Name>
+  <TemplateType>Plugin</TemplateType>
+  <DevelopmentKitVersion>24.5</DevelopmentKitVersion>
+  <Version>0.1</Version>
+  <OldestCompatibleVersion>0.1</OldestCompatibleVersion>
+  <AliasBase>SiftTDMSUploader</AliasBase>
+  <Icon>output</Icon>
+  <Description>This template type provides a starting point for plug-ins that consume setpoint data from FlexLogger. For example, this type receives setpoint values from FlexLogger to control a third-party instrument.</Description>
+  <VIExec>niPluginWrapper</VIExec>  
+</ProcessingElement>
