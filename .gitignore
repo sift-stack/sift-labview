@@ -20,5 +20,6 @@
 
 # Dist
 *.zip
-**/dist
-!**/install_flexlogger_plugins.bat
+**/dist/*
+!**/dist/
+!**/dist/install_flexlogger_plugins.bat
