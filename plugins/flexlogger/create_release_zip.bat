@@ -2,7 +2,8 @@
 setlocal enabledelayedexpansion
 
 REM -----------------------------------------------------
-REM Installer for sift_proxy
+REM Creates a release zip file for flexlogger plugins and the sift_proxy
+REM Builds of the Sift flexlogger plugins are pulled from C:\Users\Public\Documents\National Instruments\FlexLogger\Plugins\IOPlugins
 REM -----------------------------------------------------
 
 set "TARGET_DIR=%~dp0\dist"
@@ -24,9 +25,7 @@ if errorlevel 1 (
 )
 echo:
 
-REM -----------------------------------------------------
-REM Installer for Flexlogger plugins
-REM -----------------------------------------------------
+
 set "DIR_LIST="C:\Users\Public\Documents\National Instruments\FlexLogger\Plugins\IOPlugins\Sift Stream" "C:\Users\Public\Documents\National Instruments\FlexLogger\Plugins\IOPlugins\Sift TDMS Uploader""
 REM This is the default Flexlogger plugin directory
 echo Moving Sift Flexlogger Plug-ins...
@@ -66,6 +65,6 @@ if errorlevel 1 (
 
 
 echo:
-echo Install complete. Press any key to continue...
+echo Dist zip creation complete. Press any key to continue...
 pause >nul
 endlocal
