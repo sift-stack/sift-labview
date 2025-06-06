@@ -18,7 +18,7 @@ This plug-in streams live data from Flexlogger to Sift.
 
 ### Configuration Options
 
-- **Asset Name** - The name of the Sift asset to stream to.
+- **Asset Name** - The name of the Sift asset to stream to. By default, this is the machine's hostname.
 - **Sift API gRPC URL** - This can be found in Sift UI>>Manage>>API Keys
 - **Sift API REST URL** - This can be found in Sift UI>>Manage>>API Keys
 - **Sift API Key** - API Key to use for requests. One can be created at Sift UI>>Manage>>API Keys
