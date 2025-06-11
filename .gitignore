@@ -17,3 +17,9 @@
 .cache/
 
 *.vip
+
+# Dist
+*.zip
+**/dist/*
+!**/dist/
+!**/dist/install_flexlogger_plugins.bat
