@@ -58,13 +58,13 @@
 			<Property Name="NI.ClassItem.State" Type="Int">1107821072</Property>
 		</Item>
 		<Item Name="Upload to Sift.vi" Type="VI" URL="../SubVIs/Upload to Sift.vi">
-			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">*!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%F!!!!$1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!31&amp;!!!Q!!!!%!!A6&amp;=H*P=A!%!!!!%%!Q`````Q&gt;3&gt;7YA66*-!":!-0````]-16"*)&amp;*&amp;5V1A66*-!!!;1$,`````%5&amp;C=W^M&gt;82F)%:J&lt;'6Q982I!"*!-0````])5H6O)%ZB&lt;75!!"2!-0````]+18.T:81A4G&amp;N:1!!%%!Q`````Q&gt;"5%EA3W6Z!":!-0````]-16"*)%&gt;35%-A66*-!!"5!0!!$!!$!!1!"!!&amp;!!1!"!!'!!=!#!!*!!I!#Q-!!(A!!!E!!!!!!!!!!!!!!!E!!!!!!!!!!!!!!B!!!!!1!!!##!!!!B!!!!)1!!!#%!!!!!!"!!Q!!!!!</Property>
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">*!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;&gt;!!!!$A!71$$`````$%&amp;133"(5F"$)&amp;634!!!'E!S`````R&amp;"9H.P&lt;(6U:3"';7RF='&amp;U;!!%!!!!%%!Q`````Q&gt;3&gt;7YA66*-!""!-0````](16"*)%NF?1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!A1&amp;!!!Q!&amp;!!9!"R.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!"2!-0````]+18.T:81A4G&amp;N:1!!%E!Q`````QB3&gt;7YA4G&amp;N:1!!&amp;E!Q`````QR"5%EA5E646#"65EQ!!"*!5!!$!!5!"A!("56S=G^S!'Q!]!!1!!!!!1!#!!)!!Q!%!!)!#!!#!!E!!A!+!!M!!A!#!!Q$!!%)!!)1!!!!%!!!!!!!!!!!!!!!#1!!!B!!!!!!!!!!#A!!!!!!!!)1!!!!!!!!!AA!!!)1!!!!!!!!!!!!!!!."Q!!!!%!$1!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
 			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
 			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">1342710288</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1107821072</Property>
 		</Item>
 		<Item Name="Initialize Channels.vi" Type="VI" URL="../SubVIs/Initialize Channels.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">*!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;U!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!&amp;:!=!!?!!!V'&amp;.J:H1A6%2.5S"6='RP972F=CZM&gt;GRJ9BJ4;7:U)&amp;2%46-A68"M&lt;W&amp;E:8)O&lt;(:D&lt;'&amp;T=Q!75WFG&gt;#"52%V4)&amp;6Q&lt;'^B:'6S)'^V&gt;!!!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1"51(!!(A!!.2B4;7:U)&amp;2%46-A68"M&lt;W&amp;E:8)O&lt;(:M;7);5WFG&gt;#"52%V4)&amp;6Q&lt;'^B:'6S,GRW9WRB=X-!&amp;6.J:H1A6%2.5S"6='RP972F=C"J&lt;A"B!0!!$!!$!!1!"!!&amp;!!1!"!!%!!1!"A!%!!1!"Q-!!(A!!!U)!!!!!!!!!!!!!!U,!!!!!!!!!!!!!!!!!!!!!!!!#A!!!!!!!!!!!!!!#A!!$1!!!!Q!!!!!!!!!!!!!!1!)!!!!!!</Property>
