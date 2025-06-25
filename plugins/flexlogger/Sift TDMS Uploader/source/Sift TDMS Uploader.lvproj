@@ -14,8 +14,8 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="FlexLogger Plug-in Development Kit Manual.pdf" Type="Document" URL="/&lt;resource&gt;/FlexLogger/SDK/FlexLogger Plug-in Development Kit Manual.pdf"/>
-		<Item Name="Sift TDMS Uploader.lvlib" Type="Library" URL="../Sift TDMS Uploader.lvlib"/>
-		<Item Name="Sift TDMS Uploader.xml" Type="Document" URL="../Sift TDMS Uploader.xml"/>
+		<Item Name="Sift TDMS Uploader.lvlib" Type="Library" URL="../Sift TDMS Uploader/Sift TDMS Uploader.lvlib"/>
+		<Item Name="Sift TDMS Uploader.xml" Type="Document" URL="../Sift TDMS Uploader/Sift TDMS Uploader.xml"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="PluginSDK.lvlibp" Type="LVLibp" URL="/&lt;vilib&gt;/FlexLogger/SDK/PluginSDK.lvlibp">
