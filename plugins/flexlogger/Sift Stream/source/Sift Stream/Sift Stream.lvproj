@@ -157,6 +157,7 @@
 				<Property Name="Bld_userLogFile" Type="Path">/C/Users/Alex luCK/Documents/Projects/sift-labview/plugins/flexlogger/Sift Stream/build/build_log.txt</Property>
 				<Property Name="Bld_version.build" Type="Int">1</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Bld_version.patch" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Sift Stream.lvlibp</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/Users/Public/Documents/National Instruments/FlexLogger/Plugins/IOPlugins/NI_AB_PROJECTNAME/Sift Stream.lvlibp</Property>
 				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
@@ -173,7 +174,7 @@
 				<Property Name="Source[0].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[0].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[0].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[0].itemID" Type="Str">{9E762F14-719C-43C2-B714-510148C37256}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{9EBC765E-8222-4B11-AE8F-7281F7247DCD}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Sift Stream.lvlib</Property>
@@ -190,7 +191,7 @@
 				<Property Name="Source[1].type" Type="Str">Library</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>
 				<Property Name="TgtF_companyName" Type="Str">Sift Stack, Inc.</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">Initial release</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">Update log folder location resolution</Property>
 				<Property Name="TgtF_internalName" Type="Str">Sift Stream</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2025 Sift Stack, Inc.</Property>
 				<Property Name="TgtF_productName" Type="Str">Sift Stream Flexlogger Plugin</Property>
