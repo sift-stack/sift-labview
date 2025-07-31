@@ -1,6 +1,6 @@
 Build Link:
-https://github.com/sift-stack/sift-proxy/actions/runs/16426739222
+https://github.com/sift-stack/sift-proxy/actions/runs/16657646738
 
 Commit:
-https://github.com/sift-stack/sift-proxy/tree/refs/tags/public/v1.2.0
-https://github.com/sift-stack/sift-proxy/commit/8dc4478662d414b288ee5bfa52ee40a7ec659653
+https://github.com/sift-stack/sift-proxy/tree/refs/tags/public/v1.2.1
+https://github.com/sift-stack/sift-proxy/commit/fbe316d7ac840718494300e0fae8afe2e2a45ad1
