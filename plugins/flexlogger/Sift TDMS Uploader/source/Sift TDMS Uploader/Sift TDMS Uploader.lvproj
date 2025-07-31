@@ -129,7 +129,7 @@
 				<Property Name="Bld_userLogFile.pathType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_version.build" Type="Int">1</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Bld_version.patch" Type="Int">1</Property>
+				<Property Name="Bld_version.patch" Type="Int">2</Property>
 				<Property Name="Destination[0].destName" Type="Str">Sift TDMS Uploader.lvlibp</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/Users/Public/Documents/National Instruments/FlexLogger/Plugins/IOPlugins/NI_AB_PROJECTNAME/Sift TDMS Uploader.lvlibp</Property>
 				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
@@ -140,7 +140,7 @@
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{272406E1-4BAF-4407-B294-DA0750BD09A9}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{6E170C9C-55B2-4D04-ABCA-BF81437477FA}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Sift TDMS Uploader.lvlib</Property>
@@ -205,7 +205,9 @@
 				<Property Name="Source[8].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">9</Property>
 				<Property Name="TgtF_companyName" Type="Str">Sift Stack</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">Update log folder location resolution</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">Use a different telemetry port for sift proxy.
+Remove pop-up on error that is causing the program to slow down when not acknowledged.
+Uses new version of sift proxy that streams logs.</Property>
 				<Property Name="TgtF_internalName" Type="Str">Sift TDMS Uploader</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2025 Sift Stack</Property>
 				<Property Name="TgtF_productName" Type="Str">Sift TDMS Uploader Flexlogger Plugin</Property>
