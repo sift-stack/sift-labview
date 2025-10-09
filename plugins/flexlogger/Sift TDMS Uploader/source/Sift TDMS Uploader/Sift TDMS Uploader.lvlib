@@ -4,5 +4,9 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">604012544</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
+	<Item Name="Types" Type="Folder">
+		<Item Name="Metadata Key.ctl" Type="VI" URL="../Types/Metadata Key.ctl"/>
+		<Item Name="Metadata String.ctl" Type="VI" URL="../Types/Metadata String.ctl"/>
+	</Item>
 	<Item Name="Sift TDMS Uploader.lvclass" Type="LVClass" URL="../Sift TDMS Uploader.lvclass"/>
 </Library>
