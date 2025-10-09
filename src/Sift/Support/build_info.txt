@@ -1,5 +1,5 @@
 Build Link:
-https://github.com/sift-stack/sift-proxy/actions/runs/17778224630
+https://github.com/sift-stack/sift-proxy/actions/runs/17804560892
 
 Commit:
-https://github.com/sift-stack/sift-proxy/tree/refs/tags/public/v1.3.0
+https://github.com/sift-stack/sift-proxy/tree/refs/tags/public/v1.3.1
