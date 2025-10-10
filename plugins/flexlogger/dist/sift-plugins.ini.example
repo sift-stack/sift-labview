@@ -1,0 +1,13 @@
+; This is an example sift-plguins.ini file used by Sift Flexlogger plugins.
+; This config should live in the Flexlogger Documents directory
+; "C:\Users\<User>\Documents\FlexLogger\sift-plugins.ini"
+
+; This section is used by the Sift TDMS Uploader plugin to manage the metadata attached to a Run.
+; Only TDMS properties explicitly defined here will be uploaded.
+; The format is:
+; <TDMS Property> = <Desired Sift Metadata name>.
+;
+;[tdms_metadata]
+;Test_properties~OPERATOR = operator
+;Test_properties~DUT = dut
+;RunNumber = run_number
